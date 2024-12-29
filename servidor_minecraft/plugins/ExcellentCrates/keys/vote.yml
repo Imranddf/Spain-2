@@ -1,0 +1,9 @@
+Name: §e§lVote Kasa Anahtarı
+Virtual: false
+Item:
+  Material: FEATHER
+  Amount: 1
+  Durability: 0
+  Name: '&8► #ffde00V#fec809o#feb211t#fd9c1ae Kasa Anahtarı &8◄'
+  Item_Flags: []
+  Unbreakable: false

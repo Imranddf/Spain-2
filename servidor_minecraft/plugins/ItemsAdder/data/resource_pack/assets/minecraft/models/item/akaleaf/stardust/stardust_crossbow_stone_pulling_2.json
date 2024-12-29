@@ -1,0 +1,6 @@
+{
+	"parent": "item/akaleaf/stardust/stardust_crossbow_pulling_2",
+	"textures": {
+		"1":"akaleaf/stardust/stardust_crossbow_stone"
+	}
+}

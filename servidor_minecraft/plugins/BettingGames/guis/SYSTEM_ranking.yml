@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dCasino Ranking'
+type: CHEST_6_ROW
+
+item_name: '&6{player}'
+
+item_lore: |
+  &7Games won : &a{won}
+  &7Games played : &a{played}
+  &7Overall win rate : &a{ratio}%
+  &7Rank &a{rank}
+
+item_lore_game: |
+  &r
+  &d{game} :
+  &7- &7Games won : &e{won}
+  &7- &7Games played : &e{played}
+  &7- &7Win rate : &e{ratio}%
+
+# custom contents
+contents:
+
+  # border (use global item)
+  - global@dynamic_border_6
+
+  # back item (over border)
+  - locations: 45
+    persistent: true
+    type: BACK
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8Go back'

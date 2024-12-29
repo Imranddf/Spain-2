@@ -1,0 +1,20 @@
+location: Spawn:-4.523:67.618:28.525
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x&f&b&e&a&0&6&lKAPTAN ARÇURAY'
+    height: 0.3
+  - content: '&e'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cVahşi Doğa bölgesinde &x&9&f&e&4&1&frastgele'
+    height: 0.3
+  - content: '&x&9&f&e&4&1&fbir alana &x&f&0&f&1&d&cışınlanmak için kaptandan'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&ckolayca yardım alabilirsiniz.'
+    height: 0.3
+  actions: {}

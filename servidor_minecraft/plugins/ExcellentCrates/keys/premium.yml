@@ -1,0 +1,10 @@
+Name: §6§lPremium Crate Key
+Virtual: false
+Item:
+  Material: PAPER
+  Amount: 1
+  Durability: 0
+  Name: '&F文 &f   '
+  Custom_Model_Data: 10062
+  Item_Flags: []
+  Unbreakable: false

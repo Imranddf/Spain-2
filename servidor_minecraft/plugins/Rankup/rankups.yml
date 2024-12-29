@@ -1,0 +1,125 @@
+#
+# If you are adding your own ranks, make sure to delete the example ranks!
+# Need help setting the plugin up?
+# Read the wiki: https://okx.sh/rankup/Home.html
+# Join the discord server for live support: https://discord.gg/maB4382 (buyers only)
+#
+
+# this name doesn't matter
+seyyar:
+  rank: 'sefil'
+  next: 'seyyar'
+  requirements:
+    - 'money 280'
+    - 'playtime-minutes 120'
+    - 'mob-kills Zombie 150'
+    - 'xp-level 30'
+  commands:
+    - 'lp user {{player}} parent add {{next.rank}}'
+  rankup:
+    requirements-not-met: |-
+      &6&lNourseProject &7↬ &eSeyyar rütbesi için Gereksinimleri karşılamıyorsunuz!
+      &6&lNourseProject &7↬ &aGereksinimler;
+      &e
+      &7↬ &eZombi Öldürme: &f150 Öldürme &c(Tamamlanmadı)
+      &7↬ &eXP Seviyesi: &f{AMOUNT_DONE xp-level}&7/&6{AMOUNT xp-level} Level
+      &7↬ &eOynama Süresi: &f{AMOUNT_DONE playtime-minutes}&7/&6{AMOUNT playtime-minutes}
+      &7↬ &eAltın: &f{AMOUNT_DONE money}&7/&6{AMOUNT money}
+asker:
+  rank: 'seyyar'
+  next: 'asker'
+  requirements:
+    - 'money 350'
+    - 'playtime-minutes 180'
+    - 'mob-kills Zombie 160'
+    - 'mob-kills Skeleton 160'
+    - 'mob-kills Creeper 160'
+    - 'xp-level 40'
+  commands:
+    - 'lp user {{player}} parent add {{next.rank}}'
+    - 'lp user {{player}} parent remove {{rank.rank}}'
+  rankup:
+    requirements-not-met: |-
+      &6&lNourseProject &7↬ &eAsker rütbesi için Gereksinimleri karşılamıyorsunuz!
+      &6&lNourseProject &7↬ &aGereksinimler;
+      &e
+      &7↬ &eZombi Öldürme: &f160 Öldürme &c(Tamamlanmadı)
+      &7↬ &eİskelet Öldürme: &f160 Öldürme &c(Tamamlanmadı)
+      &7↬ &eCreeper Öldürme: &f160 Öldürme &c(Tamamlanmadı)
+      &7↬ &eXP Seviyesi: &f{AMOUNT_DONE xp-level}&7/&6{AMOUNT xp-level} Level
+      &7↬ &eOynama Süresi: &f{AMOUNT_DONE playtime-minutes}&7/&6{AMOUNT playtime-minutes}
+      &7↬ &eAltın: &f{AMOUNT_DONE money}&7/&6{AMOUNT money}
+sipahi:
+  rank: 'asker'
+  next: 'sipahi'
+  requirements:
+    - 'money 500'
+    - 'playtime-minutes 300'
+    - 'mob-kills Zombie 220'
+    - 'mob-kills Skeleton 220'
+    - 'mob-kills Creeper 220'
+    - 'xp-level 50'
+  commands:
+    - 'lp user {{player}} parent add {{next.rank}}'
+    - 'lp user {{player}} parent remove {{rank.rank}}'
+  rankup:
+    requirements-not-met: |-
+      &6&lNourseProject &7↬ &eSipahi rütbesi için Gereksinimleri karşılamıyorsunuz!
+      &6&lNourseProject &7↬ &aGereksinimler;
+      &e
+      &7↬ &eZombi Öldürme: &f220 Öldürme &c(Tamamlanmadı)
+      &7↬ &eİskelet Öldürme: &f220 Öldürme &c(Tamamlanmadı)
+      &7↬ &eCreeper Öldürme: &f220 Öldürme &c(Tamamlanmadı)
+      &7↬ &eXP Seviyesi: &f{AMOUNT_DONE xp-level}&7/&6{AMOUNT xp-level} Level
+      &7↬ &eOynama Süresi: &f{AMOUNT_DONE playtime-minutes}&7/&6{AMOUNT playtime-minutes}
+      &7↬ &eAltın: &f{AMOUNT_DONE money}&7/&6{AMOUNT money}
+piyade:
+  rank: 'sipahi'
+  next: 'piyade'
+  requirements:
+    - 'money 650'
+    - 'playtime-minutes 480'
+    - 'mob-kills Zombie 280'
+    - 'mob-kills Spider 280'
+    - 'mob-kills Skeleton 280'
+    - 'mob-kills Creeper 280'
+    - 'xp-level 100'
+  commands:
+    - 'lp user {{player}} parent add {{next.rank}}'
+    - 'lp user {{player}} parent remove {{rank.rank}}'
+  rankup:
+    requirements-not-met: |-
+      &6&lNourseProject &7↬ &ePiyade rütbesi için Gereksinimleri karşılamıyorsunuz!
+      &6&lNourseProject &7↬ &aGereksinimler;
+      &e
+      &7↬ &eZombi Öldürme: &f280 Öldürme &c(Tamamlanmadı)
+      &7↬ &eİskelet Öldürme: &f280 Öldürme &c(Tamamlanmadı)
+      &7↬ &eCreeper Öldürme: &f280 Öldürme &c(Tamamlanmadı)
+      &7↬ &eÖrümcek Öldürme: &f280 Öldürme &c(Tamamlanmadı)
+      &7↬ &eXP Seviyesi: &f{AMOUNT_DONE xp-level}&7/&6{AMOUNT xp-level} Level
+      &7↬ &eOynama Süresi: &f{AMOUNT_DONE playtime-minutes}&7/&6{AMOUNT playtime-minutes}
+      &7↬ &eAltın: &f{AMOUNT_DONE money}&7/&6{AMOUNT money}
+general:
+  rank: 'piyade'
+  next: 'general'
+  requirements:
+    - 'money 800'
+    - 'playtime-minutes 720'
+    - 'mob-kills Zombie 350'
+    - 'mob-kills Skeleton 350'
+    - 'mob-kills Creeper 350'
+    - 'xp-level 120'
+  commands:
+    - 'lp user {{player}} parent add {{next.rank}}'
+    - 'lp user {{player}} parent remove {{rank.rank}}'
+  rankup:
+    requirements-not-met: |-
+      &6&lNourseProject &7↬ &eGeneral rütbesi için Gereksinimleri karşılamıyorsunuz!
+      &6&lNourseProject &7↬ &aGereksinimler;
+      &e
+      &7↬ &eZombi Öldürme: &f350 Öldürme &c(Tamamlanmadı)
+      &7↬ &eİskelet Öldürme: &f350 Öldürme &c(Tamamlanmadı)
+      &7↬ &eCreeper Öldürme: &f350 Öldürme &c(Tamamlanmadı)
+      &7↬ &eXP Seviyesi: &f{AMOUNT_DONE xp-level}&7/&6{AMOUNT xp-level} Level
+      &7↬ &eOynama Süresi: &f{AMOUNT_DONE playtime-minutes}&7/&6{AMOUNT playtime-minutes}
+      &7↬ &eAltın: &f{AMOUNT_DONE money}&7/&6{AMOUNT money}    

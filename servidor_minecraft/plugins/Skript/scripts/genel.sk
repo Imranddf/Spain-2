@@ -1,0 +1,38 @@
+on craft of TNT:
+    cancel event
+
+on craft of PAPER:
+    cancel event
+
+on chat:
+    loop all players:
+        if message contains "%loop-player%":
+            loop 1 times:
+                replace "%loop-player%" with "@%loop-player%" in message
+                play sound "block.note_block.pling" at volume 1 at pitch 2 to player
+                execute console command "tm msg %loop-player% &b&l%player%\n&fTagged you!"
+				
+options:
+    prefix: &6&lMine&3&lGTA &7»
+    cooldown: 24 hours
+   
+command daily:
+    trigger:
+        set {_waited} to difference between {dailyReward::%uuid of player%} and now
+        if {_waited} is less than {@cooldown}:
+            send "{@prefix} You must wait %difference between {@cooldown} and {_waited}% before claiming your daily reward again"
+        else:
+            set {dailyReward::%uuid of player%} to now
+            execute console command "eco give %player% 1500"
+            send "{@prefix} Here is your daily reward."
+			
+on first join:
+    execute console command "kit citizen %player%"
+    stop
+	
+on join:
+    teleport player to {spawn}
+	
+on first join:
+    execute console command "lp user %player% group set citizens"
+    stop

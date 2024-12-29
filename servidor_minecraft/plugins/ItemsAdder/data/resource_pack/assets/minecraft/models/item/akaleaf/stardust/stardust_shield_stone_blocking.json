@@ -1,0 +1,6 @@
+{
+	"parent": "item/akaleaf/stardust/stardust_shield_blocking",
+	"textures": {
+		"1":"akaleaf/stardust/stardust_shield_stone"
+	}
+}

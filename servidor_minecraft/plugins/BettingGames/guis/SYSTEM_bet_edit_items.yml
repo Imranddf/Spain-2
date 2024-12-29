@@ -1,0 +1,41 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dBet for {game} : items'
+type: CHEST_4_ROW
+
+bet_item_add_lore: |
+  &r
+  &7Bet amount : {amount}
+  &r
+  &dRight-click to withdraw all
+
+contents:
+
+  # border (use global item)
+  - global@dynamic_border_4
+
+  # current value
+  - locations: 4
+    persistent: true
+    icon:
+      type: DIAMOND_SWORD
+      flags: [HIDE_ATTRIBUTES]
+      name: '&7Currently bet'
+      lore: |
+        &e{current}
+        &r
+        &dClick in your inventory to add items
+      enchantments:
+        DAMAGE_ALL: 1  # fake enchantment to add glow
+      flags: [HIDE_ENCHANTS, HIDE_ATTRIBUTES]
+
+  # back item (over border)
+  - locations: 27
+    persistent: true
+    type: BACK
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8Go back'

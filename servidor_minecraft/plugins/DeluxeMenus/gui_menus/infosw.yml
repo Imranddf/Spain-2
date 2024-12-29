@@ -1,0 +1,127 @@
+menu_title: '&f⊍☤'
+open_command:
+- infosw
+size: 36
+items:
+  '1':
+    material: MAP
+    model_data: 1035
+    slot: 10
+    display_name: '&cServer Information'
+    lore:
+      - ''
+      - '&#afafaf⠭ &x&b&6&f&b&a&eThis Minecraft server is designed to offer players a'
+      - '&#afafaf⠭ &x&b&6&f&b&a&etaste of city life experience, complete with professions,'
+      - '&#afafaf⠭ &x&b&6&f&b&a&eweapons, vehicles, gangs, illicit occupations,'
+      - '&#afafaf⠭ &x&b&6&f&b&a&ewanted levels, and a plethora of other distinctive features.'
+      - '&#afafaf⠭ &x&b&6&f&b&a&eWelcome to a realm of entertainment that knows no bounds!'
+      - ''
+    left_click_commands:
+      - '[close]'
+  '2':
+    material: MAP
+    model_data: 1035
+    slot: 12
+    display_name: '&f≂ &cGang Commands &f≂'
+    lore:
+      - ''
+      - '&#afafaf• &x&b&6&f&b&a&2/gang create {name} &7- create new gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang top &7- gangs leaderboard'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang disband &7- create new gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang join {gang} &7- join specified gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang invite {player} &7- invite player to your gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang kick {player} &7- kick player out of gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang leave &7- leave your gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang sethome {home} &7- set specified gang home location'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang ally {gang} &7- send alliance request to specified gang'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang deposit {amount} &7- deposit money on your gangs bank account'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang withdraw {amount} &7- withdraw money on your gangs bank account'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang promote {player} &7- promote specified player to higher rank'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang demote {player} &7- demote specified player to lower rank'
+      - '&#afafaf• &x&b&6&f&b&a&2/gang player {player} &7- specified player statistics'
+    left_click_commands:
+      - '[close]' 
+  '3':
+    material: MAP
+    model_data: 1035
+    slot: 14
+    display_name: '₴ &6How to make money? ₴'
+    lore:
+      - ''
+      - '&#afafaf• &x&b&6&f&b&a&2Choosing a career that suits you &e/jobs'
+      - '&#afafaf• &x&b&6&f&b&a&2By doing illegal work &e/warp grove'
+      - '&#afafaf• &x&b&6&f&b&a&2By apprehending wanted criminals'
+      - '&#afafaf• &x&b&6&f&b&a&2You can rent a shop and engage in trading.'
+      - '&#afafaf• &x&b&6&f&b&a&2You can rent a food and beverage shop.'
+      - '&#afafaf• &x&b&6&f&b&a&2Using &e/warp captain&x&b&6&f&b&a&2, you can travel to other worlds, gather resources, and sell them.'
+      - '&#afafaf• &x&b&6&f&b&a&2You can rent a food and beverage shop.'
+      - '&#afafaf• &x&b&6&f&b&a&2You can buy game currency with real money.'
+      - ''
+    left_click_commands:
+      - '[close]' 
+      - '[refresh]'
+  '4':
+    material: MAP
+    model_data: 1035
+    slot: 16
+    display_name: '&cServer Rules'
+    lore:
+      - ''
+      - '&7• &eNo Griefing'
+      - '&7• &eNo Spamming'
+      - '&7• &eNo Advertising'
+      - '&7• &eNo Trolling/Flaming'
+      - '&7• &eRespect all Players'
+      - '&7• &eNo Mods/Hacks'
+      - '&7• &eNo Racist or Sexist Remarks.'
+      - '&7• &eNo Asking for OP, Ranks, or Items'
+      - '&7• &eNo Cursing/No Constant Cursing'
+      - ''
+    left_click_commands:
+      - '[close]' 
+      - '[refresh]'
+  'geri':
+    material: structure_void
+    slot: 30
+    display_name: '&eBack to Main Menu'
+    lore:
+      - ''
+      - '&fTo return to the main menu'
+      - '&fyou can use this.'
+      - ''
+      - '&e• &aClick to return.'
+    left_click_commands:
+      - '[player] menu'
+      - '[close]'
+    right_click_commands:
+      - '[player] menu'
+      - '[close]'
+  'kapat':
+    material: structure_void
+    slot: 31
+    display_name: '&cClose Menu'
+    lore:
+      - ''
+      - '&fYou can use this to completely close'
+      - '&fthe menu you are in.'
+      - ''
+      - '&e• &aClick to close.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+  'ayarlar':
+    material: structure_void
+    slot: 32
+    display_name: '&eYour account configuration'
+    lore:
+      - ''
+      - '&fAccount settings'
+      - ''
+      - '&e• &aClick to access'
+    left_click_commands:
+      - '[player] ayarlar'
+      - '[close]'
+    right_click_commands:
+      - '[player] ayarlar'     
+      - '[close]'       

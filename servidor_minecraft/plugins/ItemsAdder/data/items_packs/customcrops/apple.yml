@@ -1,0 +1,155 @@
+info:
+  namespace: customcrops
+items:
+  apple_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  apple_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  apple_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  apple_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  apple_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  apple_stage_6:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: apple/stage_6
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+loots:
+  blocks:
+    apple_stage_1:
+      type: customcrops:apple_stage_1
+      items:
+        result_1:
+          item: STICK
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    apple_stage_2:
+      type: customcrops:apple_stage_2
+      items:
+        result_1:
+          item: STICK
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+          ignore_fortune: true
+    apple_stage_3:
+      type: customcrops:apple_stage_3
+      items:
+        result_1:
+          item: STICK
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+          ignore_fortune: true
+    apple_stage_4:
+      type: customcrops:apple_stage_4
+      items:
+        result_1:
+          item: OAK_LOG
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    apple_stage_5:
+      type: customcrops:apple_stage_5
+      items:
+        result_1:
+          item: OAK_LOG
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    apple_stage_6:
+      type: customcrops:apple_stage_6
+      items:
+        result_1:
+          item: OAK_LOG
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

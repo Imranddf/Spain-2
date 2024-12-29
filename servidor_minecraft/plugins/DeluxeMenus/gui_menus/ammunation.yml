@@ -1,0 +1,1160 @@
+    menu_title: '           &cAmmuNation'
+    open_command:
+    - ammunation
+    - gun
+    size: 54
+    items:
+      'gun1':
+        material: CROSSBOW
+        model_data: 4
+        slot: 9
+        display_name: '       &8&l• &cAK47 &8&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e7.62x39mm'
+        - ''
+        - '&7Price &8» &2&n5000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cAK47&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cAK47&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qa give ak47 %player_name% 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6AmmuNation &8> &fYou bought &aAK47 &ffor &a$5000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qa give ak47 %player_name% 1'  # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6AmmuNation &8> &fYou bought &aAK47 &ffor &a$5000&f.'
+        - '[close]'
+      'gun2':
+        material: CROSSBOW
+        model_data: 5
+        slot: 10
+        display_name: '      &8&l• &cAK74U &8&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.2'
+        - '&7DPS &8» &e13.5'
+        - '&7Ammo &8» &e7.62x39mm'
+        - ''
+        - '&7Price &8» &2&n5700$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5700
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5700 &7to buy &cAK74-U&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5700
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5700 &7to buy &cAK74-U&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5700'
+        - '[console] qa give ak47u %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aAK74-U &ffor &a$5700&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5700'
+        - '[console] qa give ak47u %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aAK74-U &ffor &a$5700&f.'
+        - '[close]'
+      'gun3':
+        material: CROSSBOW
+        model_data: 8
+        slot: 11
+        display_name: '     &8&l• &cFN-FAL &8&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.5'
+        - '&7DPS &8» &e12.5'
+        - '&7Ammo &8» &e7.62x39mm'
+        - ''
+        - '&7Price &8» &2&n6300$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 6300
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$6300 &7to buy &cFN-FAL&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 6300
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$6300 &7to buy &cFN-FAL&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 6300'
+        - '[console] qa give fnfal %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFN-FAL &ffor &a$6300&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 6300'
+        - '[console] qa give fnfal %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFN-FAL &ffor &a$6300&f.'
+        - '[close]'
+      'gun4':
+        material: CROSSBOW
+        model_data: 9
+        slot: 12
+        display_name: '&8• &cRocket Launcher &8•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e100.0'
+        - '&7DPS &8» &e100.0'
+        - '&7Ammo &8» &eRocket'
+        - ''
+        - '&7Price &8» &2&n15000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 15000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$15000 &7to buy &cRocket Launcher&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 15000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$15000 &7to buy &cRocket Launcher&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 15000'
+        - '[console] qa give rpg %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRocket Launcher &ffor &a$15000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 15000'
+        - '[console] qa give rpg %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRocket Launcher &ffor &a$15000&f.'
+        - '[close]'
+      'gun5':
+        material: CROSSBOW
+        model_data: 3
+        slot: 13
+        display_name: '       &7• &cMP5K &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n3000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$3000 &7to buy &cMP5K&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$3000 &7to buy &cMP5K&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 3000'
+        - '[console] qa give mp5k %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMP5K &ffor &a$3000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 3000'
+        - '[console] qa give mp5k %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMP5K &ffor &a$3000&f.'
+        - '[close]'
+      'gun6':
+        material: CROSSBOW
+        model_data: 17
+        slot: 14
+        display_name: '      &7• &cSpas-12 &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e6.0x20'
+        - '&7Ammo &8» &eBuckshot'
+        - ''
+        - '&7Price &8» &2&n2750$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cSpas-12&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cSpas-12&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give spas12 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aSpas-12 &ffor &a$2750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give spas12 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aSpas-12 &ffor &a$2750&f.'
+        - '[close]'
+      'gun7':
+        material: CROSSBOW
+        model_data: 49
+        slot: 15
+        display_name: '         &7• &cUzi &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n3250$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cUzi&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cUzi&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give uzi %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aUzi &ffor &a$2750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give uzi %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aUzi &ffor &a$2750&f.'
+        - '[close]'
+      'gun8':
+        material: CROSSBOW
+        model_data: 50
+        slot: 16
+        display_name: '   &7• &cSkorpion vz.61 &7•   '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n3000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$3000 &7to buy &cSkorpion vz.61&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$3000 &7to buy &cSkorpion vz.61&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 3000'
+        - '[console] qa give skorpion %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aSkorpion vz.61 &ffor &a$3000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 3000'
+        - '[console] qa give skorpion %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aSkorpion vz.61 &ffor &a$3000&f.'
+        - '[close]'
+      'gun9':
+        material: CROSSBOW
+        model_data: 75
+        slot: 17
+        display_name: '      &7• &cUziCorn &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n4000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$4000 &7to buy &cUziCorn&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$4000 &7to buy &cUziCorn&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qa give uzicorn %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aUziCorn &ffor &a$4000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qa give uzicorn %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aUziCorn &ffor &a$4000&f.'
+        - '[close]'
+      'gun10':
+        material: CROSSBOW
+        model_data: 54
+        slot: 18
+        display_name: '     &7• &cPPSh-41 &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.0'
+        - '&7DPS &8» &e18.0'
+        - '&7Ammo &8» &e7.62x39mm'
+        - ''
+        - '&7Price &8» &2&n4500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$4500 &7to buy &cPPSh-41&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$4500 &7to buy &cPPSh-41&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 4500'
+        - '[console] qa give ppsh41 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aPPSh-41 &ffor &a$4000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 4500'
+        - '[console] qa give ppsh41 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aPPSh-41 &ffor &a$4000&f.'
+        - '[close]'
+      'gun11':
+        material: CROSSBOW
+        model_data: 7
+        slot: 19
+        display_name: '     &7• &cRemington &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.0'
+        - '&7DPS &8» &e9.0x20'
+        - '&7Ammo &8» &eBuckShot'
+        - ''
+        - '&7Price &8» &2&n2250$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2250
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2250 &7to buy &cRemington&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2250
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2250 &7to buy &cRemington&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 2250'
+        - '[console] qa give remington %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRemington &ffor &a$2250&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 2250'
+        - '[console] qa give remington %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRemington &ffor &a$2250&f.'
+        - '[close]'
+      'gun12':
+        material: CROSSBOW
+        model_data: 69
+        slot: 20
+        display_name: '    &7• &cFive-Seven &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e3.0'
+        - '&7DPS &8» &e9.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n1500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1500 &7to buy &cFive-Seven&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1500 &7to buy &cFive-Seven&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 1500'
+        - '[console] qa give fnfiveseven %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFive-Seven &ffor &a$1500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 1500'
+        - '[console] qa give fnfiveseven %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFive-Seven &ffor &a$1500&f.'
+        - '[close]'
+      'gun13':
+        material: CROSSBOW
+        model_data: 19
+        slot: 25
+        display_name: '      &7• &cMagnum &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e6.0'
+        - '&7DPS &8» &e18.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n1750$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1750 &7to buy &cMagnum&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1750 &7to buy &cMagnum&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 1750'
+        - '[console] qa give magnum %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMagnum &ffor &a$1750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 1750'
+        - '[console] qa give magnum %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMagnum &ffor &a$1750&f.'
+        - '[close]'
+      'gun31':
+        material: CROSSBOW
+        model_data: 32
+        slot: 26
+        display_name: '    &7• &cLazer Rifle &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e4.0'
+        - '&7DPS &8» &e8.0'
+        - '&7Ammo &8» &eFusion Cell'
+        - ''
+        - '&7Price &8» &2&n15000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 15000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$15000 &7to buy &cLazer Rifle&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 15000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$15000 &7to buy &cLazer Rifle&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 15000'
+        - '[console] qa give lazerrifle %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aLazer Rifle &ffor &a$15000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 15000'
+        - '[console] qa give lazerrifle %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aLazer Rifle &ffor &a$15000&f.'
+        - '[close]'
+      'gun14':
+        material: CROSSBOW
+        model_data: 56
+        slot: 21
+        display_name: '      &7• &cMinigun &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e20.0'
+        - '&7Ammo &8» &e5.56 Nato'
+        - ''
+        - '&7Price &8» &2&n20000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 20000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$20000 &7to buy &cMinigun&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 20000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$20000 &7to buy &cMinigun&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 20000'
+        - '[console] qa give minigun %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMinigun &ffor &a$20000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 20000'
+        - '[console] qa give minigun %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMinigun &ffor &a$20000&f.'
+        - '[close]'
+      'gun15':
+        material: CROSSBOW
+        model_data: 52
+        slot: 22
+        display_name: '    &7• &cBarret-M82 &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e17.0'
+        - '&7DPS &8» &e17.0'
+        - '&7Ammo &8» &e.50BMG'
+        - ''
+        - '&7Price &8» &2&n5000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cBarret-M82&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cBarret-M82&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qa give barrett %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aBarret-M82 &ffor &a$5000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qa give barrett %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aBarret-M82 &ffor &a$5000&f.'
+        - '[close]'
+      'gun16':
+        material: CROSSBOW
+        model_data: 59
+        slot: 23
+        display_name: '      &7• &cFN-P90 &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e16.0'
+        - '&7Ammo &8» &e5.56 Nato'
+        - ''
+        - '&7Price &8» &2&n1750$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1750 &7to buy &cFN-P90&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$1750 &7to buy &cFN-P90&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 1750'
+        - '[console] qa give fnp90 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFN-P90 &ffor &a$1750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 1750'
+        - '[console] qa give fnp90 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aFN-P90 &ffor &a$1750&f.'
+        - '[close]'
+      'gun18':
+        material: CROSSBOW
+        model_data: 61
+        slot: 24
+        display_name: '      &7• &cMP-40 &7•  '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Damage &8» &e2.0'
+        - '&7DPS &8» &e12.0'
+        - '&7Ammo &8» &e9mm'
+        - ''
+        - '&7Price &8» &2&n2750$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cMP-40&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2750
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$2750 &7to buy &cMP-40&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give mp40 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMP-40 &ffor &a$2750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 2750'
+        - '[console] qa give mp40 %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMP-40 &ffor &a$2750&f.'
+        - '[close]'
+      'gun19':
+        material: PHANTOM_MEMBRANE
+        model_data: 1
+        slot: 37
+        display_name: ' &7• &c9mm &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e10'
+        - ''
+        - '&7Price &8» &2&n500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$500 &7to buy &c9mm&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 500
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$500 &7to buy &c9mm&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] qa give 9mm %player_name% 10'
+        - '[message] &6AmmuNation &8> &fYou bought &a9mm &ffor &a$500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] qa give 9mm %player_name% 10'
+        - '[message] &6AmmuNation &8> &fYou bought &a9mm &ffor &a$500&f.'
+        - '[close]'
+      'gun20':
+        material: PHANTOM_MEMBRANE
+        model_data: 2
+        slot: 38
+        display_name: ' &7• &c5.56 Nato &7• '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e5'
+        - ''
+        - '&7Price &8» &2&n800$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 800
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$800 &7to buy &c5.56 Nato&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 800
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$800 &7to buy &c5.56 Nato&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 800'
+        - '[console] qa give 556 %player_name% 5'
+        - '[message] &6AmmuNation &8> &fYou bought &a5.56 Nato &ffor &a$800&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 800'
+        - '[console] qa give 556 %player_name% 5'
+        - '[message] &6AmmuNation &8> &fYou bought &a5.56 Nato &ffor &a$800&f.'
+        - '[close]'
+      'gun21':
+        material: PHANTOM_MEMBRANE
+        model_data: 3
+        slot: 39
+        display_name: ' &7• &c7.62x39mm &7• '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e5'
+        - ''
+        - '&7Price &8» &2&n400$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 400
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$400 &7to buy &c7.62x39mm&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 400
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$400 &7to buy &c7.62x39mm&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 400'
+        - '[console] qa give 762 %player_name% 5'
+        - '[message] &6AmmuNation &8> &fYou bought &a7.62x39mm &ffor &a$400&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 400'
+        - '[console] qa give 762 %player_name% 5'
+        - '[message] &6AmmuNation &8> &fYou bought &a7.62x39mm &ffor &a$400&f.'
+        - '[close]'
+      'gun22':
+        material: PHANTOM_MEMBRANE
+        model_data: 4
+        slot: 40
+        display_name: ' &7• &cBuckshot &7• '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e4'
+        - ''
+        - '&7Price &8» &2&n400$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 400
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$400 &7to buy &cBuckshot&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 400
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$400 &7to buy &cBuckshot&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 400'
+        - '[console] qa give shell %player_name% 4'
+        - '[message] &6AmmuNation &8> &fYou bought &aBuckshot &ffor &a$400&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 400'
+        - '[console] qa give shell %player_name% 4'
+        - '[message] &6AmmuNation &8> &fYou bought &aBuckshot &ffor &a$400&f.'
+        - '[close]'
+      'gun23':
+        material: PHANTOM_MEMBRANE
+        model_data: 7
+        slot: 41
+        display_name: '&7• &c.50BMG &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e1'
+        - ''
+        - '&7Price &8» &2&n650$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 650
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$650 &7to buy &c.50BMG&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 650
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$650 &7to buy &c.50BMG&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 650'
+        - '[console] qa give 50bmg %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &a.50BMG &ffor &a$650&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 650'
+        - '[console] qa give 50bmg %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &a.50BMG &ffor &a$650&f.'
+        - '[close]'
+      'gun24':
+        material: PHANTOM_MEMBRANE
+        model_data: 5
+        slot: 42
+        display_name: '&7• &cRocket &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Bullets&8: &e1'
+        - ''
+        - '&7Price &8» &2&n350$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 350
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$350 &7to buy &cRocket&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 350
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$350 &7to buy &cRocket&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 350'
+        - '[console] qa give rocket %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRocket &ffor &a$350&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 350'
+        - '[console] qa give rocket %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRocket &ffor &a$350&f.'
+        - '[close]'
+      'gun25':
+        material: PHANTOM_MEMBRANE
+        model_data: 22
+        slot: 43
+        display_name: '&7• &cMedKit &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Pcs&8: &e1'
+        - ''
+        - '&7Price &8» &2&n300$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 300
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$300 &7to buy &cMedkit&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 300
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$300 &7to buy &cMedkit&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 300'
+        - '[console] qa give medkit %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMedkit &ffor &a$300&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 300'
+        - '[console] qa give medkit %player_name% 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aMedkit &ffor &a$300&f.'
+        - '[close]'
+      '27':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 27
+        display_name: '&f'
+      '28':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 28
+        display_name: '&f'
+      '29':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 29
+        display_name: '&f'
+      '30':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 30
+        display_name: '&f'
+      '3919':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 31
+        display_name: '&f'
+      '32':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 32
+        display_name: '&f'
+      '33':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 33
+        display_name: '&f'
+      '331':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 34
+        display_name: '&f'
+      '332':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 35
+        display_name: '&f'
+      '333':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 36
+        display_name: '&f'
+      '334':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 44
+        display_name: '&f'
+      '335':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 45
+        display_name: '&f'
+      '336':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 46
+        display_name: '&f'
+      '337':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 47
+        display_name: '&f'
+      '338':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 48
+        display_name: '&f'
+      '339':
+        material: TNT
+        slot: 49
+        display_name: '&7• &cRaid C4 &7•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Used to raid'
+        - ''
+        - '&7(&8Right Click&7) &7and insert c4'    
+        - ''
+        - '&7Price &8» &2&n5000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cRaid C4&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AmmuNation &8> &7You need &c$5000 &7to buy &cRaid C4&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] give %player_name% tnt 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRaid C4 &ffor &a$5000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] give %player_name% tnt 1'
+        - '[message] &6AmmuNation &8> &fYou bought &aRaid C4 &ffor &a$5000&f.'
+        - '[close]'
+      '340':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 50
+        display_name: '&f'
+      '341':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 51
+        display_name: '&f'
+      '342':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 52
+        display_name: '&f'
+      '343':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 53
+        display_name: '&f'
+        

@@ -1,0 +1,150 @@
+Name: Vote
+Preview_Config: vote
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 5
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - vote
+Block:
+  Locations:
+  - 18.0,65.0,12.0,0.0,0.0,Spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Offset:
+      Y: 2.0
+    Text:
+    - §x§3§E§F§B§2§7§lV§x§5§E§F§C§3§7§lo§x§7§F§F§C§4§7§lt§x§9§F§F§D§5§6§le §x§B§F§F§D§6§6§lKasası
+    - §x§F§F§E§7§B§1Görüntülemek için §a§nSol Tık
+    - §x§F§F§E§7§B§1Açmak için §a§nSağ Tıklayın.
+    - §7▼
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ASH
+      Data: asda
+Animation_Config: spin_mystery
+Rewards:
+  List:
+    '1':
+      Name: §bElmas Kask
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04ifch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24obhelgi4b12ehingt1278h4ar3dc5pi0ir1edli4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btk6ar3dclq0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04ifch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24obhelgi4b12ehingt1278h4ar3dc5pi0ir1edli4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '2':
+      Name: §bElmas Göğüslük
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502d7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8i5dhmm2sp08v1rdh4voeu76r63nhli4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502d7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8i5dhmm2sp08v1rdh4voeu76r63nhli4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    t3:
+      Name: §bElmas Pantolon
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80ipti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24hbcdlgn682gc5n78rrcdtn24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400d6qqbeclhn4ob6egt68qb1dlnmsp2vdhimepr9dpjn62g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80ipti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24hbcdlgn682gc5n78rrcdtn24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    t54:
+      Name: §bElmas Bot
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800ndlkmspb3e9gmct1qchkm2rbfdpi5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80i5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24hbcdlgn6822dtq24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800ndlkmspb3e9gmct1qchkm2rbfdpi5uojfdtq762g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80i5ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8j1e5qm28hc49q6au3k48t24hbcdlgn6822dtq24vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk0000010g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    t5:
+      Name: x16 Altın
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk18006t31cs5001r4d5pn0r31f440012ec5mma04kfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24ub5dhm6utp25gh78pboegh3k8jo64r20gbcej2b2rh2fleio8jkcls788hq48h7q0000400agrfeln78400
+      Commands: []
+      Items:
+      - 5000080016ip002hmmirj5cdp62pjk79jmur34btkmsprfeg5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80ftti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49q6au3k48t24gbcej2b2rh2fleio8jkcls788hq48h7q0000400agrfeln78400
+    tg6:
+      Name: x8 Zümrüt
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r3418006t31cs5001r4d5pn0r31f440012ec5mma04kfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24priclims8hc49q6au3k48t24u1o41dc7f3deb1rot12fleio8jkcls788hq48h7q0000400agrfeln78200
+      Commands: []
+      Items:
+      - k00010004qb4008mqqbeclhn4ob6egt6arb5e9gmop0a001n8ob71800ep39edo6oobp10008jj1dlig10br49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jkcls788hq49dc7f3deb1rot12fleio8jkcls788hq48h7q0000400agrfeln78200
+    '7':
+      Name: §bElmas Kılıç
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502b7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8i5dhmm2sp09f2b2r64m71qe8jtbkm24t35f1q24eh249ug02801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p0a001n8ob70c00ch31dlgmep80000002801h2msor8c5n78rb5dpq762g00000420009km800jdlkmspb3e9gmct1qedk62sjgdpin6so2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '8':
+      Name: x8 Altın Elma
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej7dtm68pbebtgn0s3cck5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80j1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jpclm6orrn48m24t35f1q24eh2f0s20gbcej2b2rh08lm6qo92fleio8jkcls788hq48h7q0000400agrfeln78200
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78200
+    '9':
+      Name: Ölmeme Totemi
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800qdlkmspb3e9gmct1qehnn8pbdbtnmcnrldpi7iqbecs5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80j1ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jpclm6orrn48m24t35f1q24eh2oeb6orb5dlii0l3fehimqq92fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejkdtq6aravdtj5utbechsmirj70400agrfeln78080
+    t11:
+      Name: x32 Tecrübe İksiri
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r3518006t31cs5001r4d5pn0r31f440012ec5mma04ufch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24ub5dhm6utp25gh78pboegh3k8jo6cp20l35cdpc7f32ckgc9c3bedkn4q92fleio8jkcls788hq48h7q0000400agrfeln78800
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kpboe1in4qb5dphmanr2dtq78r350400agrfeln78800
+Item:
+  Material: ENDER_CHEST
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false

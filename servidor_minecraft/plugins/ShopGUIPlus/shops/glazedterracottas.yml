@@ -1,0 +1,257 @@
+glazedterracottas:
+  name: "&f七七七七七七七七ㇴ"
+  items:
+    P1-18:
+      type: item
+      item:
+        material: WHITE_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 18
+      page: 1
+    P1-19:
+      type: item
+      item:
+        material: ORANGE_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 19
+      page: 1
+    P1-20:
+      type: item
+      item:
+        material: MAGENTA_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 20
+      page: 1
+    P1-21:
+      type: item
+      item:
+        material: LIGHT_BLUE_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 21
+      page: 1
+    P1-22:
+      type: item
+      item:
+        material: YELLOW_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 22
+      page: 1
+    P1-23:
+      type: item
+      item:
+        material: LIME_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 23
+      page: 1
+    P1-24:
+      type: item
+      item:
+        material: PINK_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 24
+      page: 1
+    P1-25:
+      type: item
+      item:
+        material: GRAY_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 25
+      page: 1
+    P1-26:
+      type: item
+      item:
+        material: LIGHT_GRAY_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 26
+      page: 1
+    P1-27:
+      type: item
+      item:
+        material: CYAN_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 27
+      page: 1
+    P1-28:
+      type: item
+      item:
+        material: PURPLE_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 28
+      page: 1
+    P1-29:
+      type: item
+      item:
+        material: BLUE_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 29
+      page: 1
+    P1-30:
+      type: item
+      item:
+        material: BROWN_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 30
+      page: 1
+    P1-31:
+      type: item
+      item:
+        material: GREEN_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 31
+      page: 1
+    P1-32:
+      type: item
+      item:
+        material: RED_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 32
+      page: 1
+    P1-33:
+      type: item
+      item:
+        material: BLACK_GLAZED_TERRACOTTA
+        quantity: 1
+      buyPrice: 50
+      slot: 33
+      page: 1
+    518:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 0
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    519:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      commandsOnClick: 
+      - "shopgui ores"
+    520:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        flags:
+          - HIDE_ATTRIBUTES
+      slot: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    521:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    522:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    523:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    524:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    525:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    526:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    528:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% ores"

@@ -1,0 +1,119 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# --------------------------------------------------
+# Game configuration
+# --------------------------------------------------
+
+# Game type and settings
+type: BARGAMBLE
+name: Bar Gamble
+
+notify_buy:
+  title: '&dBar Gamble'
+  title_subtitle: '&7Purchased {name}'
+  title_fade_in: 2 TICK
+  title_duration: 36 TICK
+  title_fade_out: 2 TICK
+  message: '&7You purchased a Bar Gamble potion : &d{name}&7.'
+
+bargamble_items:
+  fire:
+    name: '&6Fire Potion'
+    cost_currencies:
+      VAULT: 100
+    #cost_items: {}
+    chances:
+      - chance: 25.0
+        min: 0.0
+        max: 0.75
+        effects:
+          - type: POISON
+            duration: 5 SECOND
+          - type: BLINDNESS
+            duration: 5 SECOND
+      - chance: 50.0
+        min: 0.75
+        max: 1.25
+        effects:
+          - type: REGENERATION
+            duration: 50 TICK
+      - chance: 25.0
+        min: 1.25
+        max: 2.0
+        effects:
+          - type: REGENERATION
+            duration: 5 SECOND
+          - type: ABSORPTION
+            duration: 30 SECOND
+    item:
+      type: POTION
+      potion_type: FIRE_RESISTANCE
+      flags: [HIDE_POTION_EFFECTS]
+      name: '&aFire potion'
+      lore: |
+        &r
+        &7Chances :
+        &c0% &7to &c75% &7back : 25%
+        &c75% &7to &a125% &7back : 50%
+        &a125% &7to &a200% &7back : 25%
+        &r
+        &7Beware that this potion might not be
+        &7as delicious as it looks like...
+        &r
+        &dThis costs 100$
+
+# Restrictions
+participation_permission: bettinggames.game.default_bargamble
+#participation_cooldown: 5 SECOND
+#max_concurrent_games: 1
+
+# Win behavior
+on_win:
+#  commands: |
+#    msg {player} GG!
+  notify_player:
+    sound: ENTITY_PLAYER_LEVELUP
+    message: '&6You &7won &a{what} &7in the bar gamble game !'
+    bossbar: '&6You &7won &a{what} &7in the bar gamble game !'
+    bossbar_duration: 10 SECOND
+  notify_broadcast:
+    bossbar: '&e{player} &7won &a{what} &7in the bar gamble game !'
+    bossbar_duration: 4 SECOND
+
+# Lose behavior
+on_lose:
+#  commands: |
+#    msg {player} oof
+  notify_player:
+    sound: BLOCK_ANVIL_BREAK
+    message: '&6You &7lost &c{what} &7in the bar gamble game.'
+    bossbar: '&6You &7lost &c{what} &7in the bar gamble game.'
+    bossbar_duration: 10 SECOND
+  #notify_broadcast:
+  #  bossbar: '&e{player} &7lost &c{lost} &7in the bar gamble game.'
+  #  bossbar_duration: 3 SECOND
+
+# --------------------------------------------------
+# Hub GUI configuration
+# --------------------------------------------------
+
+hub_gui_commands: ['/bargamble']
+
+hub_gui:
+
+  name: '&dBar Gamble'
+  type: CHEST_6_ROW
+
+  contents:
+
+    - global@dynamic_border_6_blink
+
+    - locations: 45
+      persistent: true
+      type: BACK
+      icon:
+        type: GRAY_STAINED_GLASS_PANE
+        name: '&8Go back'

@@ -1,0 +1,196 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+# --------------------------------------------------
+# Game configuration
+# --------------------------------------------------
+
+# Game type and settings
+type: ROCKPAPERSCISSORS
+name: Rock Paper Scissors
+
+rounds: 3
+rounds_max: 5
+choice_delay: 10 SECOND
+
+item_rock:
+  type: COBBLESTONE
+  name: '&fRock'
+  lore: |
+    &7Click to play rock this round
+
+item_paper:
+  type: PAPER
+  name: '&fPaper'
+  lore: |
+    &7Click to play paper this round
+
+item_scissors:
+  type: SHEARS
+  name: '&fScissors'
+  lore: |
+    &7Click to play scissors this round
+
+notify_choice:
+  title: '&7Choose {choice}'
+  title_subtitle: '&7Rock Paper Scissors | Score: {score_self} to {score_other}'
+  title_fade_in: 2 TICK
+  title_duration: 36 TICK
+  title_fade_out: 2 TICK
+
+notify_round_won:
+  title: '&aWon round!'
+  title_subtitle: '&7Rock Paper Scissors | Score: {score_self} to {score_other}'
+  title_fade_in: 2 TICK
+  title_duration: 36 TICK
+  title_fade_out: 2 TICK
+
+notify_round_draw:
+  title: '&eDraw!'
+  title_subtitle: '&eRock Paper Scissors | Score: {score_self} to {score_other}'
+  title_fade_in: 2 TICK
+  title_duration: 36 TICK
+  title_fade_out: 2 TICK
+
+notify_round_lost:
+  title: '&cLost round!'
+  title_subtitle: '&7Rock Paper Scissors | Score: {score_self} to {score_other}'
+  title_fade_in: 2 TICK
+  title_duration: 36 TICK
+  title_fade_out: 2 TICK
+
+# Restrictions
+participation_permission: bettinggames.game.default_rockpaperscissors
+#participation_cooldown: 5 SECOND
+#max_concurrent_games: 1
+
+# Bet settings
+allow_bet_currencies: [VAULT, XP]  # PLAYER_POINTS, TOKEN_ENCHANT, XP_LEVEL
+allow_bet_items: true
+
+min_bet_currencies: {}
+max_bet_currencies: {}
+min_bet_items: 0
+max_bet_items: -1
+
+# Win behavior
+on_win:
+#  commands: |
+#    msg {player} GG!
+  notify_player:
+    sound: ENTITY_PLAYER_LEVELUP
+    message: '&6You &7won &a{what} &7in the rock paper scissors game, &a{score_self} &7to &c{score_other} &7!'
+    bossbar: '&6You &7won &a{what} &7in the rock paper scissors game, &a{score_self} &7to &c{score_other} &7!'
+    bossbar_duration: 10 SECOND
+  notify_broadcast:
+    bossbar: '&e{player} &7won &a{what} &7in the rock paper scissors game !'
+    bossbar_duration: 4 SECOND
+
+# Draw behavior
+on_draw:
+#  commands: []
+  notify_player:
+    sound: ENTITY_PLAYER_LEVELUP
+    message: '&6You &7got your &a{what} &7back in the rock paper scissors game, it ended in a draw, &e{score_self} &7to &e{score_other}&7.'
+    bossbar: '&6You &7got your &a{what} &7back in the rock paper scissors game, it ended in a draw, &e{score_self} &7to &e{score_other}&7.'
+    bossbar_duration: 4 SECOND
+  notify_broadcast: {}
+
+# Lose behavior
+on_lose:
+#  commands: |
+#    msg {player} oof
+  notify_player:
+    sound: BLOCK_ANVIL_BREAK
+    message: '&6You &7lost &c{what} &7in the rock paper scissors game, &c{score_self} &7to &a{score_other}.'
+    bossbar: '&6You &7lost &c{what} &7in the rock paper scissors game, &c{score_self} &7to &a{score_other}.'
+    bossbar_duration: 10 SECOND
+  #notify_broadcast:
+  #  bossbar: '&e{player} &7lost &c{lost} &7in the rock paper scissors game.'
+  #  bossbar_duration: 3 SECOND
+
+# --------------------------------------------------
+# Hub GUI configuration
+# --------------------------------------------------
+
+hub_gui_commands: ['/rockpaperscissors', '/rps']
+
+hub_gui:
+
+  name: '&dRock Paper Scissors'
+  type: CHEST_6_ROW
+
+  item_bet:
+    locations: 50
+    persistent: true
+    icon:
+      type: PAPER
+      name: '&dBet'
+      lore: |
+        &7Select your bet to
+        &7let people challenge you
+  item_player:
+    icon:
+      type: PLAYER_HEAD
+      owner_name: '{player}'
+      name: '&6{player}'
+      lore: |
+        &7Bet value :
+        &e{bet}
+        &r
+        &dClick to challenge
+        &dRight-click to view bet items
+
+  contents:
+
+    - global@dynamic_border_6_blink
+
+    - locations: 45
+      persistent: true
+      type: BACK
+      icon:
+        type: GRAY_STAINED_GLASS_PANE
+        name: '&8Go back'
+
+# --------------------------------------------------
+# Active GUI configuration
+# --------------------------------------------------
+
+active_gui_round_open_delay: 2 SECOND
+
+active_gui:
+
+  name: '&dRock Paper Scissors'
+  type: CHEST_3_ROW
+
+  slot_rock: 11
+  slot_paper: 13
+  slot_scissors: 15
+
+  contents:
+
+    - type: DYNAMIC_BORDER_LINEAR
+      persistent: true
+      locations: [0,1,3,5,7,8,17,26,25,23,21,19,18,9]
+      on_count: 2
+      icon_on:
+        type: RED_STAINED_GLASS_PANE
+        name: '&r'
+      icon_off:
+        type: ORANGE_STAINED_GLASS_PANE
+        name: '&r'
+
+    - type: DYNAMIC_BORDER_LINEAR
+      persistent: true
+      locations: [2,4,6,24,22,20]
+      on_count: 1
+      refresh_ticks: 2
+      icon_on:
+        type: YELLOW_STAINED_GLASS_PANE
+        name: '&f'
+      icon_off:
+        type: GRAY_STAINED_GLASS_PANE
+        name: '&f'
+  

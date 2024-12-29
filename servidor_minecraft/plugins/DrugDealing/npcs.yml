@@ -1,0 +1,19 @@
+npcNumber: 2
+NPC1:
+  name: test
+  ID: 98
+  role: DEALER
+  notaccepted:
+    WEED_PLANT: false
+    COKE_PLANT: false
+    WEED_PRODUCT: false
+    COKE_PRODUCT: false
+NPC2:
+  name: test
+  ID: 99
+  role: PRODUCER
+  notaccepted:
+    WEED_PLANT: false
+    COKE_PLANT: false
+    WEED_PRODUCT: false
+    COKE_PRODUCT: false

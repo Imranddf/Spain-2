@@ -1,0 +1,58 @@
+took-money: '&7&l>>  &r&7You took &a&l%storedmoney%$ &r&7from %printername%&r&7!'
+no-money: '&7&l>>  &r&cThis printer doesn''t contains any money!'
+no-permission: '&7&l>>  &r&cYou don''t have permission to use this command!'
+player-not-found: '&7&l>>  &r&cThis player could not be found!'
+printer-type-not-found: '&7&l>>  &r&cThis printer type could not be found!'
+printer-get: '&7&l>>  &r&7Received: &f%printername% Bitcoin Miner&r&7.'
+printer-give: '&7&l>>  &r&7You gave a &f%printername% Bitcoin Miner &r&7to &f%player%&r&7.'
+inventory-full: '&7&l>>  &r&cYour Inventory is full!'
+command-players-only: '&7&l>>  &r&cThis command is only for players!'
+repair-purchased: '&7&l>>  &r&aYou repaired the Miner!'
+moneyprinter-purchased: '&7&l>>  &r&aYou bought a Miner!'
+not-enough-money: '&7&l>>  &r&cYou don''t have enough money!'
+printer-already-intact: '&7&l>>  &r&cThis Printer is intact and doesn''t need to be
+  repaired!'
+world-disabled: '&7&l>>  &r&cMiners are disabled in this world!'
+config-reloaded: '&7&l>>  &r&7The Configuration has been reloaded.'
+command-not-found: '&7&l>>  &r&cThis command doesn''t seem to exist.'
+all-money-collected: '&7&l>>  &r&aCollected all money from your Miner'
+printer-limit-reached: '&7&l>>  &r&cYou have reached the maximum amount of Miner for
+  that type.'
+printer-total-limit-reached: '&7&l>>  &r&cYou have reached the total Miner maximum.'
+printer-max-print-amount-reached: '&7&l>>  &r&cYou have reached the maximum mine amount
+  for that printer, it will now be destroyed!'
+printer-no-permission: '&7&l>>  &r&cYou don''t have permission to use this Bitcoin
+  Miner'
+printer-repair-no-permission: '&7&l>>  &r&cYou don''t have permission to repair Bitcoin
+  Miner'
+printer-no-permission-shop: '&7&l>>  &r&cYou don''t have permission to buy this Bitcoin
+  Miner'
+printer-invalid-owner: '&7&l>>  &r&cYou are not the owner of that Miner'
+printer-title: '&aBitcoin Miner Store'
+printer-shop-title: '&aBitcoin Miner Shop'
+printer-gui-info-name: '&9&lInformation'
+printer-gui-info-lore:
+- '&7Name: &f%printername%'
+- '&7Owner: &f%printerowner%'
+- '&7Type: &f%printerid%'
+- '&7Health: &f%printerhealth% &7/ &f%printermaxhealth%'
+- '&7Money: &f%printermoney% &7/ &f%printermaxmoney%'
+- '&7Earning: &f%printeramount%$ &7per &f%printerdelay%s'
+printer-gui-repair-name: '&7&lRepair'
+printer-gui-repair-lore:
+- '&7&nClick&r &7to repair the Miner.'
+- '&0'
+- '&7Price: &a&l%repairprice%$'
+printer-gui-close-name: '&c&lClose'
+printer-gui-close-lore:
+- '&7&nClick&r &7to close the GUI.'
+shop-gui-item-lore:
+- '&7Health: &f%printermaxhealth%'
+- '&7Storage: &f%printermaxmoney%'
+- '&7Earning: &f%printeramount%$ &7per &f%printerdelay%s'
+- '&0'
+- '&7Price: &a&l%printerprice%$'
+- ''
+- '&f&o頁'
+not-buyable-lore:
+- '&cNot buyable'

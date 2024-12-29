@@ -1,0 +1,9 @@
+[30/08 11:43:59] [info] [ZenectionTR78] default_crash : Starting game with bet {default=31$} (players in game : Fiery, ZenectionTR78)
+[30/08 11:44:09] [info] [ZenectionTR78] default_crash : Ended game, crashed at 3.84, didn't stop (players in game : Fiery, ZenectionTR78)
+[30/08 11:44:56] [info] [ZenectionTR78] default_roulette : Starting game with bet {black=10,000$} (players in game : Fiery, ZenectionTR78)
+[30/08 11:45:03] [info] [ZenectionTR78] default_roulette : Ended game, won on black, result bet 20,000$ (players in game : Fiery, ZenectionTR78)
+[30/08 11:46:30] [info] [ZenectionTR78] default_coinflip : Starting game with bet {default=10.1 million$} (players in game : Fiery, ZenectionTR78)
+[30/08 11:47:21] [info] [ZenectionTR78] default_rockpaperscissors : Starting game with bet {default=1,000$} (players in game : Fiery, ZenectionTR78)
+[30/08 11:47:37] [info] [ZenectionTR78] default_rockpaperscissors : Ended game, won 2 to 1, result bet 2,000$ (players in game : Fiery, ZenectionTR78)
+[30/08 11:47:37] [info] [ZenectionTR78] default_rockpaperscissors : Ended game, lost 1 to 2, winner is ZenectionTR78 (players in game : Fiery, ZenectionTR78)
+[30/08 11:48:17] [info] [ZenectionTR78] default_bargamble : Played game, item fire, won x1.11, result 111.43$

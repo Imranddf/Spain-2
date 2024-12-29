@@ -1,0 +1,420 @@
+    menu_title: '&c             &x&b&6&f&b&a&e&lAE&x&c&2&c&2&a&2&lMOTORS'
+    open_command:
+    - gallery
+    size: 27
+    items:
+      '0':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&f'
+      '1':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 1
+        display_name: '&f'
+      '2':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 2
+        display_name: '&f'
+      '3':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 3
+        display_name: '&f'
+      '4':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 4
+        display_name: '&f'
+      '5':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 5
+        display_name: '&f'
+      '6':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 6
+        display_name: '&f'
+      '7':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&f'
+      '8':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 8
+        display_name: '&f'
+      'gun1':
+        material: RABBIT_HIDE
+        model_data: 37
+        slot: 9
+        display_name: '        &f&l• &x&1&9&1&9&1&9&9BMW &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&65000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$5000 &7to buy &cBMW&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$5000 &7to buy &cBMW&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qav give bmw %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aBMW &ffor &a$5000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5000'
+        - '[console] qav give bmw %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aBMW &ffor &a$5000&f.'
+        - '[close]'
+      'gun2':
+        material: RABBIT_HIDE
+        model_data: 9
+        slot: 10
+        display_name: '      &f&l• &x&9&9&b&b&b&9&bCadillac &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&63500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3500 &7to buy &cCadillac&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3500 &7to buy &cCadillac&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 3500'
+        - '[console] qav give cadillac62 %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aCadillac &ffor &a$3500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 3500'
+        - '[console] qav give cadillac62 %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aCadillac &ffor &a$3500&f.'
+        - '[close]'
+      'gun3':
+        material: RABBIT_HIDE
+        model_data: 2
+        slot: 11
+        display_name: '    &f&l• &x&4&c&c&4&c&4&cMoskvitch &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&63250$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'  
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3250
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3250 &7to buy &cmoskvitch&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3250
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3250 &7to buy &cmoskvitch&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 3250'
+        - '[console] qav give moskvitch %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aMoskvitch &ffor &a$3250&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 3250'
+        - '[console] qav give moskvitch %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aMoskvitch &ffor &a$3250&f.'
+        - '[close]'
+      'gun4':
+        material: RABBIT_HIDE
+        model_data: 33
+        slot: 12
+        display_name: '   &f&l• &x&e&6&6&e&e&6&eLamborghini &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&66000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁' 
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 6000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$6000 &7to buy &cLamborghini&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 6000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$6000 &7to buy &cLamborghini&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 6000'
+        - '[console] qav give lamborghini %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aLamborghini &ffor &a$6000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 6000'
+        - '[console] qav give lamborghini %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aLamborghini &ffor &a$6000&f.'
+        - '[close]'
+      'gun5':
+        material: RABBIT_HIDE
+        model_data: 32
+        slot: 13
+        display_name: ' &f&l• &x&e&5&b&5&5&bPresident Car &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&65500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$5500 &7to buy &cPresident Car&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 5500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$5500 &7to buy &cPresident Car&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 5500'
+        - '[console] qav give presidentiallimo %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aPresident Car &ffor &a$5500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 5500'
+        - '[console] qav give presidentiallimo %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aPresident Car &ffor &a$5500&f.'
+        - '[close]'
+      'gun6':
+        material: RABBIT_HIDE
+        model_data: 25
+        slot: 14
+        display_name: '      &f&l• &x&d&d&f&d&d&f&dHearse &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&63000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3000 &7to buy &cHearse&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 3000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$3000 &7to buy &cHearse&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 3000'
+        - '[console] qav give Hearse %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aHearse &ffor &a$3000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 6000'
+        - '[console] qav give Hearse %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aHearse &ffor &a$6000&f.'
+        - '[close]'
+      'gun7':
+        material: RABBIT_HIDE
+        model_data: 19
+        slot: 15
+        display_name: '  &f&l• &x&3&5&3&5&3&5&3Speeder Bike &f&l• '
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&64000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$4000 &7to buy &cSpeeder Bike&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$4000 &7to buy &cSpeeder Bike&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qav give sw_speederbike %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aSpeeder Bike &ffor &a$4000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qav give sw_speederbike %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aSpeeder Bike &ffor &a$4000&f.'
+        - '[close]'
+      'gun8':
+        material: RABBIT_HIDE
+        model_data: 20
+        slot: 16
+        display_name: '  &f&l• &x&b&4&4&b&b&4&b&bLand Speeder &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&64000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$4000 &7to buy &cLand Speeder&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 4000
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$4000 &7to buy &cLand Speeder&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qav give sw_landspeeder %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aLand Speeder &ffor &a$4000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 4000'
+        - '[console] qav give sw_landspeeder %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aLand Speeder &ffor &a$4000&f.'
+        - '[close]'
+      'gun9':
+        material: RABBIT_HIDE
+        model_data: 10
+        slot: 17
+        display_name: '   &f&l• &x&f&d&d&f&d&f&dMotorcycle &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&62500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$2500 &7to buy &cMotorcycle&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 2500
+              deny_commands:
+              - '[message] &6AEMotors &8> &7You need &c$2500 &7to buy &cMotorcycle&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 2500'
+        - '[console] qav give Motorcycle %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aMotorcycle &ffor &a$2500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 2500'
+        - '[console] qav give Motorcycle %player_name% 1'
+        - '[message] &6AEMotors &8> &fYou bought &aMotorcycle &ffor &a$2500&f.'
+        - '[close]'
+      '27':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 26
+        display_name: '&f'
+      '28':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 18
+        display_name: '&f'
+      '29':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 19
+        display_name: '&f'
+      '30':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 20
+        display_name: '&f'
+      '3919':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 21
+        display_name: '&f'
+      '32':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 22
+        display_name: '&f'
+      '33':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 23
+        display_name: '&f'
+      '331':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 24
+        display_name: '&f'
+      '332':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 25
+        display_name: '&f'
+        

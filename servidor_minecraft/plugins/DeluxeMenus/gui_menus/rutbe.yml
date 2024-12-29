@@ -1,0 +1,274 @@
+menu_title: '&f⊍⊑'
+size: 36
+open_command: 
+- rütbe
+- rütbeler
+- rank
+- ranks
+- rutbe
+items:
+  'rutbebilgi':
+    display_name: '&eInformation about ranks'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU2YTM2MTg0NTllNDNiMjg3YjIyYjdlMjM1ZWM2OTk1OTQ1NDZjNmZjZDZkYzg0YmZjYTRjZjMwYWI5MzExIn19fQ==
+    slot: 10
+    lore:
+    - ''
+    - '&#afafaf• &fYou can view all ranks here and'
+    - '&frank up if you meet the specified requirements.'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  '1':
+    display_name: '&f%img_sefil% &#5dff7cRank'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 11
+    lore:
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    - '&#e5fbaeFeatures:'
+    - ''
+    - '&#afafaf• &fTAG exclusive to chat and TAB'
+    - '&#afafaf• &f1x &a/sethome &fpermission'
+    - '&#afafaf• &fRank-specific Kit&a(/kit citizen)'
+    - ''
+    - '&#e5fbaeThis Rank is the general rank.'
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  '2':
+    display_name: '&f%img_seyyar% &#5dff7cRank'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 12
+    lore:
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    - '&#e5fbaeFeatures:'
+    - ''
+    - '&#afafaf• &fTAG exclusive to chat and TAB'
+    - '&#afafaf• &f2x &a/sethome &fpermission'
+    - '&#afafaf• &f1x Cosmetic crate key'
+    - '&#afafaf• &f1x Cannabis seed'
+    - '&#afafaf• &fRank-specific Kit&a(/kit thug)'
+    - ''
+    - '&#e5fbaeRequirements;'
+    - '&6• &a3000$ &fRequired'
+    - ''
+    - '&f⠃ &eClick to rank up. &f⠃'
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 3000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$3000 &fto buy &cThug Rank&f.'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 3000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$3000 &fto buy &cThug Rank&f.'
+          - '[close]'
+    left_click_commands:
+    - '[console] eco take %player_name% 3000'
+    - '[console] dr seed give %player_name% weed 1'
+    - '[console] crate givekey %player_name% cosmetics'
+    - '[console] lp user %player_name% group set thug'    # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aThug'
+    - '[close]'
+    right_click_commands:
+    - '[console] eco take %player_name% 3000'
+    - '[console] dr seed give %player_name% weed 1'
+    - '[console] crate givekey %player_name% cosmetics'
+    - '[console] lp user %player_name% group set thug'    # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aThug'
+    - '[close]'
+  '5':
+    display_name: '&f%img_kontes% &#5dff7cRank'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 13
+    lore:
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    - '&#e5fbaeFeatures:'
+    - ''
+    - '&#afafaf• &fTAG exclusive to chat and TAB'
+    - '&#afafaf• &f3x &a/sethome &fpermission'
+    - '&#afafaf• &f2x Tier 3 Bitcoin Miner'
+    - '&#afafaf• &f2x Ultimate crate key'
+    - '&#afafaf• &f1x Cosmetic crate key'
+    - '&#afafaf• &f1x Cannabis seed'
+    - '&#afafaf• &fRank-specific Kit&a(/kit mafia)'
+    - ''
+    - '&#e5fbaeRequirements;'
+    - '&6• &a6000$ &fRequired'
+    - ''
+    - '&f⠃ &eClick to rank up. &f⠃'
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 6000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$6000 &fto buy &cMafia Rank&f.'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 6000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$6000 &fto buy &cMafia Rank&f.'
+          - '[close]'
+    left_click_commands:
+    - '[console] eco take %player_name% 6000'
+    - '[console] dr seed give %player_name% weed 1'
+    - '[console] crate givekey %player_name% cosmetics'
+    - '[console] crate givekey %player_name% ultimate 2'
+    - '[console] mp give Gold %player_name%'
+    - '[console] mp give Gold %player_name%'
+    - '[console] lp user %player_name% group set mafia' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aMafia'
+    - '[close]'
+    right_click_commands:
+    - '[console] eco take %player_name% 6000'
+    - '[console] dr seed give %player_name% weed 1'
+    - '[console] crate givekey %player_name% cosmetics'
+    - '[console] crate givekey %player_name% ultimate 2'
+    - '[console] mp give Gold %player_name%'
+    - '[console] mp give Gold %player_name%'
+    - '[console] lp user %player_name% group set mafia' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aMafia'
+    - '[close]'
+  '6':
+    display_name: '&f%img_imparator% &#5dff7cRank'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 14
+    lore:
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    - '&#e5fbaeFeatures:'
+    - ''
+    - '&#afafaf• &fTAG exclusive to chat and TAB'
+    - '&#afafaf• &f1x Tier 5 Bitcoin Miner'
+    - '&#afafaf• &f2x Gangster crate key'
+    - '&#afafaf• &f2x Premium crate key'
+    - '&#afafaf• &f2x Cannabis seed'
+    - '&#afafaf• &f3x &a/sethome &fpermission'
+    - '&#afafaf• &fRank-specific Kit&a(/kit boss)'
+    - ''
+    - '&#e5fbaeRequirements;'
+    - '&6• &a15000$ &fRequired'
+    - ''
+    - '&f⠃ &eClick to rank up. &f⠃'
+    - '&x&9&1&9&9&9&9&9&1&9&n&o&l                                '
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 15000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$15000 &fto buy &cBOSS Rank&f.'
+          - '[close]'
+    right_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          amount: 15000
+          deny_commands:
+          - '[message] &6Sorry &8> &7You need &c$15000 &fto buy &cBOSS Rank&f.'
+          - '[close]'
+    left_click_commands:
+    - '[console] eco take %player_name% 15000'
+    - '[console] dr seed give %player_name% weed 2'
+    - '[console] crate givekey %player_name% gangster 2'
+    - '[console] crate givekey %player_name% premium 2'
+    - '[console] mp give Emerald %player_name%'
+    - '[console] lp user %player_name% group set boss' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aBOSS'
+    - '[close]'
+    right_click_commands:
+    - '[console] eco take %player_name% 15000'
+    - '[console] dr seed give %player_name% weed 2'
+    - '[console] crate givekey %player_name% gangster 2'
+    - '[console] crate givekey %player_name% premium 2'
+    - '[console] mp give Emerald %player_name%'
+    - '[console] lp user %player_name% group set boss' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Congratulations &8> &fYour new rank &aBOSS'
+    - '[close]'
+  '7':
+    display_name: '&cVery soon..'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 15
+    lore:
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '8':
+    display_name: '&cVery soon..'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwZTZjZDQ1OWEwOGViZGU5OTVlMDE5Y2FkYWM1NWQwNjA2ZjQ3ZTY0NTUxOWI4YTQwNzMxYmIzZTZiMTY3MCJ9fX0=
+    slot: 16
+    lore:
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'geri':
+    material: structure_void
+    slot: 30
+    display_name: '&eBack to Main Menu'
+    lore:
+      - ''
+      - '&fTo return to the main menu'
+      - '&fyou can use this.'
+      - ''
+      - '&e• &aClick to return.'
+    left_click_commands:
+      - '[player] menu'
+      - '[close]'
+    right_click_commands:
+      - '[player] menu'
+      - '[close]'
+  'kapat':
+    material: structure_void
+    slot: 31
+    display_name: '&cClose Menu'
+    lore:
+      - ''
+      - '&fYou can use this to completely close'
+      - '&fthe menu you are in.'
+      - ''
+      - '&e• &aClick to close.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+  'ayarlar':
+    material: structure_void
+    slot: 32
+    display_name: '&eYour account configuration'
+    lore:
+      - ''
+      - '&fAccount settings'
+      - ''
+      - '&e• &aClick to access'
+    left_click_commands:
+      - '[player] ayarlar'
+      - '[close]'
+    right_click_commands:
+      - '[player] ayarlar'     
+      - '[close]'       

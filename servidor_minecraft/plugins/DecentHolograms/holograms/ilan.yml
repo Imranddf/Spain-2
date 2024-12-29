@@ -1,0 +1,26 @@
+location: Spawn:-31.538:68.400:-0.546
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x&f&b&e&a&0&6&lİŞ İLANLARI'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cKendi işinizi kurup &x&9&f&e&4&1&fbaşkalarına yaptırabilceğiniz'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cveya &x&9&f&e&4&1&fbaşkalarının kurduğu işi &x&f&0&f&1&d&cyaparak altın kazanabilceğiniz'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&ciş bölümlerinde çalışarak &x&9&f&e&4&1&faltın &x&f&0&f&1&d&ckazanabilirsiniz.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&x&9&f&e&4&1&fİş Oluşturmak İçin;'
+    height: 0.3
+  - content: '&e&l• &f/emp offer'
+    height: 0.3
+  actions: {}

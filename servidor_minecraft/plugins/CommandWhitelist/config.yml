@@ -1,0 +1,111 @@
+
+# Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
+messages:
+  prefix: <red><newline>                      <white>⠭ <red><b>WARNING!<white> ⠭<newline><newline><reset><gray>            •
+    <reset><white>No such command found <gray>•<newline><gray> • <white>
+  command_denied: <red>
+  subcommand_denied: <red>
+  no_permission: <red>You don't have permission to do this.
+  no_such_subcommand: <red>No subcommand by that name.
+  config_reloaded: <gold>Configuration reloaded.
+  added_to_whitelist: <gold>Whitelisted command <gold>%s <gold>for permission <gold>%s
+  removed_from_whitelist: <gold>Removed command <gold>%s <gold>from permission <gold>%s
+  group_doesnt_exist: <red>Group doesn't exist or error occured
+
+# Do not enable if you don't have issues with aliased commands.
+# This requires server restart to take effect.
+use_protocollib: false
+groups:
+  default:
+    commands:
+    - bettersocial
+    - tuccar
+    - accept
+    - plot
+    - resident
+    - deny
+    - yetenek
+    - tüccar
+    - emute
+    - sustur
+    - towny
+    - towny:accept
+    - towny:deny
+    - n
+    - t
+    - town
+    - tfly
+    - nation
+    - social
+    - bsocial
+    - sosyal
+    - towny:confirm
+    - towny:cancel
+    - confirm
+    - cancel
+    - sh
+    - harita
+    - randomtp
+    - lock
+    - lockette
+    - sat
+    - auction
+    - altın
+    - lobi
+    - l
+    - shopgui
+    - komutlar
+    - kurallar
+    - emp
+    - kural
+    - aclist
+    - tpa
+    - profil
+    - social
+    - tpaccept
+    - tpacancel
+    - spawn
+    - spawns
+    - home
+    - delhome
+    - sethome
+    - warp
+    - warps
+    - balance
+    - money
+    - msg
+    - msgtoggle
+    - tptoggle
+    - paytoggle
+    - skortablosu
+    - feed
+    - pay
+    - sıralama
+    - sell
+    - menü
+    - bilgi
+    - kurallar
+    - market
+    - ah
+    - kaptan
+    - rütbe
+    - meslek
+    - kit
+    - eşle
+    - esle
+    - vip
+    - rtp
+    - takas
+    - trade
+    - vote
+    - discord
+    - site
+    - shop
+    - rankup
+    - rank
+    - ayarlar
+    - ayar
+    - settings
+    - menu
+    - ustmesaj
+    - takasengel

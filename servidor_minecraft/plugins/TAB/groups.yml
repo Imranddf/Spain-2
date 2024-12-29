@@ -1,0 +1,72 @@
+Sefil:
+  tabprefix: '%img_sefil% &7'
+  tagprefix: '%img_sefil% &7'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Seyyar:
+  tabprefix: '%img_seyyar% &x&c&e&c&e&c&e'
+  tagprefix: '%img_seyyar% &x&c&e&c&e&c&e'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Asker:
+  tabprefix: '%img_asker% &x&d&a&d&6&a&2'
+  tagprefix: '%img_asker% &x&d&a&d&6&a&2'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦' 
+Sipahi:
+  tabprefix: '%img_sipahi% &x&f&f&f&e&8&6'
+  tagprefix: '%img_sipahi% &x&f&f&f&e&8&6'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Piyade:
+  tabprefix: '%img_piyade% &x&e&8&f&f&9&d'
+  tagprefix: '%img_piyade% &x&e&8&f&f&9&d'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+General:
+  tabprefix: '%img_general% &x&a&c&f&f&f&d'
+  tagprefix: '%img_general% &x&a&c&f&f&f&d'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Kontes:
+  tabprefix: '%img_kontes% &x&f&f&d&5&5&8'
+  tagprefix: '%img_kontes% &x&f&f&d&5&5&8'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Basilius:
+  tabprefix: '%img_basilius% &x&a&0&f&f&6&c'
+  tagprefix: '%img_basilius% &x&a&0&f&f&6&c'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Firavun:
+  tabprefix: '%img_firavun% &x&e&8&f&f&2&f'
+  tagprefix: '%img_firavun% &x&e&8&f&f&2&f'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Vikont:
+  tabprefix: '%img_vikont% &x&f&f&c&6&6&4'
+  tagprefix: '%img_vikont% &x&f&f&c&6&6&4'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+imparator:
+  tabprefix: '%img_imparator% &x&f&f&d&a&3&e'
+  tagprefix: '%img_imparator% &x&f&f&d&a&3&e'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Rehber:
+  tabprefix: '%img_rehber% &x&3&9&f&f&5&3'
+  tagprefix: '%img_rehber% &x&3&9&f&f&5&3'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Youtuber:
+  tabprefix: '%img_youtuber% &x&f&f&a&4&e&e'
+  tagprefix: '%img_youtuber% &x&f&f&a&4&e&e'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+Yonetici:
+  tabprefix: '%img_yonetici% &x&f&b&1&5&1&5'
+  tagprefix: '%img_yonetici% &x&f&b&1&5&1&5'
+  abovename: '&e&l✦ &6%townyadvanced_town% &e&l✦'
+
+  
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%vault-suffix%%afk%"
+  tagsuffix: "%vault-suffix%%afk%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

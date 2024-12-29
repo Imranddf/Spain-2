@@ -1,0 +1,19 @@
+#Json Component editor.
+Json-Components:
+    example:
+        Placeholder: '%example_json_component%'
+        Text: '&6Click'
+        ClickEvent:
+            Action: RUN_COMMAND
+            Value: '/ayarlar'
+        #Hover event.
+        HoverEvent:
+            #Availables: SHOW_TEXT, SHOW_ACHIEVEMENT, SHOW_ITEM, SHOW_ENTITY
+            #  SHOW_TEXT: Show text.
+            #  SHOW_ACHIEVEMENT: Show text at achievements format.
+            #  SHOW_ITEM: Show text at items format.
+            #  SHOW_ENTITY: Show text at entitys format.
+            Action: SHOW_TEXT
+            #When the mouse moves over the message.
+            Hover-Values: 
+            - '&6This is a default message~'

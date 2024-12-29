@@ -1,0 +1,86 @@
+# -------------------- Commands --------------------
+
+commandDescriptionBettinggames: BettingGames için ana kod
+commandDescriptionBettingGamesReload: BettingGamesi tekrar yükler
+commandDescriptionBettinggamesMenu: spesifik bir menüyü aç
+commandDescriptionBettinggamesTop: Oyuncu sıralaması menüsünü aç
+commandDescriptionBettinggamesEdit: Oyun içinde konfigürasyonu düzenle
+
+commandParameterUsageGUI: gui
+commandParameterUsageGames: oyunlar
+
+# -------------------- Bet --------------------
+
+messageBetEditNotEnoughCurrency: |
+  &7{min} den az bahis koyamazsın.
+
+messageBetEditTooMuchCurrency: |
+  &7Bahis sınırı olan {max} a ulaştın.
+
+messageBetEditCurrencyAdd: |
+  &7&7&a{game} oynuna &7&a{amount} koydun.
+
+messageBetEditCurrencyWithdraw: |
+  &7&e{game} oynuna koyduğun &e{amount} &7ı geri çektin.
+
+messageBetEditCurrencyEnterChat: |
+  &7Chate yeni bir bahis değeri gir.
+
+messageBetEditCurrencyEnterChatInvalidValue: |
+  &7Geçersiz değer : &c{value}&7, pozitif bir numara ya da sıfır girmelisin.
+
+messageBetEditNotEnoughItems: |
+  &7{min} den az item{plural} koyamazsın.
+
+messageBetEditTooMuchItems: |
+  &7{max} item{plural} sayısına ulaştın.
+
+messageBetEditDisallowedItem: |
+  &7T Bu itemle bahis oynayamazsın.
+
+messageBetEditItemAdd: |
+  &7&a{game}&7oynuna &a{item} nı yatırdın&7.
+
+messageBetEditItemWithdraw: |
+  &7&e{item} ni &7&e{game} &7dan çektin.
+
+messageBetEditNothingToWithdraw: |
+  &7Çekebileceğin bir şey yok.
+
+# -------------------- Game --------------------
+
+messageGameMaxConcurrentReached: |
+  &7Aynı anda &c{count} &7game{plural} oynayamazsın.
+
+messageGameAlreadyPlaying: |
+  &7Halihazırda bu oyunda oynuyosun. Lütfen sonlanmasını bekle.
+
+messageGameCooldownMustWait: |
+  &7Bir daha oynamak için &c{time} beklemelisin&7.
+
+messageGameLockBetsOnDrawDelayCantBet: |
+  &7Oyun başlıyor. Bahsini değiştiremezsin.
+
+messageGameCrashStopped: |
+  &e{value} da durdurdun...
+
+descriptionGameCrashBetMultiply: >
+  x{multiplier} : {description}
+
+messageGameVersusChallengeSelf: |
+  &7Kendi kendine meydan okuyamazsın!
+
+messageGameVersusChallengeAccepted: |
+  &a{player} {game} &7oyunu meydan okumanı kabul etti...
+
+nameGameRockPaperScissorsChoiceRock: >
+  Taş
+
+nameGameRockPaperScissorsChoicePaper: >
+  Kağıt
+
+nameGameRockPaperScissorsChoiceScissors: >
+  Makas
+
+descriptionGameBarGambleBetMultiply: >
+  x{multiplier} : {description}

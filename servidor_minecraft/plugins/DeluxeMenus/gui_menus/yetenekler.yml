@@ -1,0 +1,301 @@
+menu_title: '&f⊍⊏'
+
+open_command:
+- 'yetenek'
+- 'yetenekler'
+- 'mcmmo'
+- 'skills'
+- 'abilities'
+- 'mcmmogui'
+
+size: 54
+
+items:
+  'Madencilik':
+    material: 'STONE_PICKAXE'
+    hide_attributes: true
+    slot: 10
+    display_name: "&#09c8fb&lM&#14d0fb&la&#1fd8fc&ld&#2ae0fc&le&#34e8fc&ln&#3ff0fd&lc&#4af8fd&li"
+    lore:
+    - ''
+    - '&8• &fMadenci Leveli: &#40e71b%mcmmo_level_mining%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_mining%&7/&#40e71b%mcmmo_xp_needed_mining%'
+    - ''
+    - '&7Madencilik, maden taşı ve cevherine'
+    - '&7odaklanan bir beceridir.Bu becerinin'
+    - '&7dikkate değer bir özelliği,her birinden'
+    - '&7daha yüksek potansiyel verimdir.'
+    - ''
+  'odunculuk':
+    material: 'STONE_AXE'
+    hide_attributes: true
+    slot: 11
+    display_name: "&#09c8fb&lO&#16d2fb&ld&#23dbfc&lu&#30e5fc&ln&#3deefd&lc&#4af8fd&lu"
+    lore:
+    - ''
+    - '&8• &fOduncu Leveli: &#40e71b%mcmmo_level_woodcutting%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_odunculuk%&7/&#40e71b%mcmmo_xp_needed_woodcutting%'
+    - ''
+    - '&7Ağaç kesme, ağaçları,'
+    - '&7mantarları baltayla kesmeye' 
+    - '&7odaklanan bir beceridir.'
+    - ''
+  'Kazicilik':
+    material: 'STONE_SHOVEL'
+    hide_attributes: true
+    slot: 28
+    display_name: "&#09c8fb&lK&#16d2fb&la&#23dbfc&lz&#30e5fc&lı&#3deefd&lc&#4af8fd&lı"
+    lore:
+    - ''
+    - '&8• &fKazıcı Leveli: &#40e71b%mcmmo_level_Kazicilik%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_Kazicilik%&7/&#40e71b%mcmmo_xp_needed_Kazicilik%'
+    - ''
+    - '&7Kazı, kazma eylemidir ve'
+    - '&7bir tür kürekle yapılması'
+    - '&7gerekir.'
+    - ''
+    - '&7Beceri seviyesi yükseldikçe,'
+    - '&7kazdıklarınızdan hazine alma'
+    - '&7şansınız artar.'
+    - ''
+  'Tarimci':
+    material: 'STONE_HOE'
+    hide_attributes: true
+    slot: 19
+    display_name: "&#09c8fb&lT&#10cdfb&la&#17d3fb&lr&#1fd8fc&lı&#26ddfc&lm&#2de3fc&lc&#34e8fc&lı&#3cedfd&ll&#43f3fd&lı&#4af8fd&lk"
+    lore:
+    - ''
+    - '&8• &fTarım Leveli: &#40e71b%mcmmo_level_herbalism%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_herbalism%&7/&#40e71b%mcmmo_xp_needed_herbalism%'
+    - ''
+    - '&7Tarım yeteneği, ekstra damlalar'
+    - '&7ve otomatik ürün planlaması'
+    - '&7sunarak zamandan ve emekten'
+    - '&7tasarruf sağlar.'
+    - ''
+    - '&7Ayrıca parke taşı ve taş'
+    - '&7tuğlalara yosun eklemek'
+    - '&7gibi bazı ilginç alt'
+    - '&7becerileri de vardır.'
+    - ''
+  'Balikci':
+    material: 'FISHING_ROD'
+    hide_attributes: true
+    slot: 20
+    display_name: "&#09c8fb&lB&#14d0fb&la&#1fd8fc&ll&#2ae0fc&lı&#34e8fc&lk&#3ff0fd&lç&#4af8fd&lı"
+    lore:
+    - ''
+    - '&8• &fBalıkçı Leveli: &#40e71b%mcmmo_level_balikcilik%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_balikcilik%&7/&#40e71b%mcmmo_xp_needed_balikcilik%'
+    - ''
+    - '&7Balık tutma becerisi, balık'
+    - '&7tutarken daha hızlı balık'
+    - '&7tutmanıza ve daha benzersiz'
+    - '&7hazineler yakalamanıza'
+    - '&7olanak tanır.'
+    - ''
+  'Simyacı':
+    material: 'BREWING_STAND'
+    hide_attributes: true
+    slot: 29
+    display_name: "&#09c8fb&lS&#19d4fc&li&#2ae0fc&lm&#3aecfd&ly&#4af8fd&la"
+    lore:
+    - ''
+    - '&8• &fSimya Leveli: &#40e71b%mcmmo_level_simya%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_simya%&7/&#40e71b%mcmmo_xp_needed_simya%'
+    - ''
+    - '&7Simya, İksir Standı ile'
+    - '&7demlemeye dayalı çeşitli'
+    - '&7bir beceridir.'
+    - ''
+  'kilic':
+    material: 'STONE_SWORD'
+    hide_attributes: true
+    slot: 33
+    display_name: "&#fbc113&lK&#f9d01e&lı&#f8df2a&ll&#f6ee35&lı&#f4fd40&lç"
+    lore:
+    - ''
+    - '&8• &fKılıç Leveli: &#40e71b%mcmmo_level_swords%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_swords%&7/&#40e71b%mcmmo_xp_needed_swords%'
+    - ''
+    - '&7Bu beceri, kılıçla savaşan'
+    - '&7herkese savaş bonusları verir.'
+    - ''
+    - '&7Kılıç, saldırılarınıza Rüptür'
+    - '&7efektleri eklemenize ve'
+    - '&7düşmanın vuruşlarına karşı'
+    - '&7koymanıza izin veren'
+    - '&7yetenekler içerir.'
+    - ''
+  'eksenler':
+    material: 'IRON_AXE'
+    hide_attributes: true
+    slot: 15
+    display_name: "&#ce5308&lB&#d45c13&la&#d9641f&ll&#df6d2a&lt&#e47535&la"
+    lore:
+    - ''
+    - '&8• &fBalta Leveli: &#40e71b%mcmmo_level_eksenler%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_eksenler%&7/&#40e71b%mcmmo_xp_needed_eksenler%'
+    - ''
+    - '&7Balta, çeteler ve diğer '
+    - '&7oyuncularla savaşmak için'
+    - '&7balta aracını bir silah'
+    - '&7olarak kullanmaya'
+    - '&7dayalı bir beceridir.'
+    - ''
+  'okculuk':
+    material: 'BOW'
+    hide_attributes: true
+    slot: 16
+    display_name: "&#fbc113&lO&#facb1b&lk&#f9d522&lç&#f8df2a&lu&#f6e931&ll&#f5f339&lu&#f4fd40&lk"
+    lore:
+    - ''
+    - '&8• &fOkçuluk Leveli: &#40e71b%mcmmo_level_okculuk%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_okculuk%&7/&#40e71b%mcmmo_xp_needed_okculuk%'
+    - ''
+    - '&7Okçuluk, çetelere ve'
+    - '&7oyunculara yay ve ok '
+    - '&7kullanarak hasar vermeye'
+    - '&7odaklanan bir beceridir.'
+    - ''
+  'akrabosi':
+    material: 'LEATHER_BOOTS'
+    rgb: 113,116,122
+    hide_attributes: true
+    slot: 34
+    display_name: "&#fbc113&lA&#faca19&lk&#f9d220&lr&#f8db26&lo&#f7e32d&lb&#f6ec33&la&#f5f43a&ls&#f4fd40&li"
+    lore:
+    - '&8• &fAkrabosi Leveli: &#40e71b%mcmmo_level_akrobasiler%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_akrobasiler%&7/&#40e71b%mcmmo_xp_needed_akrobasiler%'
+    - ''
+    - '&7Akrabosi, zarif bir şekilde'
+    - '&7hareket etmeye, düşme'
+    - '&7hasarını azaltmaya ve'
+    - '&7saldırılardan kaçınmaya'
+    - '&7odaklanan bir beceridir.'
+    - ''
+  'Silahsiz':
+    material: 'POPPED_CHORUS_FRUIT'
+    hide_attributes: true
+    slot: 24
+    display_name: "&#fbc113&lS&#faca19&li&#f9d220&ll&#f8db26&la&#f7e32d&lh&#f6ec33&ls&#f5f43a&lı&#f4fd40&lz"
+    lore:
+    - ''
+    - '&8• &fSilahsız Leveli: &#40e71b%mcmmo_level_SİLAHSIZ%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_SİLAHSIZ%&7/&#40e71b%mcmmo_xp_needed_SILAHSIZ%'
+    - ''
+    - '&7Silahsız, oyuncuların yumruklarını'
+    - '&7uygun bir silahmış gibi kullanmalarını'
+    - '&7sağlayan bir dövüş becerisidir.'
+    - ''
+  'Taming':
+    material: 'BONE'
+    slot: 25
+    display_name: "&#fbc113&lE&#fac617&lv&#facb1b&lc&#f9d01e&li&#f9d522&ll&#f8da26&ll&#f8df2a&le&#f7e42d&lş&#f6e931&lt&#f6ee35&li&#f5f339&lr&#f5f83c&lm&#f4fd40&le"
+    lore:
+    - ''
+    - '&8• &fEvcilleştirme Leveli: &#40e71b%mcmmo_level_taming%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_taming%&7/&#40e71b%mcmmo_xp_needed_taming%'
+    - ''
+    - '&7Seviyeniz arttıkça kurtlarınız'
+    - '&7hasarı, savunmayı ve diğer '
+    - '&7şeyleri artıran yetenekler'
+    - '&7kazanacaktır.'
+    - ''
+  'Tamirci':
+    material: 'ANVIL'
+    slot: 13
+    display_name: "&#fbc113&lT&#f9d01e&la&#f8df2a&lm&#f6ee35&li&#f4fd40&lr"
+    lore:
+    - ''
+    - '&8• &fTamir Leveli: &#40e71b%mcmmo_level_repair%'
+    - '&8• &fİlerleme: &#40e71b%mcmmo_xp_repair%&7/&#40e71b%mcmmo_xp_needed_repair%'
+    - ''
+    - '&7Onarım, zırhı ve aletleri'
+    - '&7onarmak için bir demir'
+    - '&7blok kullanmanızı sağlar.'
+    - ''
+  'Salvage':
+    material: 'LEATHER_HELMET'
+    rgb: 113,116,122
+    hide_attributes: true
+    slot: 22
+    display_name: "&#0d76c3&lK&#177cc6&lu&#2181c8&lr&#2b87cb&lt&#358dce&la&#3f93d1&lr&#4998d3&lm&#539ed6&la"
+    lore:
+    - '&8• &fKurtarma Leveli: &#40e71b%mcmmo_level_salvage%'
+    - '&8• &fİlerleme: &#40e71bÇocuk Becerileri'
+    - ''
+    - '&7Kurtarma, aletlerden, zırhlardan'
+    - '&7malzeme almanıza, onunla '
+    - '&7kurtarmanıza izin veren'
+    - '&7bir çocuk becerisidir.'
+    - ''
+  'Eritme':
+    material: 'FURNACE'
+    slot: 31
+    display_name: "&#0d76c3&lE&#1b7ec7&lr&#2986cb&li&#378ece&lt&#4596d2&lm&#539ed6&le"
+    lore:
+    - ''
+    - '&8• &fEritme Leveli: &#40e71b%mcmmo_level_smelting%'
+    - '&8• &fİlerleme: &#40e71bÇocuk Becerileri'
+    - ''
+    - '&7Eritme, Madencilik ve Tamirin'
+    - '&7bir alt becerisidir. Etkili'
+    - '&7Eritme seviyesi, ebeveyn'
+    - '&7beceri seviyelerinin ortalamasıdır.'
+    - '&7Eritme ilk beceriydi.'
+    - ''
+  'Top Menu':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTAwZDc1YThjYzAzZTU5YzQ3NWNhYzc2ODFiYjRlNmQwOGFjNTkyOTBkNWYyMzlkNjA1Njc2MmI0ZTU1ZjkxNSJ9fX0='
+    slot: 50
+    display_name: "&#affb22Beceri Sıralarım"
+    lore:
+    - ''
+    - '&8• &fMadenci &7- &e%mcmmo_rank_mining%. Sıradasın'
+    - '&8• &fOduncu &7- &e%mcmmo_rank_woodcutting%. Sıradasın'
+    - '&8• &fTarımcılık &7- &e%mcmmo_rank_herbalism%. Sıradasın'
+    - '&8• &fBalıkçı &7- &e%mcmmo_rank_balikcilik%. Sıradasın'
+    - '&8• &fKazıcı &7- &e%mcmmo_rank_Kazicilik%. Sıradasın'
+    - ''
+    - '&8• &fSimyacı &7- &e%mcmmo_rank_simya%. Sıradasın'
+    - '&8• &fTamirci &7- &e%mcmmo_rank_repair%. Sıradasın'
+    - '&8• &fŞifacı &7- &e%mcmmo_rank_salvage%. Sıradasın'
+    - '&8• &fBaltacı &7- &e%mcmmo_rank_eksenler%. Sıradasın'
+    - '&8• &fEritme &7- &e%mcmmo_rank_smelting%. Sıradasın'
+    - ''
+    - '&8• &fOkçuluk &7- &e%mcmmo_rank_okculuk%. Sıradasın'
+    - '&8• &fSilahsız &7- &e%mcmmo_rank_SİLAHSIZ%. Sıradasın'
+    - '&8• &fEvcilleştirme &7- &e%mcmmo_rank_taming%. Sıradasın'
+    - '&8• &fKılıç &7- &e%mcmmo_rank_swords%. Sıradasın'
+    - '&8• &fAkrabosi &7- &e%mcmmo_rank_akrobasiler%. Sıradasın'
+    - ''
+  'geri':
+    material: structure_void
+    slot: 48
+    display_name: '&eAna Menüye Dön'
+    lore:
+      - ''
+      - '&fAna menüye dönmek için'
+      - '&fbunu kullana bilirsin.'
+      - ''
+      - '&e• &aDönmek için Tıklayın.'
+    left_click_commands:
+      - '[player] menu'
+      - '[close]'
+    right_click_commands:
+      - '[player] menu'
+      - '[close]'
+  'kapat':
+    material: structure_void
+    slot: 49
+    display_name: '&cMenüyü Kapat'
+    lore:
+      - ''
+      - '&fBulunduğunuz menüyü komple kapatmak'
+      - '&fiçin bunu kullanabilirsin.'
+      - ''
+      - '&e• &aKapatmak için Tıklayın.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'    

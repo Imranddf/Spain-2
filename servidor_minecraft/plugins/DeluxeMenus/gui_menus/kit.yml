@@ -1,0 +1,242 @@
+menu_title: '&f⊍⋠'
+size: 45
+open_command: 
+- kit
+- kitler
+- kits
+- essentials:kit
+- essentials:kits
+items:
+  '1':
+    display_name: '&7► &aFood &aKit &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYWQyYzJkNDgzNzQxYWUwYTdiNGE0YmY0MzQyMTI3MGIwZTVkZWI0NjRkNGY4NWZkNzY4OGIxYTYwYjRlOSJ9fX0=
+    slot: 31
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &e8x Bread'
+    - '&#afafaf• &e8x Steak'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_food%'
+    - ''
+    - '             &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit food'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit food'
+  '2':
+    display_name: '&cVery soon..'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IzMGYyYzg4ODYzZjE0ZTY0OGVlZDNiNmRmNzhhZjUyYmM3Yzg0ZjZmYzdiZjQwMGYzMDQzYTY5NjQ4MzA5OSJ9fX0=
+    slot: 38
+    lore:
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit seyyar'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit seyyar'
+  '3':
+    display_name: '&7► &f%img_asker% &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU4MjExZjc4YjE2NGY1Yjc0MjQ5ZjlhYWEwYzc3OWVkOTVkOTUzMjMyOGFhYjAyYTA5YThkY2U5OTkyMTQ4ZCJ9fX0=
+    slot: 29
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &eIron Helmet &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Chestplate &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Leggings &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Boots &7(&aProtection 3&7)'
+    - '&#afafaf• &e16x Steak'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_police%'
+    - ''
+    - '           &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit police'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit police'
+  '4':
+    display_name: '&cSponsor'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQwNmU0NTMxOGU5YTRhNmJmZTEzMmYyMDJmZTNjZWFjMTVkMTFlYWVkYmVmMWViMDZhMzc2ZGI0MzMwOTBhOCJ9fX0=
+    slot: 40
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &cNetherite Helmet &7(&aProtection 3&7)'
+    - '&#afafaf• &cNetherite Chestplate &7(&aProtection 3&7)'
+    - '&#afafaf• &cNetherite Leggings &7(&aProtection 3&7)'
+    - '&#afafaf• &cNetherite Boots &7(&aProtection 3&7)'
+    - '&#afafaf• &e16x Steak'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_sponsor%'
+    - ''
+    - '          &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit sponsor'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit sponsor'
+  '5':
+    display_name: '&7► &6&lBitcoin Miner &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkODdlNTcyODAxZmQ3MWJhNTNjZThjMmRhYjJlNzViM2VlYzViYzE3YzhiNzM0ODYyYWQxYjBlYzZlZmY1MiJ9fX0=
+    slot: 33
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &e1x Tier 2 Bitcoin Miner'
+    - '&#afafaf• &e1x Tier 3 Bitcoin Miner'
+    - '&#afafaf• &e1x Tier 4 Bitcoin Miner'
+    - ''
+    - '    &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[console] mp give Iron %player_name%'
+    - '[console] mp give Gold %player_name%'
+    - '[console] mp give Diamond %player_name%'
+    right_click_commands:
+    - '[close]'
+    - '[console] mp give Iron %player_name%'
+    - '[console] mp give Gold %player_name%'
+    - '[console] mp give Diamond %player_name%'
+  '6':
+    display_name: '&cVery soon..'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IzMGYyYzg4ODYzZjE0ZTY0OGVlZDNiNmRmNzhhZjUyYmM3Yzg0ZjZmYzdiZjQwMGYzMDQzYTY5NjQ4MzA5OSJ9fX0=
+    slot: 42
+    lore:
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit general'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit general'
+  '16':
+    display_name: '&7► &f%img_kontes% &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUyMTY3MzlhYWZjOGJjYjIzMzI3M2FmOTllZGQzZTUzYjUzMWFjZDkzODJlMzFlYzAwMTEwMTQ0YzE4MGQwZiJ9fX0=
+    slot: 13
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &eIron Helmet &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Chestplate &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Leggings &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Boots &7(&aProtection 3&7)'
+    - '&#afafaf• &eIron Axe &7(&aEfficiency 3&7)'
+    - '&#afafaf• &eIron Pickaxe &7(&aEfficiency 3&7)'
+    - '&#afafaf• &e16x Steak'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_mafia%'
+    - ''
+    - '                 &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit mafia'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit mafia'
+  '17':
+    display_name: '&7► &f%img_sefil% &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIwNDdhMGNiZDE5YzBkNjVjZWMzODUzNTJiYzY5MzZkNWMyOWI0YjQ3ZTg2MDM5ZGMyNzc2M2E5MWM1ODgzZCJ9fX0=
+    slot: 11
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &7Leather Cap &7(&aProtection 2&7)'
+    - '&#afafaf• &7Leather Tunic &7(&aProtection 2&7)'
+    - '&#afafaf• &7Leather Pants &7(&aProtection 2&7)'
+    - '&#afafaf• &7Leather Boots &7(&aProtection 2&7)'
+    - '&#afafaf• &7Stone Axe &7(&aEfficiency 2&7)'
+    - '&#afafaf• &7Stone Pickaxe &7(&aEfficiency 2&7)'
+    - '&#afafaf• &78x Iron ingot'
+    - '&#afafaf• &78x Bread'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_citizen%'
+    - ''
+    - '                 &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit citizen'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit citizen'
+  '18':
+    display_name: '&7► &f%img_seyyar% &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdmYjcxM2JkZjM5ZGZmZjM4MDU1MjE4MmU0N2RjYmFhNjYzNjJhNDMzYTQwNmI0NTU0MTBhNjM0MzZiYjlhYiJ9fX0=
+    slot: 12
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &fIron Helmet &7(&aProtection 2&7)'
+    - '&#afafaf• &fIron Chestplate &7(&aProtection 2&7)'
+    - '&#afafaf• &fIron Leggings &7(&aProtection 2&7)'
+    - '&#afafaf• &fIron Boots &7(&aProtection 2&7)'
+    - '&#afafaf• &fIron Axe &7(&aEfficiency 2 2&7)'
+    - '&#afafaf• &fIron Pickaxe &7(&aEfficiency 2 2&7)'
+    - '&#afafaf• &f16x Iron ingot'
+    - '&#afafaf• &f8x Bread'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_thug%'
+    - ''
+    - '                 &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit thug'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit thug'
+  '19':
+    display_name: '&cVery soon..'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNjZmM1OWFlNWM3OTJhYWZiNjQ2Y2FkODdmODlkZGE0YWE2Mjc4MTc1ZDI1NGE5NzBmZTE1ZDRjMDhlZWFiOCJ9fX0=
+    slot: 15
+    lore:
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '20':
+    display_name: '&7► &f%img_imparator% &7◄'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE3NGJkMjVkN2I2MDRmMmRkNzFjOWQ3Mzg5NmYwZjE2ZTk3ODMzOTZmNmJhNzkxYTc5ZjBkYmZkOTA2OTBmZiJ9fX0=
+    slot: 14
+    lore:
+    - ''
+    - '&#e5fbaeContents:'
+    - ''
+    - '&#afafaf• &6Golden Helmet &7(&aProtection 6&7)'
+    - '&#afafaf• &6Golden Chestplate &7(&aProtection 6&7)'
+    - '&#afafaf• &6Golden Leggings &7(&aProtection 6&7)'
+    - '&#afafaf• &6Golden Boots &7(&aProtection 6&7)'
+    - '&#afafaf• &bDiamond Axe &7(&aEfficiency 4&7)'
+    - '&#afafaf• &bDiamond Pickaxe &7(&aEfficiency 4&7)'
+    - '&#afafaf• &c16x Apple'
+    - ''
+    - '&f⠁ &bUsage Time: &e%essentials_kit_time_until_available_boss%'
+    - ''
+    - '                 &f⠃ &aClick to use &f⠃'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[player] kit boss'
+    right_click_commands:
+    - '[close]'
+    - '[player] kit boss'     

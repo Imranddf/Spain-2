@@ -1,0 +1,566 @@
+{  
+  "craft_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "craft_sounds/sound1",
+        "stream": false
+      },
+      {
+        "name": "craft_sounds/sound2",
+        "stream": false
+      },
+      {
+        "name": "craft_sounds/sound3",
+        "stream": false
+      },
+      {
+        "name": "craft_sounds/sound4",
+        "stream": false
+      },
+      {
+        "name": "craft_sounds/sound5",
+        "stream": false
+      },
+      {
+        "name": "craft_sounds/sound6",
+        "stream": false
+      }
+    ]
+  },
+
+  "sword_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "tools_sounds/sword1",
+        "stream": false
+      }
+    ]
+  },
+
+  "tools_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "tools_sounds/tools1",
+        "stream": false
+      },
+      {
+        "name": "tools_sounds/tools2",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.beach_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/beach/coastbird1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/beach/coastbird2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/beach/coastbird3",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/beach/gull1",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/beach/gull2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/beach/ocean1",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/beach/ocean2",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.desert_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/desert/wind1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/desert/wind2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/desert/wind3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/desert/wind4",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/desert/wind5",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.forest_day_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/forest/day/bird1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/day/bird2",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.forest_night_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/forest/night/critter1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter4",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter5",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter6",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter7",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/critter8",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl1",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl2",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl3",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl4",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl5",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl6",
+        "stream": false        
+      },
+      {
+        "name": "ambient_sounds/forest/night/owl7",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.snow_day_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/snow/day/snow1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/day/snow2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/day/snow3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/day/snow4",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/day/snow5",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/day/snow6",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.snow_night_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/snow/night/howl1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/night/howl2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/night/howl3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/snow/night/windnight1",
+        "stream": false        
+      }
+    ]
+  },
+
+  "survival.sounds.swamp_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/swamp/flies1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/swamp/frog1",
+        "stream": false        
+      }
+    ]
+  },
+
+  "survival.sounds.jungle_day_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/jungle/day/day1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/day2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/day3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/day4",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/day5",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/day6",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/gibbon1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/gibbon2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/gibbon3",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/day/gibbon4",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.jungle_night_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/jungle/night/night1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/jungle/night/night2",
+        "stream": false
+      }
+    ]
+  },
+
+  "survival.sounds.the_end_sounds.play": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "ambient_sounds/end/suspense1",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/end/suspense2",
+        "stream": false
+      },
+      {
+        "name": "ambient_sounds/end/suspense3",
+        "stream": false
+      }
+    ]
+  },
+
+  "entity.arrow.shoot": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "thewii:immersive/random/bow",
+        "weight": 2146473647,
+        "volume": 1.5
+      }
+    ]
+  },
+
+  "weather.rain": {
+    "category": "weather",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/rain1",
+        "volume": 0.2
+      },
+      {
+        "name": "minecraft:ambient/weather/rain2",
+        "stream": false
+      },
+      {
+        "name": "minecraft:ambient/weather/rain3",
+        "stream": false
+      },
+      {
+        "name": "minecraft:ambient/weather/rain4",
+        "stream": false
+      }
+    ]
+  },
+    
+  "weather.rain.above": {
+    "category": "weather",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/rain1",
+        "volume": 0.2
+      },
+      {
+        "name": "minecraft:ambient/weather/rain2",
+        "stream": false
+      },
+      {
+        "name": "minecraft:ambient/weather/rain3",
+        "stream": false
+      },
+      {
+        "name": "minecraft:ambient/weather/rain4",
+        "stream": false
+      }
+    ]
+  },
+
+  "entity.zombie.ambient": {
+    "sounds": [
+      "mob/zombie/say1",
+      "mob/zombie/say2",
+      "mob/zombie/say3"
+      ],
+    "subtitle": "subtitles.entity.zombie.ambient"
+  },
+   
+  "entity.zombie.attack_iron_door": {
+    "sounds": [
+      "mob/zombie/metal1",
+      "mob/zombie/metal2",
+      "mob/zombie/metal3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+
+  "entity.zombie.attack_wooden_door": {
+    "sounds": [
+      "mob/zombie/wood1",
+      "mob/zombie/wood2",
+      "mob/zombie/wood3",
+      "mob/zombie/wood4"
+    ],
+    "subtitle": "subtitles.entity.zombie.attack_wooden_door"
+  },
+
+  "entity.zombie.break_wooden_door": {
+    "sounds": [
+      "mob/zombie/woodbreak"
+    ],
+    "subtitle": "subtitles.entity.zombie.break_wooden_door"
+  },
+
+  "entity.zombie.converted_to_drowned": {
+    "sounds": [
+      "mob/drowned/convert1",
+      "mob/drowned/convert2",
+      "mob/drowned/convert3"
+    ],
+    "subtitle": "subtitles.entity.zombie.converted_to_drowned"
+  },
+   
+  "entity.zombie.death": {
+    "sounds": [
+      "mob/zombie/death"
+    ],
+    "subtitle": "subtitles.entity.zombie.death"
+  },
+
+  "entity.zombie.destroy_egg": {
+    "sounds": [
+      "mob/turtle/egg/jump_egg1",
+      "mob/turtle/egg/jump_egg2",
+      "mob/turtle/egg/jump_egg3",
+      "mob/turtle/egg/jump_egg4"
+    ],
+    "subtitle": "subtitles.entity.zombie.destroy_egg"
+  },
+
+  "entity.zombie.hurt": {
+    "sounds": [
+      "mob/zombie/hurt1",
+      "mob/zombie/hurt2"
+    ],
+    "subtitle": "subtitles.entity.zombie.hurt"
+  },
+
+  "entity.zombie.infect": {
+    "sounds": [
+      "mob/zombie/infect"
+    ],
+    "subtitle": "subtitles.entity.zombie.infect"
+  },
+    
+  "entity.zombie.step": {
+    "sounds": [
+      "mob/zombie/step1",
+      "mob/zombie/step2",
+      "mob/zombie/step3",
+      "mob/zombie/step4",
+      "mob/zombie/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+
+  "entity.skeleton.ambient": {
+    "sounds": [
+      "mob/skeleton/say1",
+      "mob/skeleton/say2",
+      "mob/skeleton/say3"
+    ],
+    "subtitle": "subtitles.entity.skeleton.ambient"
+  },
+
+  "entity.skeleton.death": {
+    "sounds": [
+      "mob/skeleton/death"
+    ],
+    "subtitle": "subtitles.entity.skeleton.death"
+  },
+
+  "entity.skeleton.hurt": {
+    "sounds": [
+      "mob/skeleton/hurt1",
+      "mob/skeleton/hurt2",
+      "mob/skeleton/hurt3",
+      "mob/skeleton/hurt4"
+    ],
+    "subtitle": "subtitles.entity.skeleton.hurt"
+  },
+    
+  "entity.skeleton.shoot": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "thewii:immersive/random/bow",
+        "weight": 2146473647,
+        "volume": 1.5
+      }
+    ]
+  },
+    
+  "entity.skeleton.step": {
+    "sounds": [
+      "mob/skeleton/step1",
+      "mob/skeleton/step2",
+      "mob/skeleton/step3",
+      "mob/skeleton/step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+    
+  "entity.player.attack.sweep": {
+    "sounds": [
+      {
+        "name": "entity/player/attack/sweep1",
+        "volume": 0.7
+      },
+      {
+        "name": "entity/player/attack/sweep2",
+        "volume": 0.7
+      },
+      {
+          "name": "entity/player/attack/sweep3",
+          "volume": 0.7
+      },
+      {
+        "name": "entity/player/attack/sweep4",
+        "volume": 0.7
+      },
+      {
+        "name": "entity/player/attack/sweep5",
+        "volume": 0.7
+      },
+      {
+        "name": "entity/player/attack/sweep6",
+        "volume": 0.7
+      },
+      {
+        "name": "entity/player/attack/sweep7",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.entity.player.attack.sweep"
+  }
+}

@@ -1,0 +1,185 @@
+info:
+  namespace: betterranks
+font_images:
+  altin:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/gold_ingot.png"
+    scale_ratio: 11
+    y_position: 10
+  kupab:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kupab.png"
+    scale_ratio: 10
+    y_position: 9
+  kupa:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kupa.png"
+    scale_ratio: 10
+    y_position: 9
+  pusula:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/compass_00.png"
+    scale_ratio: 11
+    y_position: 9
+  saat:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/clock_00.png"
+    scale_ratio: 10
+    y_position: 9
+  dunya:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/dunya.png"
+    scale_ratio: 12
+    y_position: 8
+  discordduyuru:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/discord_duyuru.png"
+    scale_ratio: 64
+    y_position: 8
+  hatabordo:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_bordo.png"
+    scale_ratio: 9
+    y_position: 8
+  hatasari:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_sari.png"
+    scale_ratio: 9
+    y_position: 8
+  hatayesil:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_yesil.png"
+    scale_ratio: 9
+    y_position: 8
+  hatamor:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_mor.png"
+    scale_ratio: 9
+    y_position: 8
+  hatakirmizi:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_kirmizi.png"
+    scale_ratio: 9
+    y_position: 8
+  hatagri:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/hata_gri.png"
+    scale_ratio: 9
+    y_position: 8
+  afk:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/afk.png"
+    scale_ratio: 9
+    y_position: 8
+  gvip:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/gvip.png"
+    scale_ratio: 9
+    y_position: 8
+  mvip:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/mvip.png"
+    scale_ratio: 9
+    y_position: 8
+  vip:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vip.png"
+    scale_ratio: 9
+    y_position: 8
+  kurucu:
+    permission: "betterranks.kurucu"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kurucu.png"
+    scale_ratio: 8
+    y_position: 7
+  tablogo:
+    permission: "betterranks.tablogo"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/tablogo.png"
+    scale_ratio: 96
+    y_position: 32
+  admin:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/admin.png"
+    scale_ratio: 9
+    y_position: 8
+  mod:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/mod.png"
+    scale_ratio: 9
+    y_position: 8
+  rehber:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/rehber.png"
+    scale_ratio: 9
+    y_position: 8
+  oyuncu:
+    permission: "betterranks.player"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/oyuncu.png"
+    scale_ratio: 9
+    y_position: 8
+  mimar:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/builder.png"
+    scale_ratio: 9
+    y_position: 8
+  youtube:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/youtube.png"
+    scale_ratio: 9
+    y_position: 8
+  yayinci:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/yayinci.png"
+    scale_ratio: 9
+    y_position: 8

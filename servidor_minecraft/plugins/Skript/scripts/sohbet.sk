@@ -1,0 +1,43 @@
+command /clearchat:
+	permission: sohbet.sil
+	permission message: &x&3&d&f&b&f&5&lFieryProject &7↬ &eNo permission
+	trigger:
+		set {kilitli} to true
+		loop 15 times:
+			send "" to players
+		send "                              &8MineGTA" to players
+		send "" to players
+		wait 6 tick
+		loop 20 times:
+			send "" to players
+		send "                              &eMine&8GTA" to players
+		send "" to players
+		wait 6 tick
+		loop 30 times:
+			send "" to players
+		send "                              &eMine&8GTA" to players
+		send "" to players
+		wait 6 tick
+		loop 40 times:
+			send "" to players
+		send "                              &eMine&8GTA" to players
+		send "" to players
+		wait 6 tick
+		loop 50 times:
+			send "" to players
+		send "                              &eMineGTA" to players
+		send "" to players
+		set {kilitli} to false
+
+
+command /discord:
+    aliases: dc
+    trigger:
+        message "&9▇▇▇▇▇▇▇▇"
+        message "&9▇&f▇▇&9▇▇&f▇▇&9▇"
+        message "&9▇&f▇▇▇▇▇▇&9▇         &b&l&nDiscord&b&l:"
+        message "&9▇&f▇&9▇&f▇▇&9▇&f▇&9▇"
+        message "&9▇&f▇▇▇▇▇▇&9▇  &eDiscord.gg/discord &6Join our discord server!"
+        message "&9▇&f▇&9▇▇▇▇&f▇&9▇"
+        message "&9▇&f▇▇&9▇▇&f▇▇&9▇"
+        message "&9▇▇&9▇▇▇▇▇▇"

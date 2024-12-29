@@ -1,0 +1,96 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dBettingGames'
+
+type: CHEST_3_ROW
+
+contents:
+
+  # border (use global item)
+  - global@dynamic_border_3
+
+  # ranking for all games
+  - type: BG_GUI_GAMES_RANKING
+    games:
+      - default_crash
+      - default_jackpot
+      - default_roulette
+      - default_coinflip
+      - default_rockpaperscissors
+      - default_bargamble
+      - default_upgrade
+    locations: [4, 22]
+    persistent: true
+    icon:
+      type: NETHER_STAR
+      name: '&6Global ranking'
+      lore: |
+        &7Ranking for all games
+
+  # games
+  - type: BG_GAME
+    game: default_crash
+    locations: 10
+    icon:
+      type: ANVIL
+      name: '&dCrash'
+      lore: |
+        &7Currently playing : {players_playing}
+        &7Waiting : {players_waiting}
+        &7Next game in : {starts_in}
+  - type: BG_GAME
+    game: default_jackpot
+    locations: 11
+    icon:
+      type: GOLD_INGOT
+      name: '&dJackpot'
+      lore: |
+        &7Currently playing : {players_playing}
+        &7Waiting : {players_waiting}
+        &7Next game in : {starts_in}
+  - type: BG_GAME
+    game: default_roulette
+    locations: 12
+    icon:
+      type: RED_WOOL
+      name: '&dRoulette'
+      lore: |
+        &7Currently playing : {players_playing}
+        &7Waiting : {players_waiting}
+        &7Next game in : {starts_in}
+  - type: BG_GAME
+    game: default_coinflip
+    locations: 13
+    icon:
+      type: EMERALD
+      name: '&dCoin flip'
+      lore: |
+        &7Currently playing : {players_playing}
+        &7Waiting : {players_waiting}
+  - type: BG_GAME
+    game: default_rockpaperscissors
+    locations: 14
+    icon:
+      type: COBBLESTONE
+      name: '&dRock Paper Scissors'
+      lore: |
+        &7Currently playing : {players_playing}
+        &7Waiting : {players_waiting}
+  - type: BG_GAME
+    game: default_bargamble
+    locations: 15
+    icon:
+      type: POTION
+      potion_type: FIRE_RESISTANCE
+      name: '&dBar Gamble'
+      flags: [HIDE_POTION_EFFECTS]
+  - type: BG_GAME
+    game: default_upgrade
+    locations: 16
+    icon:
+      type: DIAMOND_SWORD
+      name: '&dUpgrade'
+      flags: [HIDE_ATTRIBUTES]

@@ -1,0 +1,6 @@
+#PvPTimer v1.1 by DrPiggy! DO NOT REDISTRIBUTE!
+#
+#Time in seconds.
+protect_time: 1800
+#Show how much time left in action bar. (Above hotbar)
+action_bar: true

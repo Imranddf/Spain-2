@@ -1,0 +1,24 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dItems preview'
+type: CHEST_3_ROW
+
+bet_item_add_lore: |
+  &r
+  &7Bet amount : {amount}
+
+contents:
+
+  # border (use global item)
+  - global@dynamic_border_3
+
+  # back item (over border)
+  - locations: 18
+    persistent: true
+    type: BACK
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8Go back'

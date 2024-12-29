@@ -1,0 +1,20 @@
+location: Spawn:-31.474:65.500:25.493
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 185.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: BEE'
+    height: 0.7
+  - content: ''
+    height: 0.5
+  - content: '&x&f&b&e&a&0&6&lGEZGIN'
+    height: 0.5
+  - content: '&x&f&0&f&1&d&cSunucu bölgelerine kısa yoldan bu'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cmenüden kolaylıkla ulaşabilirsiniz.'
+    height: 0.3
+  actions: {}

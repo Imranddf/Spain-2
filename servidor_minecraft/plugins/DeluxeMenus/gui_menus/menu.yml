@@ -1,0 +1,454 @@
+menu_title: '&f⊍⋈'
+open_command:
+- bilgi
+- menu
+- menü
+- yardım
+- help
+- helps
+size: 45
+items:
+  '1':
+    material: structure_void
+    slot: 0
+    display_name: '&eGeneral information and commands'
+    lore:
+      - ''
+      - '&7All general and useful commands'
+      - '&7related to server and'
+      - '&7game are written here.'
+      - ''
+      - '&7⊬ &e/info'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[openguimenu] infosw'
+    right_click_commands:
+      - '[openguimenu] infosw'
+  '2':
+    material: structure_void
+    slot: 1
+    display_name: '&eGeneral information and commands'
+    lore:
+      - ''
+      - '&7All general and useful commands'
+      - '&7related to server and'
+      - '&7game are written here.'
+      - ''
+      - '&7⊬ &e/info'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[openguimenu] infosw'
+    right_click_commands:
+      - '[openguimenu] infosw'
+  '3':
+    material: structure_void
+    slot: 9
+    display_name: '&eGeneral information and commands'
+    lore:
+      - ''
+      - '&7All general and useful commands'
+      - '&7related to server and'
+      - '&7game are written here.'
+      - ''
+      - '&7⊬ &e/info'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[openguimenu] infosw'
+    right_click_commands:
+      - '[openguimenu] infosw'
+  '4':
+    material: structure_void
+    slot: 10
+    display_name: '&eGeneral information and commands'
+    lore:
+      - ''
+      - '&7All general and useful commands'
+      - '&7related to server and'
+      - '&7game are written here.'
+      - ''
+      - '&7⊬ &e/info'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[openguimenu] infosw'
+    right_click_commands:
+      - '[openguimenu] infosw'
+  '5':
+    material: structure_void
+    slot: 3
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan'
+  '6':
+    material: structure_void
+    slot: 4
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan'
+  '7':
+    material: structure_void
+    slot: 5
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan' 
+  '8':
+    material: structure_void
+    slot: 12
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan'
+  '9':
+    material: structure_void
+    slot: 13
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan'
+  '10':
+    material: structure_void
+    slot: 14
+    display_name: '&eCaptain'
+    lore:
+      - ''
+      - '&7You can travel to new regions'
+      - '&7with the captain to'
+      - '&7gather resources.'
+      - ''
+      - '&7⊬ &e/Captain'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] kaptan'
+    right_click_commands:
+      - '[player] kaptan'       
+  '11':
+    material: structure_void
+    slot: 7
+    display_name: '&eMarket Place'
+    lore:
+      - ''
+      - '&7Player trading menu'
+      - ''
+      - '&7⊬ &e/ah help'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ah'
+    right_click_commands:
+      - '[player] ah'
+  '12':
+    material: structure_void
+    slot: 8
+    display_name: '&eMarket Place'
+    lore:
+      - ''
+      - '&7Player trading menu'
+      - ''
+      - '&7⊬ &e/ah help'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ah'
+    right_click_commands:
+      - '[player] ah'
+  '13':
+    material: structure_void
+    slot: 16
+    display_name: '&eMarket Place'
+    lore:
+      - ''
+      - '&7Player trading menu'
+      - ''
+      - '&7⊬ &e/ah help'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ah'
+    right_click_commands:
+      - '[player] ah'
+  '14':
+    material: structure_void
+    slot: 17
+    display_name: '&eMarket Place'
+    lore:
+      - ''
+      - '&7Player trading menu'
+      - ''
+      - '&7⊬ &e/ah help'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ah'
+    right_click_commands:
+      - '[player] ah'       
+  '15':
+    material: structure_void
+    slot: 27
+    display_name: '&eVIP'
+    lore:
+      - ''
+      - '&7You can use this menu to get information'
+      - '&7about VIP subscriptions and features.'
+      - ''
+      - '&7⊬ &e/vip'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] vip'
+    right_click_commands:
+      - '[player] vip'
+  '16':
+    material: structure_void
+    slot: 28
+    display_name: '&eVIP'
+    lore:
+      - ''
+      - '&7You can use this menu to get information'
+      - '&7about VIP subscriptions and features.'
+      - ''
+      - '&7⊬ &e/vip'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] vip'
+    right_click_commands:
+      - '[player] vip'
+  '17':
+    material: structure_void
+    slot: 36
+    display_name: '&eVIP'
+    lore:
+      - ''
+      - '&7You can use this menu to get information'
+      - '&7about VIP subscriptions and features.'
+      - ''
+      - '&7⊬ &e/vip'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] vip'
+    right_click_commands:
+      - '[player] vip'
+  '18':
+    material: structure_void
+    slot: 37
+    display_name: '&eVIP'
+    lore:
+      - ''
+      - '&7You can use this menu to get information'
+      - '&7about VIP subscriptions and features.'
+      - ''
+      - '&7⊬ &e/vip'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] vip'
+    right_click_commands:
+      - '[player] vip'
+  '19':
+    material: structure_void
+    slot: 30
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'
+  '20':
+    material: structure_void
+    slot: 31
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'
+  '21':
+    material: structure_void
+    slot: 32
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'
+  '22':
+    material: structure_void
+    slot: 39
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'
+  '23':
+    material: structure_void
+    slot: 40
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'
+  '24':
+    material: structure_void
+    slot: 41
+    display_name: '&eRanks'
+    lore:
+      - ''
+      - '&7Information menu about ranks'
+      - ''
+      - '&7⊬ &e/ranks'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] ranks'
+    right_click_commands:
+      - '[player] ranks'      
+  '25':
+    material: structure_void
+    slot: 34
+    display_name: '&eWarps'
+    lore:
+      - ''
+      - '&7How about a fast trip?'
+      - ''
+      - '&7⊬ &e/taxi'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] taxi'
+    right_click_commands:
+      - '[player] taxi'
+  '26':
+    material: structure_void
+    slot: 35
+    display_name: '&eWarps'
+    lore:
+      - ''
+      - '&7How about a fast trip?'
+      - ''
+      - '&7⊬ &e/taxi'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] taxi'
+    right_click_commands:
+      - '[player] taxi'
+  '27':
+    material: structure_void
+    slot: 43
+    display_name: '&eWarps'
+    lore:
+      - ''
+      - '&7How about a fast trip?'
+      - ''
+      - '&7⊬ &e/taxi'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] taxi'
+    right_click_commands:
+      - '[player] taxi'
+  '28':
+    material: structure_void
+    slot: 44
+    display_name: '&eWarps'
+    lore:
+      - ''
+      - '&7How about a fast trip?'
+      - ''
+      - '&7⊬ &e/taxi'
+      - ''
+      - '&e• &aClick to access.'
+    left_click_commands:
+      - '[player] taxi'
+    right_click_commands:
+      - '[player] taxi'       

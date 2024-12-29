@@ -1,0 +1,43 @@
+locations:
+  kaptan:
+    world: Spawn
+    x: -5
+    y: 63
+    z: 28
+    particle: Witch
+  yeteneknpc:
+    world: Spawn
+    x: -15
+    y: 65
+    z: 12
+    particle: Spiral
+  vipnpc:
+    world: Spawn
+    x: -16
+    y: 64
+    z: -3
+    particle: DoubleWitch
+  menu:
+    world: Spawn
+    x: 0
+    y: 65
+    z: -7
+    particle: Spiral
+  ilan:
+    world: Spawn
+    x: -32
+    y: 64
+    z: -1
+    particle: Witch
+  marketnpc:
+    world: Spawn
+    x: 17
+    y: 62
+    z: 38
+    particle: DoubleWitch
+  gezgin:
+    world: Spawn
+    x: -32
+    y: 60
+    z: 25
+    particle: Witch

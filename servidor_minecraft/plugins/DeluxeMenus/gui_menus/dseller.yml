@@ -1,0 +1,77 @@
+    menu_title: '&c            &c&nDrug Seller'
+    open_command:
+    - dseller
+    size: 9
+    items:
+      '0':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&f'
+      '1':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 1
+        display_name: '&f'
+      '2':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 2
+        display_name: '&f'
+      '3':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 3
+        display_name: '&f'
+      '4':
+        material: LARGE_FERN
+        slot: 4
+        display_name: '&aWeed seed'
+        lore:
+        - '&7Used to plant a Weed plant.'
+        - ''
+        - '&7Can be planted on:'
+        - '&8- &7Soil'
+        - ''
+        - '&7(&8Right Click&7) &7to plant'  
+        - '&7Price &8» &2&n1000$'
+        - ''
+        - '&f&o頁'        
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1000
+              deny_commands:
+              - '[message] &6Drug Seller &8> &7You need &c$1000 &7to buy &cWeed Seed&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1000
+              deny_commands:
+              - '[message] &6Drug Seller &8> &7You need &c$1000 &7to buy &cWeed Seed&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 1000'
+        - '[console] dr seed give %player_name% weed 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Drug Seller &8> &fYou bought &aWeed Seed &ffor &a$1000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 1000'
+        - '[console] dr seed give %player_name% weed 1'  # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Drug Seller &8> &fYou bought &aWeed Seed &ffor &a$1000&f.'
+        - '[close]'
+      '5':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 5
+        display_name: '&f'
+      '6':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 6
+        display_name: '&f'
+      '7':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&f'
+      '8':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 8
+        display_name: '&f'

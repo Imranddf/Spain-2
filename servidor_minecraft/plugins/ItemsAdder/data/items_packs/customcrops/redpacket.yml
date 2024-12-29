@@ -1,0 +1,168 @@
+info:
+  namespace: customcrops
+items:
+  redpacket_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_stage_6:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/stage_6
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  redpacket_seeds:
+    display_name: "Red Packet Tree Seed"
+    #display_name: 摇钱树种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/redpacket_seeds
+  redpacket:
+    display_name: "Red Packet"
+    #display_name: 红包
+    resource:
+      generate: false
+      material: PAPER
+      model_path: redpacket/redpacket
+    events:
+      interact:
+        right:
+          execute_commands:
+            cmd1:
+              command: 'money give {player} 5'
+              as_console: true
+              delay: 0
+          decrement_amount:
+            amount: 1 
+loots:
+  blocks:
+    redpacket_stage_1:
+      type: customcrops:redpacket_stage_1
+      items:
+        result_1:
+          item: customcrops:redpacket_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    redpacket_stage_2:
+      type: customcrops:redpacket_stage_2
+      items:
+        result_1:
+          item: customcrops:redpacket_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    redpacket_stage_3:
+      type: customcrops:redpacket_stage_3
+      items:
+        result_1:
+          item: customcrops:redpacket_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    redpacket_stage_4:
+      type: customcrops:redpacket_stage_4
+      items:
+        result_1:
+          item: customcrops:redpacket_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    redpacket_stage_5:
+      type: customcrops:redpacket_stage_5
+      items:
+        result_1:
+          item: customcrops:redpacket_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100

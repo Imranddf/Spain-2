@@ -1,0 +1,80 @@
+menu_title: '&f⊍≛'
+size: 54
+open_command: 
+- vip
+- vips
+- vipbilgi
+items:  
+  'firavun':
+    display_name: '&f'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdmYjcxM2JkZjM5ZGZmZjM4MDU1MjE4MmU0N2RjYmFhNjYzNjJhNDMzYTQwNmI0NTU0MTBhNjM0MzZiYjlhYiJ9fX0=
+    slot: 22
+    lore:
+    - ''
+    - '&7↬ &#e5fbaeÖzellikler:'
+    - ''   
+    - '&#afafaf• &a6x &asethome &fPermission'
+    - '&#afafaf• &fInstant teleportation' 
+    - '&#afafaf• &fSpecial Kit &a(/kit sponsor)'
+    - ''
+    - '&7↬ &#e5fbaeAwards:'
+    - '&#afafaf• &fGangster Crate Key &7(x2)'
+    - '&#afafaf• &fPremium Crate Key &7(x2)'
+    - ''  
+    - '&7↬ &#e5fbaePrice: &axx Dollar' 
+    - '&7↬ &#e5fbaeDuration: &a30 Day' 
+    left_click_commands:
+    - '[close]'
+    - '[message] &f'
+    - '[message] &aWebsite: &ehttps://www.website.com/shop'
+    - '[message] &f'
+    right_click_commands:
+    - '[close]'
+    - '[message] &f'
+    - '[message] &aWebsite: &ehttps://www.website.com/shop'
+    - '[message] &f'    
+  'geri':
+    material: structure_void
+    slot: 39
+    display_name: '&eBack to Main Menu'
+    lore:
+      - ''
+      - '&fTo return to the main menu'
+      - '&fyou can use this.'
+      - ''
+      - '&e• &aClick to return.'
+    left_click_commands:
+      - '[player] menu'
+      - '[close]'
+    right_click_commands:
+      - '[player] menu'
+      - '[close]'
+  'kapat':
+    material: structure_void
+    slot: 40
+    display_name: '&cClose Menu'
+    lore:
+      - ''
+      - '&fYou can use this to completely close'
+      - '&fthe menu you are in.'
+      - ''
+      - '&e• &aClick to close.'
+    left_click_commands:
+      - '[close]'
+    right_click_commands:
+      - '[close]'
+  'ayarlar':
+    material: structure_void
+    slot: 41
+    display_name: '&eYour account configuration'
+    lore:
+      - ''
+      - '&fAccount settings'
+      - ''
+      - '&e• &aClick to access'
+    left_click_commands:
+      - '[player] ayarlar'
+      - '[close]'
+    right_click_commands:
+      - '[player] ayarlar'     
+      - '[close]'     

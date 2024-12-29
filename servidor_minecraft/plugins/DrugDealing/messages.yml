@@ -1,0 +1,99 @@
+ingame_prefix: "[Drugs]" #Prefix showed ingame
+
+messages:
+  only_players_command:
+    text: "Only players can execute this command" #When a command is executed by an entity that isn't a player
+    prefix_color: ""
+  unexpected_error:
+    text: "Unexpected error occurred!" #If something goes wrong
+    prefix_color: "&c"
+  invalid_permission:
+    text: "You don't have the permission to do this" #If the player hasn't the permission to interact with a part of the plugin
+    prefix_color: "&c"
+  page_not_found:
+    text: "Page not found" #When a player is searching for a help page that doesn't exist
+    prefix_color: "&c"
+  invalid_surface:
+    text: "Plants need to be placed on farmland" #If a plant is planted on an invalid terrain
+    prefix_color: "&c"
+  consumed_coke:
+    text: "You consumed cocaine" #When a player consumes coke drug
+    prefix_color: "&a"
+  planted_coke:
+    text: "You planted a coke plant!" #The message shown when a coke plant is planted
+    prefix_color: "&a"
+  planted_weed:
+    text: "You planted a weed plant!" #The message shown when a weed plant is planted
+    prefix_color: "&a"
+  received_coke_plant:
+    text: "You received a coke plant!" #The message shown when a coke plant is received
+    prefix_color: "&a"
+  received_weed_plant:
+    text: "You received a weed plant!" #The message shown when a weed plant is received
+    prefix_color: "&a"
+  received_coke_drug:
+    text: "You received cocaine!" #Shown when cocaine is received
+    prefix_color: "&a"
+  received_weed_drug:
+    text: "You received weed!" #Shown when weed is received
+    prefix_color: "&a"
+  cannot_grow_weed:
+    text: "You cannot make a weed plant grow with bone meal!" #If a player tries to make a weed plant grow with bone meal
+    prefix_color: "&c"
+  spawned_dealer:
+    text: "You spawned a drug dealer!" #If the player spawns a drug dealer NPC
+    prefix_color: "&a"
+  spawned_producer:
+    text: "You spawned a drug producer!" #If the player spawns a drug producer NPC
+    prefix_color: "&a"
+  name_too_long:
+    text: "The selected name is too long!" #If the given name to an NPC is too long
+    prefix_color: "&c"
+  npc_drug_not_accepted:
+    text: "I do not accept <DRUG-NAME>" #If the NPC doesn't accept a drug type
+    prefix_color: "&c"
+  cannot_sell_plants:
+    text: "Plants cannot be sold! Sell me refined drugs" #If a player tries to sell an NPC drug plants
+    prefix_color: "&c"
+  dealer_wrong_item:
+    text: "To sell drugs right click me with drugs in the main hand" #When a player tries to sell a dealer a wrong item
+    prefix_color: "&a"
+  dealer_bought_item:
+    text: "You sold one <DRUG-NAME> item for <PRICE>" #When a player sells a drug to a drug dealer
+    prefix_color: "&a"
+  dealer_bought_item_plural:
+    text: "You sold <AMOUNT> <DRUG-NAME> items for <PRICE>" #When a player sells drugs to a drug dealer
+    prefix_color: "&a"
+  producer_wrong_item:
+    text: "To make me produce drugs for you right click me with drug plants in the main hand" #When a player tries to interact with a producer with a wrong item
+    prefix_color: "&a"
+  producer_invalid_balance:
+    text: "You don't have enough money! You need <PRICE>" #When a player's balance is too low, leave '<PRICE>' in the message to make the player know how much will cost the conversion
+    prefix_color: "&c"
+  producer_converted_drug:
+    text: "You converted one <PLANT-NAME> item to one <DRUG-NAME> item for <PRICE>" #When a player correctly utilize a Producer NPC
+    prefix_color: "&a"
+  producer_converted_drug_plural:
+    text: "You converted <AMOUNT> <PLANT-NAME> items to <AMOUNT> <DRUG-NAME> items for <PRICE>" #When a player correctly utilize a Producer NPC
+    prefix_color: "&a"
+  right_click_npc_to_delete:
+    text: "Right click a criminal to remove him" #When executed correctly /removenpc command
+    prefix_color: "&a"
+  remove_dealer_invalid_permission:
+    text: "You don't have the permission to delete a Dealer NPC" #When a player cannot delete a delaer NPC
+    prefix_color: "&c"
+  remove_producer_invalid_permission:
+    text: "You don't have the permission to delete a Producer NPC" #When a player cannot delete a producer NPC
+    prefix_color: "&c"
+  removenpc_time_is_up:
+    text: "Cancelling /<COMMAND> command: Time is up" #Whem the given one minute timeout ends without the command being executed
+    prefix_color: "&c"
+  removenpc_success:
+    text: "Criminal removed successfully" #When an NPC gets deleted successfully
+    prefix_color: "&a"
+
+keywords:
+  coke_plant_name: "&aCoke Plant" #The name that the coke plant item will get in-game
+  weed_plant_name: "&aWeed Plant" #The name that the weed plant item will get in-game
+  coke_drug_name: "&aCocaine" #The name that the coke item will get in-game
+  weed_drug_name: "&aWeed" #The name that the weed item will get in-game

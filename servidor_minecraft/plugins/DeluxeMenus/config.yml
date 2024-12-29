@@ -1,0 +1,143 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  ayarlarr:
+    menu_title: Account settings
+    open_command:
+    - ayarlar
+    - ayar
+    - settings
+    - setting
+    size: 27
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkODc0ZWI4YzRjNjk3YjNmODMyYmQ4NzQ0MjZmZGY2ZDIxYmFlMzM5ZjMxNzExMDgxZmRlNTk4MzgzODZlMSJ9fX0=
+        display_name: '&aPrivate Messages'
+        slot: 10
+        lore:
+        - ''
+        - '&7• &eYou can block incoming private messages'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] msgtoggle'
+        right_click_commands:
+        - '[player] msgtoggle'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRkNDhhYzdlNjViOTE0Njc5MDRmMmY0ZDE1NDU1Njc3NmZmYTljZDJkNTI2YjEyYTA0OTliYjU5Y2M2NTZjNyJ9fX0=
+        display_name: '&aTeleport Requests'
+        slot: 11
+        lore:
+        - ''
+        - '&7• &eYou can block teleport requests coming to you.'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] tptoggle'
+        right_click_commands:
+        - '[player] tptoggle'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAyOWViYWM4OWYwYjEyODYyMTA4ZmYzMmNjY2IyMWYxZWEwNDNjNzgyZDliMTFkMDcyNDZmNTQ2ODMyNGU2ZCJ9fX0=
+        display_name: '&aScoreBoard'
+        slot: 12
+        lore:
+        - ''
+        - '&7• &eYou can turn the leaderboard on or off'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] skortablosu'
+        right_click_commands:
+        - '[player] skortablosu'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA5MjBiYjg5ZWQ3ZTA3NmMwMDI5YjhkZDk2ZDAwOTNiZWYyNDM1YmUyYmE2NDczODhhZDliYTJiNTZiMzUxMCJ9fX0=
+        display_name: '&aTrade Requeste &cNot active'
+        slot: 13
+        lore:
+        - ''
+        - '&7• &eYou can edit trade requests'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] takasengel'
+        right_click_commands:
+        - '[player] takasengel'
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQzYTNiY2JiZTRmZGEwY2ZjNTM4MGJhOGRiMThkMGRiZGU5NTNmODAzNTM3NmY2YjRkMzk3OWY2ODRkNWIwZCJ9fX0=
+        display_name: '&aTree Breaking Animation &cNot active'
+        slot: 14
+        lore:
+        - ''
+        - '&7• &eYou can turn tree animations on or off'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] ağaçengel'
+        right_click_commands:
+        - '[player] ağaçengel'
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA5Mjk5YTExN2JlZTg4ZDMyNjJmNmFiOTgyMTFmYmEzNDRlY2FlMzliNDdlYzg0ODEyOTcwNmRlZGM4MWU0ZiJ9fX0=
+        display_name: '&aRequest to Get Money'
+        slot: 15
+        lore:
+        - ''
+        - '&7• &eYou can turn players requests to send money on or off.'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] paytoggle'
+        right_click_commands:
+        - '[player] paytoggle'
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlZTAzYmE4NTBlYmJhMjE3MjFjYjMzN2Y3ZWRlYWI5YjBmYTYxNWE4NjJjNjg3MGNjOWM0ZDA1ZDRkMzJmYSJ9fX0=
+        display_name: '&aBossBar'
+        slot: 16
+        lore:
+        - ''
+        - '&7• &eYou can turn the bossbar on or off'
+        - ''
+        - '&6» &aYou can activate it with a left click.'
+        - '&6» &aYou can deactivate it with a right click.'
+        left_click_commands:
+        - '[player] ustmesaj'
+        right_click_commands:
+        - '[player] ustmesaj'
+  Menü:
+    file: menu.yml
+  vip:
+    file: vip.yml
+  Kit:
+    file: kit.yml
+  Rutbe:
+    file: rutbe.yml
+  Kaptan:
+    file: kaptan.yml
+  yetenek:
+    file: yetenekler.yml
+  money:
+    file: money.yml
+  taxi:
+    file: taxi.yml
+  ammunation:
+    file: ammunation.yml
+  dseller:
+    file: dseller.yml
+  infosw:
+    file: infosw.yml
+  gallery:
+    file: gallery.yml
+  fisher:
+    file: fisher.yml
+  baazar:
+    file: baazar.yml

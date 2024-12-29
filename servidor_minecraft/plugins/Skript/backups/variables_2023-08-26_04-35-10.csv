@@ -1,0 +1,10 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.6.2
+
+dailyreward::ee883890-2e3a-3839-abf8-f8ad8509c5bc, date, 810974696D657374616D70040000018A29189C3F
+kapat, boolean, 00
+player, offlineplayer, 810475756964800455554944820C6C656173745369674269747304A80F8F97375E6C140B6D6F7374536967426974730453B1737027DB3596
+time.qrzeus, long, 0000000000000018
+

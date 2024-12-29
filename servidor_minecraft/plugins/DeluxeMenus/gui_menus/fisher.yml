@@ -1,0 +1,214 @@
+    menu_title: '&c          &x&b&6&f&b&a&e&lFisher Shop&x&c&2&c&2&a&2&l'
+    open_command:
+    - fisher
+    size: 27
+    items:
+      '0':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&f'
+      '1':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 1
+        display_name: '&f'
+      '2':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 2
+        display_name: '&f'
+      '3':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 3
+        display_name: '&f'
+      '4':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 4
+        display_name: '&f'
+      '5':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 5
+        display_name: '&f'
+      '6':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 6
+        display_name: '&f'
+      '7':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&f'
+      '8':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 8
+        display_name: '&f'
+      'rod1':
+        material: FISHING_ROD
+        model_data: 10006
+        slot: 12
+        display_name: '&f&l• &x&F&F&9&9&F&9Holy Knight Fishing Rod &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&61000$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1000
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$1000 &fto buy &cHoly Knight Fishing Rod&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 1000
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$1000 &fto buy &cHoly Knight Fishing Rod&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 1000'
+        - '[console] iagive %player_name% holy_knight:holy_knight_fishing_rod 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aHoly Knight Fishing &ffor &a$1000&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 1000'
+        - '[console] iagive %player_name% holy_knight:holy_knight_fishing_rod 1'  # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aHoly Knight Fishing &ffor &a$1000&f.'
+        - '[close]'
+      'rod2':
+        material: FISHING_ROD
+        model_data: 10007
+        slot: 13
+        display_name: '    &f&l• &x&C&C&4&C&C&4Love Rod &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&6750$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 750
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$750 &fto buy &cLove Rod&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 750
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$750 &fto buy &cLove Rod&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 750'
+        - '[console] iagive %player_name% elitecreatures:valentines_animated_weapon_and_tool_set_v1_rod 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aLove Rod &ffor &a$750&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 750'
+        - '[console] iagive %player_name% elitecreatures:valentines_animated_weapon_and_tool_set_v1_rod 1'  # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aLove Rod &ffor &a$750&f.'
+        - '[close]'
+      'rod3':
+        material: FISHING_ROD
+        slot: 14
+        display_name: '   &f&l• &x&e&5&b&5&5&bClassic Rod &f&l•'
+        lore:
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&7Price &8»&f &x&e&6&e&6&6&6500$'
+        - '&x&f&b&a&a&4&c&n&o&l                    '
+        - ''
+        - '&f&o頁'
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 500
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$500 &fto buy &cFishing Rod&f.'
+              - '[close]'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: has money
+              amount: 500
+              deny_commands:
+              - '[message] &6Fisherman &8> &7You need &c$500 &fto buy &cFishing Rod&f.'
+              - '[close]'
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] give %player_name% fishing_rod 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aFishing Rod &ffor &a$500&f.'
+        - '[close]'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] give %player_name% fishing_rod 1'  # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+        - '[message] &6Fisherman &8> &fYou bought &aFishing Rod &ffor &a$500&f.'
+        - '[close]'
+      '271':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 9
+        display_name: '&f'
+      '272':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 10
+        display_name: '&f'
+      '273':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 11
+        display_name: '&f'
+      '274':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 15
+        display_name: '&f'
+      '27':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 26
+        display_name: '&f'
+      '275':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 16
+        display_name: '&f'
+      '276':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 17
+        display_name: '&f'
+      '28':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 18
+        display_name: '&f'
+      '29':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 19
+        display_name: '&f'
+      '30':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 20
+        display_name: '&f'
+      '3919':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 21
+        display_name: '&f'
+      '32':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 22
+        display_name: '&f'
+      '33':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 23
+        display_name: '&f'
+      '331':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 24
+        display_name: '&f'
+      '332':
+        material: LIGHT_GRAY_STAINED_GLASS_PANE
+        slot: 25
+        display_name: '&f'

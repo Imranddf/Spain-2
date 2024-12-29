@@ -1,0 +1,106 @@
+totem-first: false
+relivingTime: 10
+itemSteal: false
+disbleWorldsEnable: true
+enableWorldsEnable: false
+disableWorlds:
+- world1
+- world2
+- world3
+enableWorlds:
+- world1
+- world2
+- world3
+info:
+  scoreboard: true
+  title: false
+  chat: false(not implemented)
+messages:
+  reliving:
+    player: '&b&lFieryProject &7↬ &6<VICTIM> &eYou are healing the player named'
+    victim: '&b&lFieryProject &7↬ &6You are being healed by the <PLAYER>'
+  revivedSuccessfully:
+    player: ''
+    victim: ''
+  cancelReliving:
+    player: '&b&lFieryProject &7↬ &cyou stopped improving the <VICTIM>'
+    victim: '&b&lFieryProject &7↬ &c<PLAYER> &fstopped reviving you'
+  shotDown:
+    player: '&b&lFieryProject &7↬ &cYou killed &a<VICTIM>'
+    victim: '&b&lFieryProject &7↬ &cYou were killed by the &6<PLAYER>'
+  reload: The configuration was successfully reloaded.
+  blockedCommand: '&cBu komutu mevcut durumunuzda kullanamazsınız.'
+  noPermission: '&cyou do not have the permission <PERMISSION>'
+permissions:
+  revivePlayerEnablePermission: false
+  reviveVictimEnablePermission: false
+  itemStealPlayer: false
+  itemStealVictim: false
+sounds:
+  reliving: 1
+  noPermission: ENTITY_VILLAGER_NO
+  revivedSuccessfully: ENTITY_MAGMA_CUBE_JUMP
+commands-blacklist:
+- sethome
+- createhome
+- tpahere
+- tpaccept
+- tpyes
+- tpa
+- call
+- tpask
+- ehome
+- ehomes
+- esethome
+- ecreatehome
+- etpahere
+- etpaccept
+- etpyes
+- etpa
+- ecall
+- etpask
+- essentials:sethome
+- essentials:createhome
+- essentials:tpahere
+- essentials:tpaccept
+- essentials:tpyes
+- essentials:tpa
+- essentials:call
+- essentials:tpask
+- wtp
+- uspawn
+- utp
+- mtp
+- ftp
+scoreboard:
+  title: '&6&lFieryProject Revive'
+  status: '&fStatus: '
+  waiting: '&cWaiting'
+  reliving: '&aYou are getting better'
+  deathIn: '&fDying time: &a<TIME>'
+  invulnerableFor: '&fUntouchable &a<TIME>'
+  vulnerable: '&cvulnerable'
+playersConfig:
+  speed: 0.04
+title:
+  title: '&fStatus: <STATUS> <BAR>'
+  subTitle: '&fDying time: &a<DEATHTIME> &f<INVULNERABILITY>'
+potion:
+  enable: false
+  effect: BLINDNESS
+  level: 1
+delays:
+  deathDelay: 40
+  invulnerabilityDelay: 10
+relivedHealth: 0.5
+CitizensCompatibility:
+  enable: false
+  damagedNpc: false
+CrackShotCompatibility:
+  enable: false
+  useWeaponIfDamaged: false
+EnableForceDeath: true
+QualityArmoryCompatibility:
+  enable: false
+  useWeaponIfDamaged: false
+newVersionPremiumMessageDisable: true

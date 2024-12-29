@@ -1,0 +1,71 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dBet for {game} : {currency}'
+type: CHEST_4_ROW
+
+selectors:
+  10: 1
+  11: 10
+  12: 100
+  13: 1000
+  14: 10000
+  15: 100000
+  16: 1000000
+  19: -1
+  20: -10
+  21: -100
+  22: -1000
+  23: -10000
+  24: -100000
+  25: -1000000
+
+item_selector_add:
+  icon:
+    type: GREEN_WOOL
+    name: '&a+{amount}'
+    lore: |
+      &dLeft-click to add {amount}
+
+item_selector_withdraw:
+  icon:
+    type: RED_WOOL
+    name: '&c-{amount}'
+    lore: |
+      &dLeft-click to withdraw {amount}
+
+item_enter_chat:
+  locations: 31
+  persistent: true
+  icon:
+    type: COMMAND_BLOCK
+    name: '&eEnter value in chat'
+
+contents:
+
+  # current value
+  - locations: 4
+    persistent: true
+    icon:
+      type: PAPER
+      name: '&e{current}'
+      lore: |
+        &7Currently bet : &e{current}
+        &r
+        &dUse selectors to change amount
+      enchantments:
+        DAMAGE_ALL: 1  # fake enchantment to add glow
+      flags: [HIDE_ENCHANTS, HIDE_ATTRIBUTES]
+
+  # back item (over border)
+  - locations: 27
+    persistent: true
+    type: BACK
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8Go back'
+
+  # border (use global item)
+  - global@dynamic_border_4

@@ -1,0 +1,139 @@
+npc-data:
+  npc-25:
+    cooldown: 0
+    right-click-commands:
+    - '[player] kaptan'
+    left-click-commands: []
+    price: 0
+  npc-26:
+    cooldown: 0
+    right-click-commands:
+    - '[player] yetenek'
+    left-click-commands: []
+    price: 0
+  npc-27:
+    cooldown: 0
+    right-click-commands:
+    - '[player] vip'
+    left-click-commands: []
+    price: 0
+  npc-28:
+    cooldown: 0
+    right-click-commands:
+    - '[player] menu'
+    left-click-commands: []
+    price: 0
+  npc-30:
+    cooldown: 0
+    right-click-commands:
+    - '[player] shopgui'
+    left-click-commands: []
+    price: 0
+  npc-31:
+    cooldown: 0
+    right-click-commands:
+    - '[player] tuccar'
+    left-click-commands: []
+    price: 0
+  npc-41:
+    cooldown: 0
+    right-click-commands:
+    - '[emp] emp view'
+    left-click-commands: []
+    price: 0
+  npc-42:
+    cooldown: 0
+    right-click-commands:
+    - '[player] warp'
+    left-click-commands: []
+    price: 0
+  npc-90:
+    cooldown: 0
+    right-click-commands:
+    - '[player] taxi'
+    left-click-commands: []
+    price: 0
+  npc-91:
+    cooldown: 0
+    right-click-commands:
+    - '[player] gun'
+    left-click-commands: []
+    price: 0
+  npc-98:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dr sell'
+    left-click-commands: []
+    price: 0
+  npc-102:
+    cooldown: 0
+    right-click-commands:
+    - '[player] dseller'
+    left-click-commands: []
+    price: 0
+  npc-106:
+    cooldown: 0
+    right-click-commands:
+    - '[player] menu'
+    left-click-commands: []
+    price: 0
+  npc-107:
+    cooldown: 0
+    right-click-commands:
+    - '[player] infosw'
+    left-click-commands: []
+    price: 0
+  npc-92:
+    cooldown: 0
+    right-click-commands:
+    - '[player] gallery'
+    left-click-commands: []
+    price: 0
+  npc-108:
+    cooldown: 0
+    right-click-commands:
+    - '[player] shop'
+    left-click-commands: []
+    price: 0
+  npc-109:
+    cooldown: 0
+    right-click-commands:
+    - '[player] mp shop'
+    left-click-commands: []
+    price: 0
+  npc-110:
+    cooldown: 0
+    right-click-commands:
+    - '[player] wanted gui'
+    left-click-commands: []
+    price: 0
+  npc-111:
+    cooldown: 0
+    right-click-commands:
+    - '[player] fisher'
+    left-click-commands: []
+    price: 0
+  npc-105:
+    cooldown: 0
+    right-click-commands:
+    - '[player] captain'
+    left-click-commands: []
+    price: 0
+  npc-96:
+    cooldown: 0
+    right-click-commands:
+    - '[player] baazar'
+    left-click-commands: []
+    price: 0
+  npc-112:
+    cooldown: 0
+    right-click-commands:
+    - '[player] daily'
+    left-click-commands: []
+    price: 0
+  npc-113:
+    cooldown: 0
+    right-click-commands:
+    - '[player] job'
+    left-click-commands: []
+    price: 0

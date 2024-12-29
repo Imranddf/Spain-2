@@ -1,0 +1,10 @@
+Name: §c§lCosmetics Kasa Anahtarı
+Virtual: false
+Item:
+  Material: Paper
+  Amount: 1
+  Durability: 0
+  Name: '&FΘ &f   '
+  Custom_Model_Data: 10062
+  Item_Flags: []
+  Unbreakable: false

@@ -1,0 +1,135 @@
+info:
+  namespace: customcrops
+items:
+  pineapple_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  pineapple_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  pineapple_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  pineapple_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  pineapple_seeds:
+    display_name: "Pineapple Seeds"
+    #display_name: 菠萝种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/pineapple_seeds
+  pineapple:
+    display_name: "Pineapple"
+    #display_name: 菠萝
+    resource:
+      generate: false
+      material: APPLE
+      model_path: pineapple/pineapple
+  pineapple_silver_star:
+    display_name: "Pineapple (Silver Star)"
+    #display_name: 菠萝(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: pineapple/pineapple_silver_star
+  pineapple_golden_star:
+    display_name: "Pineapple (Golden Star)"
+    #display_name: 菠萝(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: pineapple/pineapple_golden_star
+  gigantic_pineapple:
+    display_name: "Overgrown Pineapple"
+    #display_name: 巨型菠萝
+    resource:
+      generate: false
+      material: PAPER
+      model_path: pineapple/gigantic_pineapple
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+loots:
+  blocks:
+    pineapple_stage_1:
+      type: customcrops:pineapple_stage_1
+      items:
+        result_1:
+          item: customcrops:pineapple_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    pineapple_stage_2:
+      type: customcrops:pineapple_stage_2
+      items:
+        result_1:
+          item: customcrops:pineapple_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    pineapple_stage_3:
+      type: customcrops:pineapple_stage_3
+      items:
+        result_1:
+          item: customcrops:pineapple_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

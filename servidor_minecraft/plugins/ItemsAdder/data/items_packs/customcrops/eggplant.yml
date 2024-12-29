@@ -1,0 +1,124 @@
+info:
+  namespace: customcrops
+items:
+  eggplant_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: eggplant/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  eggplant_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: eggplant/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  eggplant_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: eggplant/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  eggplant_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: eggplant/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  eggplant_seeds:
+    display_name: "Eggplant Seeds"
+    #display_name: 茄子种子
+    resource:
+      generate: false
+      material: PAPER
+      model_path: eggplant/eggplant_seeds
+  eggplant:
+    display_name: "Eggplant"
+    #display_name: 茄子
+    resource:
+      generate: false
+      material: APPLE
+      model_path: eggplant/eggplant
+  eggplant_silver_star:
+    display_name: "Eggplant (Silver Star)"
+    #display_name: 茄子(银星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: eggplant/eggplant_silver_star
+  eggplant_golden_star:
+    display_name: "Eggplant (Golden Star)"
+    #display_name: 茄子(金星)
+    resource:
+      generate: false
+      material: APPLE
+      model_path: eggplant/eggplant_golden_star
+loots:
+  blocks:
+    eggplant_stage_1:
+      type: customcrops:eggplant_stage_1
+      items:
+        result_1:
+          item: customcrops:eggplant_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    eggplant_stage_2:
+      type: customcrops:eggplant_stage_2
+      items:
+        result_1:
+          item: customcrops:eggplant_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true
+    eggplant_stage_3:
+      type: customcrops:eggplant_stage_3
+      items:
+        result_1:
+          item: customcrops:eggplant_seeds
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: true

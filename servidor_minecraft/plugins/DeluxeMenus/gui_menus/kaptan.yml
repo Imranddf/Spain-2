@@ -1,0 +1,188 @@
+    menu_title: '&f⊍⋔'
+    open_command:
+    - kaptan
+    - rtp
+    - captain
+    size: 27
+    items:
+      '1':
+        material: STRUCTURE_VOID
+        slot: 3
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '2':
+        material: STRUCTURE_VOID
+        slot: 4
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '3':
+        material: STRUCTURE_VOID
+        slot: 4
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]' 
+      '4':
+        material: STRUCTURE_VOID
+        slot: 5
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '5':
+        material: STRUCTURE_VOID
+        slot: 12
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '6':
+        material: STRUCTURE_VOID
+        slot: 13
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]' 
+      '7':
+        material: STRUCTURE_VOID
+        slot: 14
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '8':
+        material: STRUCTURE_VOID
+        slot: 21
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]' 
+      '9':
+        material: STRUCTURE_VOID
+        slot: 22
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+      '10':
+        material: STRUCTURE_VOID
+        slot: 23
+        display_name: '&6Source Island'
+        lore:
+        - ''
+        - '&fYou can take a ride with the captain'
+        - '&fto gather resources and supplies'
+        - ''
+        - '&7You teleport randomly'
+        - ''
+        - '&e• &aClick to teleport.'
+        left_click_commands:
+        - '[player] rtp world world'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp world world'
+        - '[close]'      
+

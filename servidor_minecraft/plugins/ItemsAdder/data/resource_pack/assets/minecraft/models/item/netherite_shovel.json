@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_shovel"
+  },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/akaleaf/stardust/stardust_shovel_netherite"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/akaleaf/vortex/vortex_shovel"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/akaleaf/overseer/overseer_shovel_netherite"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/akaleaf/overseer/overseer_shovel_diamond"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/akaleaf/overseer/overseer_shovel_golden"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/akaleaf/overseer/overseer_shovel_iron"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/akaleaf/overseer/overseer_shovel_stone"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/akaleaf/overseer/overseer_shovel_wooden"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/akaleaf/overseer/overseer_shovel_blood"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/akaleaf/overseer/overseer_shovel_ender"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/akaleaf/overseer/overseer_shovel_emerald"},
+		{ "predicate": {"custom_model_data": 12}, "model": "custom/moon_shovel"}
+    ]
+}

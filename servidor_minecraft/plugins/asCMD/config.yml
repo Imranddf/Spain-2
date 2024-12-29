@@ -1,0 +1,80 @@
+format-version: '2'
+config:
+  msgToConsole: true
+  enableLeftClick: false
+armor_stands:
+  loc(1592,67,53): {}
+  loc(1592,67,54):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1596,67,54):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1598,67,52):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1598,67,50):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1598,67,48):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1598,67,46):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1593,67,45):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1591,67,45):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1588,67,47):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1593,68,50):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1588,67,52):
+    commands:
+    - 'rRlL-player betgames '
+  loc(1619,67,174): {}
+  loc(1619,66,174): {}
+  loc(1623,67,175): {}
+  loc(1615,66,172):
+    commands:
+    - 'rRlL-player excellentcrates preview padisah '
+  loc(1623,66,172): {}
+  loc(1619,66,171): {}
+  loc(1499,67,195):
+    commands:
+    - 'rRlL-player bank '
+  loc(1525,66,208):
+    commands:
+    - 'rRlL-player bank '
+  loc(1488,66,98):
+    commands:
+    - 'rRlL-player bank '
+  loc(1588,66,58):
+    commands:
+    - 'rRlL-player bank '
+  loc(1412,66,187):
+    commands:
+    - 'rRlL-player bank '
+  loc(1412,66,184):
+    commands:
+    - 'rRlL-player bank '
+  loc(1412,66,181):
+    commands:
+    - 'rRlL-player bank '
+  loc(1580,66,171):
+    commands:
+    - 'rRlL-player bank '
+  loc(1610,66,196):
+    commands:
+    - 'rRlL-player bank '
+  loc(1446,66,239):
+    commands:
+    - 'rRlL-player bank '
+  loc(1490,66,71):
+    commands:
+    - 'rRlL-player bank '

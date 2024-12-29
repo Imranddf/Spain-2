@@ -1,0 +1,728 @@
+miscellaneous:
+  name: "&f七七七七七七七七ㇴ"
+  items:
+    P1-18:
+      type: item
+      item:
+        material: BUCKET
+        quantity: 1
+      buyPrice: 50
+      slot: 18
+      page: 1
+    P1-19:
+      type: item
+      item:
+        material: WATER_BUCKET
+        quantity: 1
+      buyPrice: 75
+      slot: 19
+      page: 1
+    P1-20:
+      type: item
+      item:
+        material: LEATHER_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 100
+      slot: 20
+      page: 1
+    P1-21:
+      type: item
+      item:
+        material: GOLDEN_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 500
+      slot: 21
+      page: 1
+    P1-22:
+      type: item
+      item:
+        material: CHEST
+        quantity: 1
+      buyPrice: 50
+      slot: 22
+      page: 1
+    P1-23:
+      type: item
+      item:
+        material: HEART_OF_THE_SEA
+        quantity: 1
+      buyPrice: 75000
+      slot: 23
+      page: 1
+    P1-24:
+      type: item
+      item:
+        material: TRIDENT
+        quantity: 1
+      flags:
+      - HIDE_ENCHANTS
+      buyPrice: 75000
+      slot: 24
+      page: 1
+    P1-25:
+      type: item
+      item:
+        material: FIRE_CHARGE
+        quantity: 1
+      buyPrice: 200
+      slot: 25
+      page: 1
+    P1-26:
+      type: item
+      item:
+        material: BOOK
+        quantity: 1
+      buyPrice: 70
+      slot: 26
+      page: 1
+    P1-27:
+      type: item
+      item:
+        material: MILK_BUCKET
+        quantity: 1
+      buyPrice: 80
+      slot: 27
+      page: 1
+    P1-28:
+      type: item
+      item:
+        material: LAVA_BUCKET
+        quantity: 1
+      buyPrice: 100
+      slot: 28
+      page: 1
+    P1-29:
+      type: item
+      item:
+        material: IRON_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 500
+      slot: 29
+      page: 1
+    P1-30:
+      type: item
+      item:
+        material: DIAMOND_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 2000
+      slot: 30
+      page: 1
+    P1-31:
+      type: item
+      item:
+        material: ENDER_CHEST
+        quantity: 1
+      buyPrice: 1000
+      slot: 31
+      page: 1
+    P1-32:
+      type: item
+      item:
+        material: CONDUIT
+        quantity: 1
+      buyPrice: 100000
+      slot: 32
+      page: 1
+    P1-33:
+      type: item
+      item:
+        material: MAP
+        quantity: 1
+      buyPrice: 100
+      slot: 33
+      page: 1
+    P1-34:
+      type: item
+      item:
+        material: FIREWORK_STAR
+        quantity: 1
+      buyPrice: 30
+      slot: 34
+      page: 1
+    P1-35:
+      type: item
+      item:
+        material: WRITABLE_BOOK
+        quantity: 1
+      buyPrice: 50
+      slot: 35
+      page: 1
+    P1-36:
+      type: item
+      item:
+        material: CAULDRON
+        quantity: 1
+      buyPrice: 150
+      slot: 36
+      page: 1
+    P1-37:
+      type: item
+      item:
+        material: BREWING_STAND
+        quantity: 1
+      buyPrice: 200
+      slot: 37
+      page: 1
+    P1-38:
+      type: item
+      item:
+        material: FURNACE
+        quantity: 1
+      buyPrice: 40
+      slot: 38
+      page: 1
+    P1-39:
+      type: item
+      item:
+        material: SMOKER
+        quantity: 1
+      buyPrice: 50
+      slot: 39
+      page: 1
+    P1-40:
+      type: item
+      item:
+        material: BLAST_FURNACE
+        quantity: 1
+      buyPrice: 75
+      slot: 40
+      page: 1
+    P1-41:
+      type: item
+      item:
+        material: ANVIL
+        quantity: 1
+      buyPrice: 1000
+      slot: 41
+      page: 1
+    P1-42:
+      type: item
+      item:
+        material: CRAFTING_TABLE
+        quantity: 1
+      buyPrice: 16
+      slot: 42
+      page: 1
+    P1-43:
+      type: item
+      item:
+        material: JUKEBOX
+        quantity: 1
+      buyPrice: 1000
+      slot: 43
+      page: 1
+    P1-44:
+      type: item
+      item:
+        material: ENCHANTING_TABLE
+        quantity: 1
+      buyPrice: 3500
+      slot: 44
+      page: 1
+    P2-18:
+      type: item
+      item:
+        material: CAMPFIRE
+        quantity: 1
+      buyPrice: 100
+      slot: 18
+      page: 2
+    P2-19:
+      type: item
+      item:
+        material: BARREL
+        quantity: 1
+      buyPrice: 50
+      slot: 19
+      page: 2
+    P2-20:
+      type: item
+      item:
+        material: CARTOGRAPHY_TABLE
+        quantity: 1
+      buyPrice: 40
+      slot: 20
+      page: 2
+    P2-21:
+      type: item
+      item:
+        material: LOOM
+        quantity: 1
+      buyPrice: 40
+      slot: 21
+      page: 2
+    P2-22:
+      type: item
+      item:
+        material: STONECUTTER
+        quantity: 1
+      buyPrice: 60
+      slot: 22
+      page: 2
+    P2-23:
+      type: item
+      item:
+        material: COMPOSTER
+        quantity: 1
+      buyPrice: 25
+      slot: 23
+      page: 2
+    P2-24:
+      type: item
+      item:
+        material: SADDLE
+        quantity: 1
+      buyPrice: 5000
+      slot: 24
+      page: 2
+    P2-25:
+      type: item
+      item:
+        material: EXPERIENCE_BOTTLE
+        quantity: 1
+      buyPrice: 1000
+      slot: 25
+      page: 2
+    P2-26:
+      type: item
+      item:
+        material: COMPASS
+        quantity: 1
+      buyPrice: 100
+      slot: 26
+      page: 2
+    P2-27:
+      type: item
+      item:
+        material: SOUL_CAMPFIRE
+        quantity: 1
+      buyPrice: 200
+      slot: 27
+      page: 2
+    P2-28:
+      type: DUMMY
+      item:
+        material: SHULKER_BOX
+        quantity: 1
+        name: "&bShulker Boxes"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui shulkerboxes"
+      slot: 28
+      page: 2
+    P2-29:
+      type: item
+      item:
+        material: FLETCHING_TABLE
+        quantity: 1
+      buyPrice: 40
+      slot: 29
+      page: 2
+    P2-30:
+      type: item
+      item:
+        material: SMITHING_TABLE
+        quantity: 1
+      buyPrice: 100
+      slot: 30
+      page: 2
+    P2-31:
+      type: item
+      item:
+        material: GRINDSTONE
+        quantity: 1
+      buyPrice: 100
+      slot: 31
+      page: 2
+    P2-32:
+      type: item
+      item:
+        material: SCAFFOLDING
+        quantity: 1
+      buyPrice: 20
+      slot: 32
+      page: 2
+    P2-33:
+      type: item
+      item:
+        material: LEAD
+        quantity: 1
+      buyPrice: 100
+      slot: 33
+      page: 2
+    P2-34:
+      type: item
+      item:
+        material: ELYTRA
+        quantity: 1
+      flags:
+      - HIDE_ENCHANTS
+      buyPrice: 350000
+      slot: 34
+      page: 2
+    P2-35:
+      type: item
+      item:
+        material: CLOCK
+        quantity: 1
+      buyPrice: 100
+      slot: 35
+      page: 2
+    P2-36:
+      type: DUMMY
+      item:
+        material: OAK_BOAT
+        quantity: 1
+        name: "&bBoats"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui boats"
+      slot: 36
+      page: 2
+    P2-37:
+      type: DUMMY
+      item:
+        material: MUSIC_DISC_13
+        quantity: 1
+        name: "&bMusic Discs"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui musicdiscs"
+      slot: 37
+      page: 2
+    P2-38:
+      type: item
+      item:
+        material: NAME_TAG
+        quantity: 1
+      buyPrice: 5000
+      slot: 38
+      page: 2
+    P2-39:
+      type: item
+      item:
+        material: SHIELD
+        quantity: 1
+      flags:
+      - HIDE_ENCHANTS
+      buyPrice: 500
+      slot: 39
+      page: 2
+    P2-40:
+      type: DUMMY
+      item:
+        material: WHITE_DYE
+        quantity: 1
+        name: "&bDyes"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui dyes"
+      slot: 40
+      page: 2
+    518:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 0
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    519:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      commandsOnClick: 
+      - "shopgui ores"
+    520:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    521:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    522:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    523:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    524:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    525:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 7
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    526:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    527:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Previous Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 10
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    528:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blackmarket"
+    618:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 0
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    619:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      page: 2
+      commandsOnClick: 
+      - "shopgui ores"
+    620:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 2
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    621:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    622:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    623:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    624:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    625:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 7
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    626:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      page: 2
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    627:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Previous Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 10
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    628:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blackmarket"

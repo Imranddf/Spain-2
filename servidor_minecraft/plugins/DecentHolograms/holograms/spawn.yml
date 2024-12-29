@@ -1,0 +1,30 @@
+location: Spawn:-2,409:69,250:3,544
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 580.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f❤ <#ffdc11>&lHOŞGELDİN</#e8c600> &f❤'
+    height: 0.3
+  - content: '&f⠛ Towny Macerasına Hoşgeldin &e%player_name%! &f⠛'
+    height: 0.3
+  - content: '&fSunucu hakkında veya tüm genel komutlar hakkında bilgi'
+    height: 0.3
+  - content: '&falabilmek için &aShift+F &ftuşlarını kullanabilirsiniz.'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: <#ffdc11>&lDETAYLI BİLGİLER İÇİN:</#e8c600>
+    height: 0.3
+  - content: '&fDiscord: &6discord.com/nourseproject'
+    height: 0.3
+  - content: '&fSite: &6www.nourseproject.com.tr'
+    height: 0.3
+  - content: ''
+    height: 0.3    
+  - content: '#ENTITY: PHANTOM'
+    height: 0.3
+  actions: {}

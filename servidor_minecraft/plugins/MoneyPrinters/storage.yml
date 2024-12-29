@@ -1,0 +1,25 @@
+moneyprinters:
+  3ee011c6-29bb-4ddc-9ce8-f161a2e735d2:
+    uuid: 3ee011c6-29bb-4ddc-9ce8-f161a2e735d2
+    type: Emerald
+    owner: 0734281e-db4a-3cd0-a44c-b66f83ad0885
+    location:
+      world: gta
+      x: 1488.0
+      y: 67.0
+      z: 200.0
+    stored-money: 22000.0
+    total-money-printed: 26560.0
+    health: 320.0
+  d3bb6a0b-4124-45a7-a84b-c77224107936:
+    uuid: d3bb6a0b-4124-45a7-a84b-c77224107936
+    type: Emerald
+    owner: 0c300d8e-53e7-30a7-ba5f-48feb9f8e4be
+    location:
+      world: gta
+      x: 1501.0
+      y: 68.0
+      z: 211.0
+    stored-money: 14640.0
+    total-money-printed: 14640.0
+    health: 320.0

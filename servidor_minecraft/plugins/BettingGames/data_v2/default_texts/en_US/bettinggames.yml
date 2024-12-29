@@ -1,0 +1,88 @@
+# -------------------- Commands --------------------
+
+commandDescriptionBettinggames: main command for BettingGames
+commandDescriptionBettingGamesReload: reload BettingGames
+commandDescriptionBettinggamesMenu: open a specific menu
+commandDescriptionBettinggamesGameMenu: open the menu of a specific game
+commandDescriptionBettinggamesTop: open the players ranking menu
+commandDescriptionBettinggamesEdit: edit configuration in-game
+
+commandParameterUsageGUI: gui
+commandParameterUsageGame: game
+commandParameterUsageGames: games
+
+# -------------------- Bet --------------------
+
+messageBetEditNotEnoughCurrency: |
+  &7You can't bet less than {min}.
+
+messageBetEditTooMuchCurrency: |
+  &7You've reached the bet limit of {max} already.
+
+messageBetEditCurrencyAdd: |
+  &7You added &a{amount} &7to your bet for &a{game}&7.
+
+messageBetEditCurrencyWithdraw: |
+  &7You withdrew &e{amount} &7from your bet for &e{game}&7.
+
+messageBetEditCurrencyEnterChat: |
+  &7Enter the new bet value in chat.
+
+messageBetEditCurrencyEnterChatInvalidValue: |
+  &7Invalid value &c{value}&7, it must be a positive number or zero.
+
+messageBetEditNotEnoughItems: |
+  &7You can't bet less than {min} item{plural}.
+
+messageBetEditTooMuchItems: |
+  &7You've reached the bet limit of {max} item{plural} already.
+
+messageBetEditDisallowedItem: |
+  &7TYou can't bet this item.
+
+messageBetEditItemAdd: |
+  &7You added &a{item} &7to your bet for &a{game}&7.
+
+messageBetEditItemWithdraw: |
+  &7You withdrew &e{item} &7from your bet for &e{game}&7.
+
+messageBetEditNothingToWithdraw: |
+  &7There's nothing to withdraw.
+
+# -------------------- Game --------------------
+
+messageGameMaxConcurrentReached: |
+  &7You can't play in &c{count} &7game{plural} at the same time.
+
+messageGameAlreadyPlaying: |
+  &7You're already playing in this game. Please wait until the current game is finished.
+
+messageGameCooldownMustWait: |
+  &7Please wait &c{time} &7before playing again.
+
+messageGameLockBetsOnDrawDelayCantBet: |
+  &7The game will start soon, you can't modify your bet now.
+
+messageGameCrashStopped: |
+  &eYou stopped at {value}...
+
+descriptionGameCrashBetMultiply: >
+  x{multiplier} : {description}
+
+messageGameVersusChallengeSelf: |
+  &7You can't challenge yourself!
+
+messageGameVersusChallengeAccepted: |
+  &a{player} &7accepted your &a{game} &7challenge...
+
+nameGameRockPaperScissorsChoiceRock: >
+  rock
+
+nameGameRockPaperScissorsChoicePaper: >
+  paper
+
+nameGameRockPaperScissorsChoiceScissors: >
+  scissors
+
+descriptionGameBarGambleBetMultiply: >
+  x{multiplier} : {description}

@@ -1,0 +1,426 @@
+    menu_title: '&e&l        Taxi Service'
+    open_command:
+    - taxi
+    - uber
+    - warp
+    - warps
+    - taksi
+    - tax
+    size: 36
+    items:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 0
+        display_name: '&f'
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 1
+        display_name: '&f'
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 2
+        display_name: '&f'
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 3
+        display_name: '&f'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkwYjUzMjQ4ODljZmQ4YjgxNGIyOWFiMzc5ZDA5MmQxNDIyMjFkY2FkY2I0NmRjOTg5MmY4OGU0MmMzZWFjMCJ9fX0=
+        slot: 4
+        display_name: '              &7• &eCaptain &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                                   '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can travel with the captain!'
+        - '&7• &x&f&b&a&a&4&cand collect resources'
+        - ''
+        - '&f            煵'        
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                                   '
+        left_click_commands:
+        - '[player] warp captain'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp captain'
+        - '[close]'
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 5
+        display_name: '&f'
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 6
+        display_name: '&f'
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 7
+        display_name: '&f'
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 8
+        display_name: '&f'
+      'taxi1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2IzZmI0ZWUyNTc0ZGM3Mzc1ZDQ1N2VlMGI5ZDYyYjUwNTBlNjQyYzg3YjcyM2Y0YmY2NDhmYzE0ZDExYjYyYiJ9fX0=
+        slot: 10
+        display_name: '     &7• &eGrove Street &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                       '
+        - ''
+        - '&7• &x&f&b&a&a&4&cGang zone!'
+        - '&7• &x&f&b&a&a&4&cHere are Drug seller'
+        - '&7• &x&f&b&a&a&4&cand Drug buyer.'
+        - ''
+        - '&f       煵'        
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                       '
+        left_click_commands:
+        - '[player] warp grove'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp grove'
+        - '[close]'
+      'taxi2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBlNjIyYWVjN2ZkNDJmYmY4MTRlNTY0YjljN2Q5MzNiMzlmODA4MDQ5MjI5ZjI2MmU4MTAwNGE1N2Q0YmZkMiJ9fX0=
+        slot: 12
+        display_name: '        &7• &eTrump Tower &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                              '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can rent houses'
+        - '&7• &x&f&b&a&a&4&cand customize your houses.'
+        - ''
+        - '&f          煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                              '
+        left_click_commands:
+        - '[player] warp tower'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp tower'
+        - '[close]'
+      'taxi3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVjMzg3ZmIyZjgyM2I5MDNiYTJjMzMyZWFiZTVlMGI0YmUxYzA4N2Y0ZDVlZjI2MGIzM2NiNTkwZWY4ZmU4NCJ9fX0=
+        slot: 11
+        display_name: '      &7• &eAmmuNation &7• '
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                        '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can buy weapons,'
+        - '&7• &x&f&b&a&a&4&cbullets or raid c4.'
+        - ''
+        - '&f       煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                        '
+        left_click_commands:
+        - '[player] warp ammunation'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp ammunation'
+        - '[close]'
+      'taxi4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlNTUwOTc5ZWJmOTk1MGJiZjU3MTVlZDc3OTYyNmEzY2VjNzZhYzkxMGI0YmRkYjVkNzU4MWZhY2FmZWY2NyJ9fX0=
+        slot: 9
+        display_name: '      &7• &eResource Market &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can sell the resources'
+        - '&7• &x&f&b&a&a&4&cyou have collected or'
+        - '&7• &x&f&b&a&a&4&cbuy new resources.'        
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        left_click_commands:
+        - '[player] warp shop'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp shop'
+        - '[close]'
+      'taxi5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRlOTE2MmY2MzBlZWMzZWMyZDVjMWE2OWY5YTc5YzFhNTExYjI3YTM2ZWZhOTg2NmMyYzBiOGFiNmJhZmExMyJ9fX0=
+        slot: 13
+        display_name: '        &7• &eFishing Shop &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can buy fishing gear'
+        - '&7• &x&f&b&a&a&4&cand sell the fish you catch.'
+        - ''
+        - '&f          煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        left_click_commands:
+        - '[player] warp fishshop'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp fishshop'
+        - '[close]'
+      'taxi6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVlNzJhNzFlZmQ0ODQyNzMwMjc0NjEyYjkzYTRkZTZlYTA3ODVlYTJjNzI0YjEzOWI2M2I2ZjkyNmQ3ZTI0ZiJ9fX0=
+        slot: 15
+        display_name: '  &7• &eVehicle Gallery &7• '
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                      '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can buy new'
+        - '&7• &x&f&b&a&a&4&cand luxury vehicles.'
+        - ''
+        - '&f      煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                      '
+        left_click_commands:
+        - '[player] warp gallery'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp gallery'
+        - '[close]'
+      'taxi7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNjN2Y2NDQxYmQ3MWZjOTc0ZTk5NzdiY2IyMmVmYmM0YjYxMjc3YzQ5ZWZiMjQyM2FiOTE1NDg5NWJlIn19fQ==
+        slot: 14
+        display_name: '  &7• &eBitcoin Miner Shop &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                         '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can buy miner so'
+        - '&7• &x&f&b&a&a&4&cyou can earn money'
+        - '&7• &x&f&b&a&a&4&cby mining bitcoin.'
+        - ''
+        - '&f       煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                         '
+        left_click_commands:
+        - '[player] warp miner'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp miner'
+        - '[close]'
+      'taxi8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU5ODk5ZmI5ZTNhOTY0NDZlZGJjZjU5ZDJiNDM5OTNlOThjMWU5ZWM3ZDg3ZDE5M2RjMzBlNTVhNzhlOTQxZSJ9fX0=
+        slot: 16
+        display_name: '          &7• &eCasino &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                           '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can go to the casino'
+        - '&7• &x&f&b&a&a&4&cto play betting games.'
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                           '
+        left_click_commands:
+        - '[player] warp casino'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp casino'
+        - '[close]'
+      'taxi81':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM1YzE2NTUxYWYzOTI4MWQ4MzA3ODAwZjg1NGMxOGRiNTg3NDdhMWNiYjAxMTYyODY1OGZjYzI1NWExM2M3YyJ9fX0=
+        slot: 17
+        display_name: '           &7• &eCrates &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can inspect the crates'
+        - '&7• &x&f&b&a&a&4&cif you have the key you'
+        - '&7• &x&f&b&a&a&4&ccan open the crates.'
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                             '
+        left_click_commands:
+        - '[player] warp crate'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp crate'
+        - '[close]'
+      'taxi10':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY2YmIzYWQ4ZGFmMGMxNDk5YjVlNDZkY2Y0MTc2YzgzNDU0MzU1M2ExYTgxODAwOWU3Njc1ZTg5NjI5NWUxYSJ9fX0=
+        slot: 18
+        display_name: '        &7• &eGloria Hotel &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                            '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can rent a hotel room'
+        - '&7• &x&f&b&a&a&4&cand arrange the room.'
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                            '
+        left_click_commands:
+        - '[player] warp gloria'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp gloria'
+        - '[close]'
+      'taxi11':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBmZmFkMzNkMjkzYjYxNzY1ZmM4NmFiNTU2MDJiOTU1YjllMWU3NTdhOGU4ODVkNTAyYjNkYmJhNTQyNTUxNyJ9fX0=
+        slot: 19
+        display_name: '         &7• &eBank &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                      '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can make'
+        - '&7• &x&f&b&a&a&4&cmoney transactions'
+        - '&7• &x&f&b&a&a&4&cor rob the bank'
+        - ''
+        - '&f      煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                      '
+        left_click_commands:
+        - '[player] warp bank'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp bank'
+        - '[close]'
+      'taxi12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0YzNlYmI0YzYzZjJhYjE2NGE4ODc0NjQzMDNjOTc1NmFjODllZWIyYmJjZGNjOTJhZWEyMDQ5ZjBhYyJ9fX0=
+        slot: 20
+        display_name: '           &7• &eStreet &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                            '
+        - ''
+        - '&7• &x&f&b&a&a&4&cMcdonalds, Underarmour,'
+        - '&7• &x&f&b&a&a&4&cTaco shop and starbucks'
+        - '&7• &x&f&b&a&a&4&care located on this street.'
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                            '
+        left_click_commands:
+        - '[player] warp street'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp street'
+        - '[close]'
+      'taxi13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I1NmU0OTA4NWY1NWQ1ZGUyMTVhZmQyNmZjNGYxYWZlOWMzNDMxM2VmZjk4ZTNlNTgyNDVkZWYwNmU1ODU4YyJ9fX0=
+        slot: 21
+        display_name: '   &7• &eMedellin Houses &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                        '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can rent flat and'
+        - '&7• &x&f&b&a&a&4&carrange the flat'
+        - '&7• &x&f&b&a&a&4&cas you want.'
+        - ''
+        - '&f      煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                        '
+        left_click_commands:
+        - '[player] warp medellin'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp medellin'
+        - '[close]'
+      'taxi14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RhMTNlNzJmMjc1MjUzYjg1ZDc3NThjOWY1ZGY5Yzc1ZTMzZDMxZGQ2MTdmMDkxYTMxMDQ4YjkwNmQ1MDM1MCJ9fX0=
+        slot: 22
+        display_name: '      &7• &eLuxury Hotel &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can rent hotel room'
+        - '&7• &x&f&b&a&a&4&cand arrange as you like'
+        - ''
+        - '&f        煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        left_click_commands:
+        - '[player] warp luxuryhotel'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp luxuryhotel'
+        - '[close]'
+      'taxi15':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1Njg0ZDYwMWVhNTZjOWNjNTNmZGFjMTk0OGMzNDdmMjJmYTVlOGEwN2JhMDVlOTc2MTkzMmI0NzllMGRiOCJ9fX0=
+        slot: 23
+        display_name: '       &7• &ePolice &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                     '
+        - ''
+        - '&7• &x&f&b&a&a&4&cPolice Department'
+        - ''
+        - '&f     煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                     '
+        left_click_commands:
+        - '[player] warp police'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp police'
+        - '[close]'
+      'taxi16':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ4MjQzNzViNTVmYzg1YjY0NjY3NWM5Zjc5OWVkOThlMjZiNDI3NzhkMmFhMTE0NTdhYjE4Y2E4NGNkYzJlOCJ9fX0=
+        slot: 24
+        display_name: '     &7• &eCity Port Baazar &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                           '
+        - ''
+        - '&7• &x&f&b&a&a&4&cYou can rent a market'
+        - '&7• &x&f&b&a&a&4&cat the port and sell items.'
+        - ''
+        - '&f        煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                           '
+        left_click_commands:
+        - '[player] warp baazar'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp baazar'
+        - '[close]'
+      'taxi17':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+        slot: 25
+        display_name: '        &7• &eBeachVillas &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        - ''
+        - '&7• &x&f&b&a&a&4&cLuxury holiday villas'
+        - '&7• &x&f&b&a&a&4&cyou can rent a villa and'
+        - '&7• &x&f&b&a&a&4&carrange it as you wish.'
+        - ''
+        - '&f         煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        left_click_commands:
+        - '[player] warp beachvillas'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp beachvillas'
+        - '[close]'
+      'taxi18':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkN2IzYzhlNTczNWIwZGEzZGI3NGFiZmRjZTg3MGMyZTkwNDY4OWY1Y2IyYzI5YmNkMmE1MWVkNzFmZGRmZiJ9fX0=
+        slot: 26
+        display_name: '     &7• &eLux Night Clup &7•'
+        lore:
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        - ''
+        - '&7• &x&f&b&a&a&4&cLux Night Clup'
+        - ''
+        - '&f        煵'
+        - '&x&9&1&9&9&9&9&9&1&7&n&o&l                          '
+        left_click_commands:
+        - '[player] warp clup'
+        - '[close]'
+        right_click_commands:
+        - '[player] warp clup'
+        - '[close]'
+      '9':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 29
+        display_name: '&f' 
+      '10':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 30
+        display_name: '&f'   
+      '11':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 28
+        display_name: '&f'   
+      '12':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 31
+        display_name: '&f'  
+      '13':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 32
+        display_name: '&f'  
+      '14':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 33
+        display_name: '&f'  
+      '16':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 34
+        display_name: '&f'  
+      '17':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 35
+        display_name: '&f'  
+      '18':
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 27
+        display_name: '&f'  

@@ -1,0 +1,187 @@
+leaves:
+  name: "&f七七七七七七七七ㇴ"
+  items:
+    P1-18:
+      type: item
+      item:
+        material: OAK_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 18
+      page: 1
+    P1-19:
+      type: item
+      item:
+        material: SPRUCE_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 19
+      page: 1
+    P1-20:
+      type: item
+      item:
+        material: BIRCH_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 20
+      page: 1
+    P1-21:
+      type: item
+      item:
+        material: JUNGLE_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 21
+      page: 1
+    P1-22:
+      type: item
+      item:
+        material: ACACIA_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 22
+      page: 1
+    P1-23:
+      type: item
+      item:
+        material: DARK_OAK_LEAVES
+        quantity: 1
+      buyPrice: 10
+      slot: 23
+      page: 1
+    518:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 0
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    519:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      commandsOnClick: 
+      - "shopgui ores"
+    520:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    521:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    522:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    523:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 5
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    524:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    525:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    526:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    527:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Previous Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 10
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    528:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.157.8.21
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735472751619
+  login: 1735472751802
+money: '2000'
+last-account-name: Imranack
+logoutlocation:
+  world: e8a73930-cafc-497f-9fc9-99ff10b1b39d
+  world-name: world
+  x: -25.50575881357508
+  y: 97.87563674101582
+  z: 166.32428610778126
+  yaw: 112.04959869384766
+  pitch: 37.499961853027344
+lastlocation:
+  world: e8a73930-cafc-497f-9fc9-99ff10b1b39d
+  world-name: world
+  x: -25.50575881357508
+  y: 97.87563674101582
+  z: 166.32428610778126
+  yaw: 296.849365234375
+  pitch: 56.24995040893555

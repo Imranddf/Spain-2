@@ -1,0 +1,6 @@
+{
+	"parent": "item/akaleaf/stardust/stardust_hoe",
+	"textures": {
+		"1":"akaleaf/stardust/stardust_hoe_iron"
+	}
+}

@@ -1,0 +1,164 @@
+info:
+  namespace: holy_knight
+items:
+  holy_knight_axe:
+    display_name: Holy Knight Axe
+    permission: permission
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: axe
+  holy_knight_pickaxe:
+    display_name: Holy Knight Pickaxe
+    permission: permission
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_path: pickaxe
+  holy_knight_hammer:
+    display_name: Holy Knight Hammer
+    permission: permission
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: hammer
+  holy_knight_hoe:
+    display_name: Holy Knight Hoe
+    permission: permission
+    resource:
+      material: DIAMOND_HOE
+      generate: false
+      model_path: hoe
+  holy_knight_shovel:
+    display_name: Holy Knight Shovel
+    permission: permission
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_path: shovel
+  holy_knight_bow:
+    display_name: Holy Knight Bow
+    permission: permission
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  holy_knight_rapier:
+    display_name: Holy Knight Rapier
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: rapier
+  holy_knight_chest:
+    display_name: Holy Knight Chest
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1
+          length: 1
+          width: 1
+  holy_knight_key:
+    display_name: Holy Knight Key
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  holy_knight_helmet:
+    display_name: Holy Knight Helmet
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+    behaviours:
+      hat: true
+  holy_knight_grenade:
+    display_name: Holy Knight Grenade
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: grenade
+  holy_knight_claws:
+    display_name: Holy Knight Claws 
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: claws
+  holy_knight_fishing_rod:
+    display_name: Holy Knight Fishing Rod
+    permission: permission
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  holy_knight_claymore:
+    display_name: Holy Knight Claymore
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: claymore
+  holy_knight_shield:
+    display_name: Holy Knight Shield 
+    permission: permission
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  holy_knight_spear:
+    display_name: Holy Knight Spear 
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: spear
+  holy_knight_dagger:
+    display_name: Holy Knight Dagger
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: dagger
+  holy_knight_staff:
+    display_name: Holy Knight Staff 
+    permission: permission
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: staff
+  holy_knight_quiver:
+    display_name: Holy Knight Quiver
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: quiver
+  holy_knight_handcuff:
+    display_name: Holy Knight Handcuff
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: handcuff
+  holy_knight_wings:
+    display_name: Holy Knight Wings
+    permission: permission
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings

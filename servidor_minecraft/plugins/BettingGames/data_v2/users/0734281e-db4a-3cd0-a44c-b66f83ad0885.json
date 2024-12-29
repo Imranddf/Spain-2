@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "uuid": "0734281e-db4a-3cd0-a44c-b66f83ad0885",
+  "lastGameParticipation": {
+    "default_roulette": "1693421103947",
+    "default_crash": "1693421049946",
+    "default_rockpaperscissors": "1693421257148",
+    "default_coinflip": "1693421195398"
+  },
+  "winNotificationsToggle": "true",
+  "loseNotificationsToggle": "true"
+}

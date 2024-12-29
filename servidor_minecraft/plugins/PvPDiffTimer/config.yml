@@ -1,0 +1,171 @@
+Enable-Debug: false
+Default:
+  Difficulty: NORMAL
+  PvP-On-Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+  PvP-Off-Message: '&aThe sun rises! PvP is off! ({difficulty})'
+worlds:
+  world:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  world_nether:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  starbucks:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  test:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  pmc:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  haritas:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  villa2:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  kargo:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  gta:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  villa:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  world_the_end:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []

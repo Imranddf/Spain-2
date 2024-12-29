@@ -1,0 +1,38 @@
+info:
+  namespace: holy_knight
+categories:
+  holy_knight:
+    enabled: true
+    skip_if_already: false
+    icon: "holy_knight:holy_knight_wings"
+    name: Glacier set
+    permission: ia.menu
+    items:
+      - "holy_knight:holy_knight_axe"
+      - "holy_knight:holy_knight_pickaxe"
+      - "holy_knight:holy_knight_hammer"
+      - "holy_knight:holy_knight_hoe"
+      - "holy_knight:holy_knight_shovel"
+      - "holy_knight:holy_knight_bow"
+      - "holy_knight:holy_knight_rapier"
+      - "holy_knight:holy_knight_chest"
+      - "holy_knight:holy_knight_key"
+      - "holy_knight:holy_knight_helmet"
+      - "holy_knight:holy_knight_grenade"
+      - "holy_knight:holy_knight_claws"
+      - "holy_knight:holy_knight_fishing_rod"
+      - "holy_knight:holy_knight_claymore"
+      - "holy_knight:holy_knight_shield"
+      - "holy_knight:holy_knight_spear"
+      - "holy_knight:holy_knight_dagger" 
+      - "holy_knight:holy_knight_staff" 
+      - "holy_knight:holy_knight_quiver" 
+      - "holy_knight:holy_knight_handcuff" 
+      - "holy_knight:holy_knight_wings" 
+
+
+
+
+
+
+

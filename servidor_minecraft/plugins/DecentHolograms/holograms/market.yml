@@ -1,0 +1,24 @@
+location: Spawn:17.501:67.818:38.542
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 130.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: FOX'
+    height: 0.7
+  - content: ''
+    height: 0.5    
+  - content: '&x&f&b&e&a&0&6&lESNAF'
+    height: 0.5
+  - content: '&x&f&0&f&1&d&cİşinize yarayabilcek tüm ürünler'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cve satış yaparak &x&9&f&e&4&1&faltın kazanabilceğiniz
+      &x&f&0&f&1&d&csunucu'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&csunucu marketlerine &x&9&f&e&4&1&fburadan &x&f&0&f&1&d&cgöz
+      atabilirsiniz.'
+    height: 0.3
+  actions: {}

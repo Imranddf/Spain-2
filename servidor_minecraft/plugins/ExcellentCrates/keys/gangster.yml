@@ -1,0 +1,10 @@
+Name: §6§lGangster Crate Key
+Virtual: false
+Item:
+  Material: Paper
+  Amount: 1
+  Durability: 0
+  Name: '&F₪ &f   '
+  Custom_Model_Data: 10062
+  Item_Flags: []
+  Unbreakable: false

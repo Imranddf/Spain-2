@@ -1,0 +1,6 @@
+{
+	"parent": "item/akaleaf/stardust/stardust_sword",
+	"textures": {
+		"1":"akaleaf/stardust/stardust_sword_golden"
+	}
+}

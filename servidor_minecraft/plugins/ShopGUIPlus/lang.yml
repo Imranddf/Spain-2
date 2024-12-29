@@ -1,0 +1,179 @@
+PREFIX: ''
+LANG:
+  CONSOLE: Console
+MSG:
+  AND: ' a '
+  ERROR: '&c&l[!]&c An unexpected error has occured.'
+  INGAMEONLY: Tenhle prikaz muzes pouzit pouze ze hry.
+  NOACCESS: '&c&l[!]&c You do not have permissions to do that!'
+  NOTLOADED: Shops haven't been loaded yet, please try again later.
+  RELOADED: Config reloaded!
+  USAGE:
+    SUBCOMMAND: '&c&l[!]&c Wrong usage! %usage%'
+  CMD:
+    SHOP:
+      ADDMODIFIER:
+        ITEM:
+          USAGE: /shop addmodifier item <hrac> <shop> <item> <cena> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for the %item% item
+            in %shop% shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was
+            set to &c%modifier%&f by &c%player%&f.
+        SHOP:
+          USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for all items in %shop%
+            shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for all items in %shop% shop was set
+            to &c%modifier%&f by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop addmodifier global <player> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+      CHECK:
+        ITEM: This item's type is &c%material%&f with damage &c%damage%&f.
+        NOITEM: You have to hold an item in your hand in order to check its type.
+      CHECKMODIFIERS:
+        VIEW:
+          VIEW: |-
+            &c%player%&f's modifiers:
+            Global modifiers:
+            %global%
+            Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+          ENTRY:
+            ITEM: 'Item: &c%item%&f, shop: &c%shop%&f, Koupit: &c%buy%&f, Prodat:
+              &c%sell%&f'
+            SHOP: 'Shop: &c%shop%&f, Koupt: &c%buy%&f, Prodat: &c%sell%&f'
+            GLOBAL: 'Koupit: &c%buy%&f, Prodat: &c%sell%&f'
+          VIEWPERMISSIONMODIFIERS: |-
+            &c%player%&f's permission modifiers:
+            Global modifiers:
+            %global%Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+      RESETMODIFIER:
+        ITEM:
+          USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for the %item% item
+            in %shop% shop.
+          RESETBY: Your %type% price modifier for the %item% item in %shop% shop was
+            reset by &c%player%&f.
+        SHOP:
+          USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for all items in %shop%
+            shop.
+          RESETBY: Your %type% price modifier for all items in %shop% shop was set
+            to by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop resetmodifier global <player> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier.
+          RESETBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+  MODIFIER:
+    INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance
+      0.50 which is 50%, 2.0 which is 200% etc.
+    INVALIDTYPE: Invalid modifier type specified. Valid values are buy, sell and both.
+    BUY: buy
+    SELL: sell
+    BOTH: buy & sell
+  INVALIDPLAYER: '&c&l[!]&c Unknown player!'
+  INVALIDSHOP: Shop &c%shop%&f was not found.
+  INVALIDITEM: Item &c%item%&f was not found in shop &c%shop%&f.
+  NOACCESSTOSHOP: '&c&l[!]&c You do not have access to this shop!'
+  NODIRECTACCESSTOSHOP: '&c&l[!]&c You do not have access to this shop!'
+  MAINMENUDISABLED: You cannot use this command.
+  WORLDBLACKLISTED: '&c&l[!]&c You cannot use shop in this world!'
+  WORLDBANNED: '&c&l[!]&c You cannot use shop in this world!'
+  WORLDBANNEDTARGET: '%player% has no permissions to open the shop.'
+  GAMEMODEBANNED: '&c&l[!]&c You cannot open shop with this gamemode!'
+  GAMEMODEBANNEDTARGET: '%player% cannot access the shop with his gamemode.'
+  ITEM:
+    FULLINVENTORY: '&c&l[!]&c You do not have space in your inventory!'
+    CANNOTAFFORD: '&c&l[!]&c You do not have enough money!'
+    CANNOTBUY: '&c&l[!]&c You cannot buy this item!'
+    CANNOTSELL: '&c&l[!]&c You cannot sell this item!'
+    BOUGHT: |-
+      &fぁ
+      &f                &f七㆒
+      &f
+      &f                &fYou have bought &e%amount%x %item%&f.
+      &f                &fㇸ Paid &c%price%
+      &f
+    BOUGHTFREE: Obrdzel si &c%amount% x %item%&f.
+    NOTENOUGH: '&c&l[!]&c You do not have &c%amount%x %item% to sell.'
+    SOLD: |-
+      &fぁ
+      &f                &f七㆒
+      &f
+      &f                &fYou have sold &e%amount%x %item%&f.
+      &f                &fㇷ Gained &a%price%
+      &f
+    SOLDFREE: You have been taken &a%amount% x %item%&f.
+    SOLDALL: |-
+      &fぁ
+      &f                &f七㆒
+      &f
+      &f                &fYou have sold &e%amount%x %item%&f.
+      &f                &fㇷ Gained &a%price%
+      &f
+    SOLDALLFREE: Odevzdal si vsechny &a%item%&f (&a%amount% x %item%&f).
+    NOACCESS: '&c&l[!]&c You do not have access to this item.'
+  ENCHANT:
+    CANNOTAPPLY: Enchantment &c%enchantment%&f nemuze byt aplikovan na item, ktery
+      aktualne drzis.
+    ALREADYAPPLIED: Tento item jiz ma &c%enchantment%&f.
+    LEVELDIFF: Na tomto itemu potrebujes aspon &c%enchantment% %level%&f.
+    CANNOTAFFORD: Potrebujes &c%price%&f ke koupi &c%enchantment%&f.
+    MAX: Tento item jiz ma maximalni limit enchantu (%amount%).
+    TOOMANY: Nemuzes enchantovat %amount% vic itemu naraz.
+    BOUGHT: Koupil si &c%enchantment%&f za &c%price%&f.
+    BOUGHTFREE: Obrdzel si &c%enchantment%&f.
+  PERMISSION:
+    PERMISSIONSDISABLED: Nastala chyba, obrat se na a-team.
+    ALREADYHAVE: Jiz mas tuto permissi.
+    CANNOTAFFORD: Potrebujes &c%price%&f ke koupi &c%permission%&f.
+    BOUGHT: Koupil si &c%permission%&f za &c%price%&f.
+    BOUGHTFREE: Obrdzel si &c%permission%&f.
+  COMMAND:
+    BOUGHT: Koupil si &c%command%&f za &c%price%&f.
+    BOUGHTFREE: Obrdzel si &c%command%&f.
+    CANNOTAFFORD: Potrebujes &c%price%&f ke koupi tohoto prikazu.
+  SELLHAND:
+    NOITEM: '&c&l[!]&c You do not hold any item in your hand!'
+    INVALIDQUANTITY: '&c&l[!]&c Invalid amount! Use 1-%max%.'
+    CANNOTSELL: '&c&l[!]&c You cannot sell this item!'
+    MULTIPLEQUANTITYONLY: You cannot sell this amount of items.
+  SELLHANDALL:
+    SOLD: |-
+      &fぁ
+      &f                &f七㆒
+      &f
+      &f                &fYou have sold &e%amount%x %item%&f.
+      &f                &fㇷ Gained &a%price%
+      &f
+  SELLALL:
+    NOITEMS: '&c&l[!]&c Nemáš žádné předměty k prodeji'
+    SOLD: |-
+      &fぁ
+      &f                &f七㆒
+      &f
+      &f                &fYou have sold &e%amount%x %item%&f.
+      &f                &fㇷ Gained &a%price%
+      &f
+    INVALIDSHOP: Neznamy shop zvolen.
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&f七七七七七七七七ㇳ'
+    SELL:
+      NAME: '&f七七七七七七七七ㇳ'
+    BULKBUY:
+      NAME: '&bBuy %item%'
+    BULKSELL:
+      NAME: '&cSell %item%'
+SHOP:
+  PERMISSION:
+    ALREADYOWNED: '&4(Already Own)'
+    NOTOWNED: '&a(Not Owned)'

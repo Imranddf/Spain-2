@@ -1,0 +1,88 @@
+# -------------------- Commands --------------------
+
+commandDescriptionBettinggames: commande principale de BettingGames
+commandDescriptionBettingGamesReload: redémarrer BettingGames
+commandDescriptionBettinggamesMenu: ouvrir un menu spécifique
+commandDescriptionBettinggamesGameMenu: ouvrir le menu d'un jeu spécifique
+commandDescriptionBettinggamesTop: ouvrir le menu de classement des joueurs
+commandDescriptionBettinggamesEdit: éditer configuration en jeu
+
+commandParameterUsageGUI: menu
+commandParameterUsageGame: jeu
+commandParameterUsageGames: jeux
+
+# -------------------- Bet --------------------
+
+messageBetEditNotEnoughCurrency: |
+  &7Vous ne pouvez pas miser moins de &c{min}&7.
+
+messageBetEditTooMuchCurrency: |
+  &7Vous avez déjà atteint la limite de &c{max}&7.
+
+messageBetEditCurrencyAdd: |
+  &7Vous avez ajouté &a{amount} &7à votre mise pour &a{game}&7.
+
+messageBetEditCurrencyWithdraw: |
+  &7Vous avez retiré &e{amount} &7de votre mise pour &e{game}&7.
+
+messageBetEditCurrencyEnterChat: |
+  &7Entrez la nouvelle valeur dans le chat.
+
+messageBetEditCurrencyEnterChatInvalidValue: |
+  &7La valeur &c{value}&7 est invalide, ce doit être un nombre positif (ou zéro).
+
+messageBetEditNotEnoughItems: |
+  &7Vous ne pouvez pas miser moins de &c{min} &7item{plural}.
+
+messageBetEditTooMuchItems: |
+  &7Vous avez déjà atteint la limite de &c{max} &7item{plural}.
+
+messageBetEditDisallowedItem: |
+  &7Cet item n'est pas accepté pour les mises.
+
+messageBetEditItemAdd: |
+  &7Vous avez ajouté &a{item} &7à votre mise pour &a{game}&7.
+
+messageBetEditItemWithdraw: |
+  &7Vous avez retiré &e{iteù} &7de votre mise pour &e{game}&7.
+
+messageBetEditNothingToWithdraw: |
+  &7Il n'y a rien à retirer.
+
+# -------------------- Game --------------------
+
+messageGameMaxConcurrentReached: |
+  &7Vous ne pouvez pas miser dans &c{count} &7partie{plural} en même temps.
+
+messageGameAlreadyPlaying: |
+  &7Vous êtes déjà en train de jouer à ce jeu. Attendez un peu que la partie actuelle se finisse.
+
+messageGameCooldownMustWait: |
+  &7Merci d'attendre &c{time} &7avant de jouer à nouveau.
+
+messageGameLockBetsOnDrawDelayCantBet: |
+  &7La partie va bientôt commencer, il est trop tard pour modifier votre pari.
+
+messageGameCrashStopped: |
+  &eVous vous êtes arrêté à {value}...
+
+descriptionGameCrashBetMultiply: >
+  x{multiplier} : {description}
+
+messageGameVersusChallengeSelf: |
+  &7Vous ne pouvez pas vous défier vous-même!
+
+messageGameVersusChallengeAccepted: |
+  &a{player} &7a accepté votre défi pour &a{game}&7...
+
+nameGameRockPaperScissorsChoiceRock: >
+  pierre
+
+nameGameRockPaperScissorsChoicePaper: >
+  papier
+
+nameGameRockPaperScissorsChoiceScissors: >
+  ciseaux
+
+descriptionGameBarGambleBetMultiply: >
+  x{multiplier} : {description}

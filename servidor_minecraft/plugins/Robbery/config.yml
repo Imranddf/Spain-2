@@ -1,0 +1,54 @@
+vault-door-health: 50
+safe-open-delay: 2
+safe-min-money: 20.0
+safe-max-money: 50.0
+hide-unnecessary-holograms: false
+vault-door-base-damage: 1
+enable-tool-tier-damage: false
+online-player-permission-node: <node>
+crackshot-weapon-blacklist: {}
+qa-weapon-blacklist: {}
+bank-robbery-command-reward-list:
+- say First Command %leader%
+- say Second Command %leader%
+safe-item-loot: {}
+places:
+  bank:
+    name: Robbery
+    type: BANK
+    region-id: bank
+    robbery-cooldown: 10
+    minimum-online-players: 0
+    npc-id-list:
+    - 95
+    robbery-start-command-list:
+    - say Example command!
+    robbery-fail-command-list:
+    - say Example command on fail!
+    rob-time: 60
+    flee-time: 1
+    required-crew-size: 1
+    fallback-location:
+      world-name: gta
+      x: 1404.4
+      y: 66.0
+      z: 178.0
+      yaw: 0.0
+      pitch: 0.0
+  general:
+    name: Robbery
+    type: GENERAL
+    region-id: bank
+    robbery-cooldown: 60
+    minimum-online-players: 0
+    npc-id-list:
+    - 95
+    robbery-start-command-list:
+    - say Example command!
+    robbery-fail-command-list:
+    - say Example command on fail!
+    robbery-duration: 60
+    min-money-reward: 50.0
+    max-money-reward: 100.0
+    command-reward-list:
+    - say %player% completed a general robbery!

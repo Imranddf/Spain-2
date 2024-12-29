@@ -1,0 +1,127 @@
+#Whether to broadcast the announcement randomly
+#When enabled, the announcements in the priority list will be broadcast randomly
+Random-Broadcast: true
+
+#Announcements priority. (From top to bottom)
+Priority:
+- duyuru-altin
+- duyuru-kasaba
+- duyuru-kasabaz
+- duyuru-site
+- duyuru-shift
+- duyuru-ayarlar
+- duyuru-
+
+Announcements:
+    duyuru-shiftf:
+        Name: 'Shift'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                        &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '                      &AYou can access the menu'
+        - '                         &Ausing the phone.'
+        - ' '
+    duyuru-ayarlar:
+        Name: 'Ayarlar'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                     &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '                   &aYou can farm cannabis'
+        - '                      &Aand earn money'
+        - ' '
+    duyuru-altin:
+        Name: 'Altin'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                     &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '                 &aPvp opens in the city at 19.00'
+        - '                      &Aand closes at 6.00'
+        - ' '
+    duyuru-site:
+        Name: 'Site'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                     &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '                &AYou can follow the updates by'
+        - '                 &Ajoining our Discord server'
+        - ' '
+    duyuru-kasaba:
+        Name: 'Kasaba'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                       &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '                  &AYou can dominate the server'
+        - '                &aforming a gang with your friends'
+        - ' '         
+    duyuru-kasabaz:
+        Name: 'Kasabaz'
+        Permission:
+        Delay: 300
+        Messages:
+        - ' '
+        - '                       &7• &e&lANNOUNCEMENT &7•'
+        - ' '
+        - '               &AYou can access all buildings in the city'
+        - '                     &aand buy houses and shops.'
+        - ' '         
+        #Announcement's title message.
+        Titles:
+            Enabled: false
+            Titles-Setting:
+                'example_1':
+                    Delay: 0.3
+                    Fade-In: 0
+                    Stay: 0.4
+                    Fade-Out: 0
+                    Title: '&a&lThis is a title~'
+                    Sub-Title: '&e&lThis is a sub title~'
+                'example_2':
+                    Delay: 0.3
+                    Fade-In: 0
+                    Stay: 0.4
+                    Fade-Out: 0
+                    Title: '&b&lThis is a title~'
+                    Sub-Title: '&A&lThis is a sub title~'
+            Task-Sequence:
+            - 'example_1'
+            - 'example_2'
+            - 'example_1'
+            - 'example_2'
+            - 'example_1'
+            - 'example_2'
+        #Announcement's action-bar message.
+        ActionBars: 
+            Enabled: false
+            Task-Sequence:
+            #List of messages (format: [message]:[delay])
+            - '&a&lThis is an example of action bar text': 0.2
+            - '&b&lThis is an example of action bar text': 0.2
+            - '&c&lThis is an example of action bar text': 0.2
+            - '&d&lThis is an example of action bar text': 0.2
+            - '&e&lThis is an example of action bar text': 0.2
+            - '&a&lThis is an example of action bar text': 0.2
+            - '&b&lThis is an example of action bar text': 0.2
+            - '&c&lThis is an example of action bar text': 0.2
+            - '&d&lThis is an example of action bar text': 0.2
+            - '&e&lThis is an example of action bar text': 0.2
+            - '&a&lThis is an example of action bar text': 0.2
+            - '&b&lThis is an example of action bar text': 0.2
+            - '&c&lThis is an example of action bar text': 0.2
+            - '&d&lThis is an example of action bar text': 0.2
+            - '&e&lThis is an example of action bar text': 0.2
+            - '&r': 0.2

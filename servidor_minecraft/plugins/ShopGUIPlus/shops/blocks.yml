@@ -1,0 +1,1434 @@
+blocks:
+  name: "&f七七七七七七七七ㇴ"
+  items:
+    P1-18:
+      type: item
+      item:
+        material: COBBLESTONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.1
+      slot: 18
+      page: 1
+    P1-19:
+      type: item
+      item:
+        material: ANDESITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.125
+      slot: 19
+      page: 1
+    P1-20:
+      type: item
+      item:
+        material: DIORITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.125
+      slot: 20
+      page: 1
+    P1-21:
+      type: item
+      item:
+        material: GRANITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.125
+      slot: 21
+      page: 1
+    P1-22:
+      type: item
+      item:
+        material: SAND
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 0.1
+      slot: 22
+      page: 1
+    P1-23:
+      type: item
+      item:
+        material: SANDSTONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.3
+      slot: 23
+      page: 1
+    P1-24:
+      type: item
+      item:
+        material: CHISELED_SANDSTONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.25
+      slot: 24
+      page: 1
+    P1-25:
+      type: item
+      item:
+        material: CUT_SANDSTONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.25
+      slot: 25
+      page: 1
+    P1-26:
+      type: item
+      item:
+        material: SMOOTH_SANDSTONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.25
+      slot: 26
+      page: 1
+    P1-27:
+      type: item
+      item:
+        material: STONE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.125
+      slot: 27
+      page: 1
+    P1-28:
+      type: item
+      item:
+        material: POLISHED_ANDESITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.15
+      slot: 28
+      page: 1
+    P1-29:
+      type: item
+      item:
+        material: POLISHED_DIORITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.15
+      slot: 29
+      page: 1
+    P1-30:
+      type: item
+      item:
+        material: POLISHED_GRANITE
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.15
+      slot: 30
+      page: 1
+    P1-31:
+      type: item
+      item:
+        material: RED_SAND
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.1
+      slot: 31
+      page: 1
+    P1-32:
+      type: item
+      item:
+        material: RED_SANDSTONE
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.25
+      slot: 32
+      page: 1
+    P1-33:
+      type: item
+      item:
+        material: CHISELED_RED_SANDSTONE
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.25
+      slot: 33
+      page: 1
+    P1-34:
+      type: item
+      item:
+        material: CUT_RED_SANDSTONE
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.25
+      slot: 34
+      page: 1
+    P1-35:
+      type: item
+      item:
+        material: SMOOTH_RED_SANDSTONE
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.25
+      slot: 35
+      page: 1
+    P1-36:
+      type: item
+      item:
+        material: MOSSY_COBBLESTONE
+        quantity: 1
+      buyPrice: 20
+      sellPrice: 0.3
+      slot: 36
+      page: 1
+    P1-37:
+      type: item
+      item:
+        material: GRAVEL
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 0.25
+      slot: 37
+      page: 1
+    P1-38:
+      type: item
+      item:
+        material: SMOOTH_STONE
+        quantity: 1
+      buyPrice: 15
+      slot: 38
+      page: 1
+    P1-39:
+      type: item
+      item:
+        material: FARMLAND
+        quantity: 1
+      buyPrice: 25
+      slot: 39
+      page: 1
+    P1-40:
+      type: item
+      item:
+        material: DIRT
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 0.1
+      slot: 40
+      page: 1
+    P1-41:
+      type: item
+      item:
+        material: COARSE_DIRT
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.1
+      slot: 41
+      page: 1
+    P1-42:
+      type: item
+      item:
+        material: GRASS_BLOCK
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 0.15
+      slot: 42
+      page: 1
+    P1-43:
+      type: item
+      item:
+        material: PODZOL
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.2
+      slot: 43
+      page: 1
+    P1-44:
+      type: item
+      item:
+        material: MYCELIUM
+        quantity: 1
+      buyPrice: 75
+      sellPrice: 0.2
+      slot: 44
+      page: 1
+    518:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 0
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    519:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      commandsOnClick: 
+      - "shopgui ores"
+    520:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        flags:
+          - HIDE_ATTRIBUTES
+      slot: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    521:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    522:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    523:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    524:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    525:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    526:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    528:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% ores"
+
+    ################################################# PAGE 2
+    P2-18:
+      type: DUMMY
+      item:
+        material: OAK_LOG
+        quantity: 1
+        name: "&bLogs"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui logs"
+      slot: 18
+      page: 2
+    P2-19:
+      type: DUMMY
+      item:
+        material: OAK_WOOD
+        quantity: 1
+        name: "&bWoods"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui woods"
+      slot: 19
+      page: 2
+    P2-20:
+      type: item
+      item:
+        material: CLAY
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 0.4
+      slot: 20
+      page: 2
+    P2-21:
+      type: DUMMY
+      item:
+        material: TERRACOTTA
+        quantity: 1
+        name: "&bTerracottas"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui terracottas"
+      slot: 21
+      page: 2
+    P2-22:
+      type: DUMMY
+      item:
+        material: WHITE_CONCRETE_POWDER
+        quantity: 1
+        name: "&bConcrete Powders"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui concretepowders"
+      slot: 22
+      page: 2
+    P2-23:
+      type: DUMMY
+      item:
+        material: WHITE_WOOL
+        quantity: 1
+        name: "&bWools"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui wools"
+      slot: 23
+      page: 2
+    P2-24:
+      type: DUMMY
+      item:
+        material: DEAD_TUBE_CORAL_BLOCK
+        quantity: 1
+        name: "&bDead Corals"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui deadcoralblocks"
+      slot: 24
+      page: 2
+    P2-25:
+      type: item
+      item:
+        material: PRISMARINE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1
+      slot: 25
+      page: 2
+    P2-26:
+      type: item
+      item:
+        material: DARK_PRISMARINE
+        quantity: 1
+      buyPrice: 150
+      sellPrice: 1.5
+      slot: 26
+      page: 2
+    P2-27:
+      type: DUMMY
+      item:
+        material: STRIPPED_OAK_LOG
+        quantity: 1
+        name: "&bStripped Logs"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui strippedlogs"
+      slot: 27
+      page: 2
+    P2-28:
+      type: DUMMY
+      item:
+        material: STRIPPED_OAK_WOOD
+        quantity: 1
+        name: "&bStripped Woods"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui strippedwoods"
+      slot: 28
+      page: 2
+    P2-29:
+      type: item
+      item:
+        material: BRICKS
+        quantity: 1
+      buyPrice: 12
+      slot: 29
+      page: 2
+    P2-30:
+      type: DUMMY
+      item:
+        material: WHITE_GLAZED_TERRACOTTA
+        quantity: 1
+        name: "&bGlazed Terracottas"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui glazedterracottas"
+      slot: 30
+      page: 2
+    P2-31:
+      type: DUMMY
+      item:
+        material: WHITE_CONCRETE
+        quantity: 1
+        name: "&bConcretes"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui concretes"
+      slot: 31
+      page: 2
+    P2-32:
+      type: DUMMY
+      item:
+        material: GLASS
+        quantity: 1
+        name: "&bGlass"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui glass"
+      slot: 32
+      page: 2
+    P2-33:
+      type: DUMMY
+      item:
+        material: TUBE_CORAL_BLOCK
+        quantity: 1
+        name: "&bCoral Blocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui coralblocks"
+      slot: 33
+      page: 2
+    P2-34:
+      type: item
+      item:
+        material: PRISMARINE_BRICKS
+        quantity: 1
+      buyPrice: 150
+      sellPrice: 1.5
+      slot: 34
+      page: 2
+    P2-35:
+      type: item
+      item:
+        material: SEA_LANTERN
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 2
+      slot: 35
+      page: 2
+    P2-36:
+      type: DUMMY
+      item:
+        material: OAK_PLANKS
+        quantity: 1
+        name: "&bPlanks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      commandsOnClick:
+        - "shopgui planks"
+      slot: 36
+      page: 2
+    P2-37:
+      type: item
+      item:
+        material: BOOKSHELF
+        quantity: 1
+      buyPrice: 500
+      slot: 37
+      page: 2
+    P2-38:
+      type: item
+      item:
+        material: STONE_BRICKS
+        quantity: 1
+      buyPrice: 5
+      sellPrice: 0.3
+      slot: 38
+      page: 2
+    P2-39:
+      type: item
+      item:
+        material: CRACKED_STONE_BRICKS
+        quantity: 1
+      buyPrice: 5
+      slot: 39
+      page: 2
+    P2-40:
+      type: item
+      item:
+        material: MOSSY_STONE_BRICKS
+        quantity: 1
+      buyPrice: 5
+      slot: 40
+      page: 2
+    P2-41:
+      type: item
+      item:
+        material: CHISELED_STONE_BRICKS
+        quantity: 1
+      buyPrice: 5
+      slot: 41
+      page: 2
+    P2-42:
+      type: item
+      item:
+        material: BONE_BLOCK
+        quantity: 1
+      buyPrice: 55
+      slot: 42
+      page: 2
+    P2-43:
+      type: item
+      item:
+        material: SPONGE
+        quantity: 1
+      buyPrice: 500
+      slot: 43
+      page: 2
+    P2-44:
+      type: item
+      item:
+        material: DRIED_KELP_BLOCK
+        quantity: 1
+      buyPrice: 17.5
+      slot: 44
+      page: 2
+    618:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 0
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    619:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      page: 2
+      commandsOnClick: 
+      - "shopgui ores"
+    620:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        flags:
+          - HIDE_ATTRIBUTES
+      slot: 2
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    621:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    622:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    623:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    624:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    625:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    626:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      page: 2
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    628:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      page: 2
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% ores"
+############################################ PAGE 3 ########################################
+    P3-18:
+      type: item
+      item:
+        material: END_STONE
+        quantity: 1
+      buyPrice: 75
+      sellPrice: 0.5
+      slot: 18
+      page: 3
+    P3-19:
+      type: item
+      item:
+        material: PURPUR_BLOCK
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 2
+      slot: 19
+      page: 3
+    P3-20:
+      type: item
+      item:
+        material: NETHERRACK
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 0.15
+      slot: 20
+      page: 3
+    P3-21:
+      type: item
+      item:
+        material: CHISELED_NETHER_BRICKS
+        quantity: 1
+      buyPrice: 35
+      sellPrice: 1
+      slot: 21
+      page: 3
+    P3-22:
+      type: item
+      item:
+        material: NETHER_WART_BLOCK
+        quantity: 1
+      buyPrice: 40
+      sellPrice: 0.5
+      slot: 22
+      page: 3
+    P3-23:
+      type: item
+      item:
+        material: WARPED_WART_BLOCK
+        quantity: 1
+      buyPrice: 40
+      sellPrice: 0.5
+      slot: 23
+      page: 3
+    P3-24:
+      type: item
+      item:
+        material: MAGMA_BLOCK
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 0.5
+      slot: 24
+      page: 3
+    P3-25:
+      type: item
+      item:
+        material: SOUL_SAND
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.25
+      slot: 25
+      page: 3
+    P3-26:
+      type: item
+      item:
+        material: BASALT
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.3
+      slot: 26
+      page: 3
+    P3-27:
+      type: item
+      item:
+        material: END_STONE_BRICKS
+        quantity: 1
+      buyPrice: 75
+      slot: 27
+      page: 3
+    P3-28:
+      type: item
+      item:
+        material: PURPUR_PILLAR
+        quantity: 1
+      buyPrice: 200
+      sellPrice: 2
+      slot: 28
+      page: 3
+    P3-29:
+      type: item
+      item:
+        material: NETHER_BRICKS
+        quantity: 1
+      buyPrice: 35
+      sellPrice: 1
+      slot: 29
+      page: 3
+    P3-30:
+      type: item
+      item:
+        material: CRACKED_NETHER_BRICKS
+        quantity: 1
+      buyPrice: 35
+      sellPrice: 1
+      slot: 30
+      page: 3
+    P3-31:
+      type: item
+      item:
+        material: CRIMSON_NYLIUM
+        quantity: 1
+      buyPrice: 40
+      sellPrice: 0.5
+      slot: 31
+      page: 3
+    P3-32:
+      type: item
+      item:
+        material: WARPED_NYLIUM
+        quantity: 1
+      buyPrice: 40
+      sellPrice: 0.5
+      slot: 32
+      page: 3
+    P3-33:
+      type: item
+      item:
+        material: GLOWSTONE
+        quantity: 1
+      buyPrice: 75
+      sellPrice: 1
+      slot: 33
+      page: 3
+    P3-34:
+      type: item
+      item:
+        material: SOUL_SOIL
+        quantity: 1
+      buyPrice: 30
+      sellPrice: 0.3
+      slot: 34
+      page: 3
+    P3-35:
+      type: item
+      item:
+        material: POLISHED_BASALT
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.3
+      slot: 35
+      page: 3
+    P3-36:
+      type: item
+      item:
+        material: ICE
+        quantity: 1
+      buyPrice: 50
+      sellPrice: 0.4
+      slot: 36
+      page: 3
+    P3-37:
+      type: item
+      item:
+        material: PACKED_ICE
+        quantity: 1
+      buyPrice: 75
+      sellPrice: 0.75
+      slot: 37
+      page: 3
+    P3-38:
+      type: item
+      item:
+        material: BLUE_ICE
+        quantity: 1
+      buyPrice: 150
+      sellPrice: 1
+      slot: 38
+      page: 3
+    P3-39:
+      type: item
+      item:
+        material: SNOW_BLOCK
+        quantity: 1
+      buyPrice: 15
+      sellPrice: 0.15
+      slot: 39
+      page: 3
+    P3-40:
+      type: item
+      item:
+        material: QUARTZ_BLOCK
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1.5
+      slot: 40
+      page: 3
+    P3-41:
+      type: item
+      item:
+        material: SMOOTH_QUARTZ
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1.5
+      slot: 41
+      page: 3
+    P3-42:
+      type: item
+      item:
+        material: QUARTZ_BRICKS
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1.5
+      slot: 42
+      page: 3
+    P3-43:
+      type: item
+      item:
+        material: CHISELED_QUARTZ_BLOCK
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1.5
+      slot: 43
+      page: 3
+    P3-44:
+      type: item
+      item:
+        material: QUARTZ_PILLAR
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1.5
+      slot: 44
+      page: 3
+    718:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 0
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    719:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      page: 3
+      commandsOnClick: 
+      - "shopgui ores"
+    720:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        flags:
+          - HIDE_ATTRIBUTES
+      slot: 2
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    721:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    722:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRestone"
+      slot: 4
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    723:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    724:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    725:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    726:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      page: 3
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    728:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      page: 3
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% ores"
+    P4-18:
+      type: item
+      item:
+        material: BLACKSTONE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 18
+      page: 4
+    P4-19:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 19
+      page: 4
+    P4-20:
+      type: item
+      item:
+        material: GILDED_BLACKSTONE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 20
+      page: 4
+    P4-21:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE_BRICKS
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 21
+      page: 4
+    P4-22:
+      type: item
+      item:
+        material: CRACKED_POLISHED_BLACKSTONE_BRICKS
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 22
+      page: 4
+    P4-23:
+      type: item
+      item:
+        material: CHISELED_POLISHED_BLACKSTONE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 0.3
+      slot: 23
+      page: 4
+    P4-24:
+      type: item
+      item:
+        material: OBSIDIAN
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1
+      slot: 24
+      page: 4
+    P4-25:
+      type: item
+      item:
+        material: CRYING_OBSIDIAN
+        quantity: 1
+      buyPrice: 100
+      sellPrice: 1
+      slot: 25
+      page: 4
+    818:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1026
+        name: "&bBlocks"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        enchantments:
+          - UNBREAKING:1
+        flags:
+          - HIDE_ENCHANTS
+      slot: 0
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% blocks"
+    819:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1027
+        name: "&bOres"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 1
+      page: 4
+      commandsOnClick: 
+      - "shopgui ores"
+    820:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1028
+        name: "&bFarming"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        flags:
+          - HIDE_ATTRIBUTES
+      slot: 2
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% farming"
+    821:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1030
+        name: "&bFood"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 3
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% food"
+    822:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1033
+        name: "&bRedstone"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 4
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% redstone"
+    823:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1031
+        name: "&bDecorations"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 5
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% decorations"
+    824:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1029
+        name: "&bDrops"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 6
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% drops"
+    825:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1032
+        name: "&bMiscellaneous"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 7
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% miscellaneous"
+    826:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1034
+        name: "&bBlackMarket"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 8
+      page: 4
+      commandsOnClickConsole: 
+      - "dm open blackmarket %PLAYER%"
+    828:
+      type: DUMMY
+      item:
+        material: MAP
+        model: 1010
+        name: "&7Next Category"
+        lore:
+          - ""
+          - "&fㇶ &fto open!"
+      slot: 16
+      page: 4
+      commandsOnClickConsole: 
+      - "shopgui %PLAYER% ores"

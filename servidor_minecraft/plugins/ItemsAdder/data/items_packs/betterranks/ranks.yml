@@ -1,0 +1,101 @@
+info:
+  namespace: betterranks
+font_images:
+  yonetici:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/yonetici.png"
+    scale_ratio: 9
+    y_position: 8
+  rehber:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/rehber.png"
+    scale_ratio: 9
+    y_position: 8
+  youtuber:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/youtuber.png"
+    scale_ratio: 9
+    y_position: 8
+  sefil:
+    permission: "betterranks.player"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/sefil.png"
+    scale_ratio: 9
+    y_position: 8
+  seyyar:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/seyyar.png"
+    scale_ratio: 9
+    y_position: 8
+  asker:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/asker.png"
+    scale_ratio: 9
+    y_position: 8
+  sipahi:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/sipahi.png"
+    scale_ratio: 9
+    y_position: 8
+  piyade:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/piyade.png"
+    scale_ratio: 9
+    y_position: 8
+  general:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/general.png"
+    scale_ratio: 9
+    y_position: 8
+  kontes:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/kontes.png"
+    scale_ratio: 9
+    y_position: 8
+  basilius:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/basilius.png"
+    scale_ratio: 9
+    y_position: 8
+  firavun:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/firavun.png"
+    scale_ratio: 9
+    y_position: 8
+  vikont:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vikont.png"
+    scale_ratio: 9
+    y_position: 8
+  imparator:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/imparator.png"
+    scale_ratio: 9
+    y_position: 8

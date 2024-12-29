@@ -1,0 +1,50 @@
+plantsNumber: 14
+plants:
+  plant5:
+    type: weed
+    x: 1451
+    y: 66
+    z: 75
+    world: gta
+    grown: true
+    growthTime: 1692371211
+  plant7:
+    type: weed
+    x: 1450
+    y: 66
+    z: 77
+    world: gta
+    grown: true
+    growthTime: 1692371240
+  plant9:
+    type: weed
+    x: 1451
+    y: 66
+    z: 77
+    world: gta
+    grown: true
+    growthTime: 1692371269
+  plant11:
+    type: weed
+    x: 1451
+    y: 66
+    z: 76
+    world: gta
+    grown: true
+    growthTime: 1692371380
+  plant12:
+    type: weed
+    x: 1450
+    y: 66
+    z: 76
+    world: gta
+    grown: false
+    growthTime: 1692374049
+  plant13:
+    type: weed
+    x: 1450
+    y: 66
+    z: 75
+    world: gta
+    grown: false
+    growthTime: 1692373911

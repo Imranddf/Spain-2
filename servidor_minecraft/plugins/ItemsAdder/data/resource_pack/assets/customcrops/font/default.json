@@ -1,0 +1,191 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4,
+                "\u200c": 0
+            }
+        },
+        {
+            "file": "customcrops:font/blank.png",
+            "chars": [
+                "\ub001"
+            ],
+            "height": -3,
+            "ascent": -5000,
+            "type": "bitmap"
+        },
+		        {
+            "file": "customcrops:font/left.png",
+            "chars": [
+                "\ub002"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:font/full.png",
+            "chars": [
+                "\ub003"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:font/empty.png",
+            "chars": [
+                "\ub004"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+		{
+            "file": "customcrops:font/right.png",
+            "chars": [
+                "\ub005"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quality_1.png",
+            "chars": [
+                "\ub006"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quality_2.png",
+            "chars": [
+                "\ub007"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quality_3.png",
+            "chars": [
+                "\ub008"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/retaining_1.png",
+            "chars": [
+                "\ub009"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/retaining_2.png",
+            "chars": [
+                "\ub00a"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/retaining_3.png",
+            "chars": [
+                "\ub00b"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/speed_1.png",
+            "chars": [
+                "\ub00c"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/speed_2.png",
+            "chars": [
+                "\ub00d"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/speed_3.png",
+            "chars": [
+                "\ub00e"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quantity_1.png",
+            "chars": [
+                "\ub00f"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quantity_2.png",
+            "chars": [
+                "\ub010"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/quantity_3.png",
+            "chars": [
+                "\ub011"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/gigantic_1.png",
+            "chars": [
+                "\ub012"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/gigantic_2.png",
+            "chars": [
+                "\ub013"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+        {
+            "file": "customcrops:base/gigantic_3.png",
+            "chars": [
+                "\ub014"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        }
+    ]
+}

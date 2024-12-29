@@ -1,0 +1,23 @@
+location: Spawn:-64.479:60.024:38.537
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 270.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ENTITY: BEE'
+    height: 0.7
+  - content: ''
+    height: 0.5
+  - content: '&x&f&b&e&a&0&6&lTÜCCAR'
+    height: 0.5
+  - content: '&x&f&0&f&1&d&cOyuncular arası gerçekleşen alış'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cve satış yaparak &x&9&f&e&4&1&faltın kazanabilceğiniz
+      &x&f&0&f&1&d&ctüccar'
+    height: 0.3
+  - content: '&x&f&0&f&1&d&cmarketine &x&9&f&e&4&1&fburadan &x&f&0&f&1&d&cgöz atabilirsiniz.'
+    height: 0.3
+  actions: {}

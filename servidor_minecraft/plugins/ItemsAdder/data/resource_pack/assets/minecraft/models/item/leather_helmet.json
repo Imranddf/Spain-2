@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"item/leather_helmet","layer1":"item/leather_helmet_overlay"},"overrides":[{"predicate":{"custom_model_data":10008},"model":"elitecreatures:ia_auto_gen/valentines_animated_weapon_and_tool_set_v1_helmet1"},{"predicate":{"custom_model_data":10009},"model":"item/leather_helmet"}]}

@@ -1,0 +1,68 @@
+# ----------------------------------------------------------------------------------------------------
+# Configuration file for BettingGames
+# More information can be found in the documentation
+# ----------------------------------------------------------------------------------------------------
+
+name: '&dBet for {game}'
+type: CHEST_3_ROW
+
+currencies_slots: [10,11,12,13,14,15]
+
+item_bet_currency_inactive:
+  icon:
+    type: PAPER
+    name: '&eBet {currency}'
+    lore: |
+      &r
+      &dLeft-click to add
+
+item_bet_currency_active:
+  icon:
+    type: PAPER
+    name: '&eBet {currency}'
+    lore: |
+      &7Currently bet : &e{current}
+      &r
+      &dLeft-click to edit
+      &dRight-click to withdraw all
+    enchantments:
+      DAMAGE_ALL: 1  # fake enchantment to add glow
+    flags: [HIDE_ENCHANTS, HIDE_ATTRIBUTES]
+
+item_bet_items_inactive:
+  locations: 16
+  icon:
+    type: DIAMOND_SWORD
+    flags: [HIDE_ATTRIBUTES]
+    name: '&eBet items'
+    lore: |
+      &r
+      &dLeft-click to add
+
+item_bet_items_active:
+  locations: 16
+  icon:
+    type: DIAMOND_SWORD
+    flags: [HIDE_ATTRIBUTES]
+    name: '&eBet items'
+    lore: |
+      &7Currently bet :
+      &e{current}
+      &r
+      &dLeft-click to edit
+      &dRight-click to withdraw all
+    enchantments:
+      DAMAGE_ALL: 1  # fake enchantment to add glow
+    flags: [HIDE_ENCHANTS, HIDE_ATTRIBUTES]
+
+contents:
+  # border (use global item)
+  - global@dynamic_border_3
+
+  # back item (over border)
+  - locations: 18
+    persistent: true
+    type: BACK
+    icon:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8Go back'
